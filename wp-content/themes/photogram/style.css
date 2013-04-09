@@ -129,7 +129,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   line-height: 19px;
   color: gray;
@@ -1595,7 +1595,7 @@ body {
 }
 
 .header h1.logo{
-	font-family: 'Pacifico', cursive;
+	font-family: 'PT Sans', sans-serif;
 	font-weight:normal;
 }
 
@@ -1781,12 +1781,10 @@ ul.sf-menu li li li.sfHover ul {
   #Featured Slider
 =================================================================== */
 .featured-slider {
-  background: #f1f1f1;
+  background: #ffffff;
   padding: 30px 0;
   margin-bottom: 25px;
-  -webkit-box-shadow: 0 6px 4px -5px rgba(0, 0, 0, 0.17) inset, 0 -6px 4px -5px rgba(0, 0, 0, 0.17) inset;
-  -moz-box-shadow: 0 6px 4px -5px rgba(0, 0, 0, 0.17) inset, 0 -6px 4px -5px rgba(0, 0, 0, 0.17) inset;
-  box-shadow: 0 6px 4px -5px rgba(0, 0, 0, 0.17) inset, 0 -6px 4px -5px rgba(0, 0, 0, 0.17) inset;
+
 }
 
 /* Slider Slider
@@ -1804,10 +1802,10 @@ ul.sf-menu li li li.sfHover ul {
 
 .slider-slide {
   width: 978px;
-  float: left;
+  float: left; 
   padding-top: 3px;
   padding-bottom: 35px;
-  margin-left:50px;
+  margin-left:200px;
 }
 .slider-slide .slider-image {
   float: left;
@@ -1821,9 +1819,9 @@ ul.sf-menu li li li.sfHover ul {
 .slider-slide .slider-image a {
   display: block;
   border: 7px solid #fff;
-  -webkit-box-shadow: 0 0 14px rgba(0, 0, 0, 0.75) inset;
-  -moz-box-shadow: 0 0 14px rgba(0, 0, 0, 0.75) inset;
-  box-shadow: 0 0 14px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.75) inset;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75) inset;
 }
 .slider-slide .slider-image:before, .slider-slide .slider-image:after {
   content: '';
@@ -1832,7 +1830,8 @@ ul.sf-menu li li li.sfHover ul {
   bottom: 12px;
   left: 200px;
   right: auto;
-  width: 46.5%;
+  /* width: 46.5%; */
+  width: auto;
   height: 20%;
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
   -webkit-transform: rotate(-1deg);
@@ -1842,7 +1841,7 @@ ul.sf-menu li li li.sfHover ul {
 }
 .slider-slide .slider-image:after {
   right: 20px;
-  left: auto;
+  left: 100px;
   -webkit-transform: rotate(1deg);
   -moz-transform: rotate(1deg);
   -ms-transform: rotate(1deg);
@@ -1878,7 +1877,7 @@ ul.sf-menu li li li.sfHover ul {
   }
 
   .slider-image {
-    width: 40%;
+    width: 100%;
   }
 }
 /* Slider Direction Nav
@@ -2140,7 +2139,7 @@ ul.sf-menu li li li.sfHover ul {
 ------------------------------------------------------------------- */
 .post-masonry .entry-post .entry-title {
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 7px;
   margin-bottom: 1px;
 }
@@ -2352,10 +2351,10 @@ float: left;
 ------------------------------------------------------------------- */
 .entry-title {
   font-size: 32px;
-  text-transform:uppercase;
+  /* text-transform:uppercase; */
   font-weight: normal;
   margin-bottom: 5px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 .entry-title a {
