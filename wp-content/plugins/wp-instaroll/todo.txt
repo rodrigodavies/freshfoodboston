@@ -1,0 +1,29 @@
+WP-Instaroll - TODOs
+====================
+
+
+- improve the user photos filtering method for tag stream, calling the API for user photos and then filtering by tag
+- multilanguage localization
+- help panel(s)
+- for photos added inside the post, possibility of adding Instagram username to tag posts
+- for photos added inside the post, possibility of choosing if the image must link to Instagram post or not
+- for photos directly inserted inside posts, possibility of choosing image size (now fullsize)
+- being able to specify which user must be used for post creation
+- possibility, for tag panel, to set the search tag directly from there
+- adding user photos panel and tag panel checkboxes to main settings as well
+
+to be done later
+----------------
+
+- possibility of automatically create posts:
+	- automatically publish or save as draft, independent from manual post creation
+	- option to use a different category for automatically selected posts
+- category to be used for posts:
+	- show list of available categories (only one is selectable)
+	- input box with add button, for creating a new category
+- search tag and category input error handling
+- possibility of using multiple search tags (comma separated)
+- more images downloaded, saving previous update last image id
+- possibility of using WordPress shortcodes (that can be copied directly from photos panels) for inserting photos+choosen data wherever a shortcode can be used
+- WordPress shortcode for inserting, inside a post or page, a live stream with the last n photos, from the specified stream, with the specified format (suggestion by 'bhomatude')
+- make Instagram metadate added to posts created from Instagram photos visible someway (suggestion by 'robinparker')

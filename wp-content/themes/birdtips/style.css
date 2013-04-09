@@ -1,0 +1,1870 @@
+@charset "utf-8";
+/*
+Theme Name: BirdTIPS
+Theme URI: http://www.sysbird.jp/birdtips/
+Description: BirdTIPS is a flexible three-column blog theme. The theme uses CSS3 media queries for its responsive layout and is therefore optimized for tablet pcs and smart phones. Features include the page navigation and breadcrumb navigation. You can also choose the link color, article title color and navigation menu color.
+Author: Sysbird
+Author URI: http://www.sysbird.jp/wptips/
+Version: 1.03
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, three-columns, right-sidebar, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+*/
+
+/* A modern, HTML5-ready alternative to CSS resets. Based on normalize.css: http://necolas.github.com/normalize.css/
+--------------------------------------------- */
+/* =============================================================================
+HTML5 element display
+========================================================================== */
+
+/*
+* Add display for block-level HTML5 elements
+* Addresses display not defined in IE6/7/8/9 & FF3
+*/
+
+.hentry,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+time,
+section {
+    display: block;
+}
+
+/*
+* Add display for embedded HTML5 elements
+* Addresses display not defined in IE6/7/8/9 & FF3
+*/
+
+audio[controls],
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+
+/* =============================================================================
+Base
+========================================================================== */
+
+/*
+* 1. Add font size
+* Addresses text resizing oddly in IE6/7 when body font-size is set using em units
+* http://clagnut.com/blog/348/#c790
+* 2. Add vertical scrollbar
+* Keeps page centred in all browsers regardless of content height
+* 3. Remove Android and iOS tap highlight color to prevent entire container being highlighted
+* www.yuiblog.com/blog/2010/10/01/quick-tip-customizing-the-mobile-safari-tap-highlight-color/
+* 4. Remove iOS text size adjust without disabling user zoom
+* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+*/
+
+html {
+    font-size: 100%; /* 1 */
+    overflow-y: scroll; /* 2 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* 3 */
+    -webkit-text-size-adjust: 100%; /* 4 */
+    -ms-text-size-adjust: 100%; /* 4 */
+}
+
+/*
+* Remove margin
+* Addresses margins handled incorrectly in IE6/7
+*/
+
+body {
+    margin: 0;
+}
+
+/*
+* Define base font-family
+* Addresses font-family inconsistency between <textarea> and other form elements.
+*/
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+* 1. Remove border
+* Improves readability when inside <a> element in all browsers
+* 2. Allow high quality bicubic image resampling
+* Improves readability when scaled in IE7
+* Read before using : code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+*/
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+
+/* =============================================================================
+Links
+========================================================================== */
+
+a {
+	text-decoration: none;
+	color: #0066aa;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+/*
+* Define outline as thin dotted
+* Addresses outline displayed oddly in Chrome
+*/
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+* Remove outline
+* Improves readability when focused and also mouse hovered in all browsers
+* people.opera.com/patrickl/experiments/keyboard/test
+*/
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+
+/* =============================================================================
+Typography
+========================================================================== */
+
+/*
+* Add bottom border
+* Fixes styling not present in IE7/8/9 S5 Chrome
+*/
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+* Add bold font weight
+* Fixes style set to 'bolder' in FF3/4 S4/5 Chrome
+*/
+
+b,
+strong {
+    font-weight: bold;
+}
+
+address {
+	margin: 0;
+	padding: 0;
+	}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+* Add italic font style
+* Fixes styling not present in S5 Chrome
+*/
+
+dfn {
+    font-style: italic;
+}
+
+/*
+* Add yellow background and black text
+* Fixes styling not present in IE6/7/8/9
+*/
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+* Redeclare monospace font family
+* en.wikipedia.org/wiki/User:Davidgothberg/Test59
+* 1. Fixes font family set oddly in S5 Chrome
+* 2. Fixes monospace font family set oddly in IE6
+*/
+
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    _font-family: 'courier new', monospace; /* 2 */
+    font-size: 1em;
+}
+
+/*
+* Add line wrapping
+* Improves readability of pre-formatted text in all browsers
+*/
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+* Remove quotes
+* 1. Addresses CSS quotes not supported in IE6/7
+* 2. Addresses quote property not supported in S4
+*/
+
+/* 1 */
+
+q {
+    quotes: none;
+}
+
+/* 2 */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/*
+* Define font-size
+*/
+
+small {
+    font-size: 75%;
+}
+
+/*
+* Position subscript and superscript content without affecting line-height
+* Fixes alignment within multi-line text displayed oddly in all browsers
+* gist.github.com/413930
+*/
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+
+/* =============================================================================
+Lists
+========================================================================== */
+
+ul,
+ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+}
+
+
+/* =============================================================================
+Figures
+========================================================================== */
+
+/*
+* Remove margin
+* Addresses margin not present in IE6/7/8/9, S5, O11
+*/
+
+figure {
+    margin: 0;
+}
+
+
+/* =============================================================================
+Forms
+========================================================================== */
+
+/*
+* Remove margin
+* Fixes styling in IE6/7
+*/
+
+form {
+    margin: 0;
+}
+
+/*
+* Define consistent margin and padding
+*/
+
+fieldset {
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+* Add negative left margin
+* Fixes alignment displayed oddly in IE6/7
+*/
+
+legend {
+    *margin-left: -7px;
+}
+
+/*
+* 1. Define font-size as equal to ancestor's
+* 2. Remove margin
+* Fixes different margins set in FF3/4 S5 Chrome
+* 3. Define consistent vertical alignment display in all browsers
+*/
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+* 1. Define line-height as normal
+* Addresses FF3/4 setting it using !important in the UA stylesheet
+* 2. Make overflow visible
+* Fixes spacing displayed oddly in IE6/7
+*/
+
+button,
+input {
+    line-height: normal; /* 1 */
+    *overflow: visible; /* 2 */
+}
+
+/*
+* 1. Display hand cursor for clickable form elements
+* Improves usability and consistency of cursor style between image-type <input> and others
+* 2. Define appearance for clickable form elements
+* Fixes inability to style clickable <input> types in iOS
+*/
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer; /* 1 */
+    -webkit-appearance: button; /* 2 */
+}
+
+/*
+* Define box sizing
+* Addresses box sizing set to content-box in IE8/9
+*/
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+}
+
+/*
+* Define box sizing and appearance
+* Addresses box sizing set to border-box in S5 Chrome (include -moz to future-proof)
+* Addresses appearance set to searchfield in S5 Chrome
+*/
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/*
+* Remove WebKit search decoration
+* Addresses inner padding displaying oddly in S5 Chrome on OSX
+*/
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+* Remove inner padding and border
+* Fixes appearance displayed oddly in FF3/4
+* www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+*/
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+* 1. Remove default vertical scrollbar
+* Fixes scrollbar displayed oddly in IE6/7/8/9
+* 2. Add top vertical alignment
+* Improves readability and aligment in all browsers
+*/
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+
+/* =============================================================================
+Tables
+========================================================================== */
+
+/*
+* Remove most spacing between table cells
+* Consistent vertical and horizontal alignment in all browsers
+*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* =============================================================================
+Index
+========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	margin:0;
+	line-height:1em;
+	}
+
+h1 {font-size:2em;margin-bottom:.5em;}	
+h2 {font-size:1.75em;margin-bottom:.5142em;padding-top:.2em;}	
+h3 {font-size:1.5em;margin-bottom:.7em;padding-top:.3em;}
+h4 {font-size:1.25em;margin-bottom:.6em;}
+h5 {font-size:1.1em;margin-bottom:.5em;font-weight:bold;}
+h6 {font-size:1em;margin-bottom:.5em;font-weight:bold;}
+
+/* Structure
+--------------------------------------------- */
+body {
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+	background-color:#ececec;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size:90%;
+	color: #666;
+	}
+
+#container {
+	max-width: 1075px;
+	margin: 0 auto;
+	padding:0;
+	background-color:#fff;
+	z-index: 0;
+	}
+
+#header {
+	max-width: 100%;
+	margin: 0 auto;
+    position: relative;
+	*z-index: 9999;  /* IE7 and below */
+	}
+
+#wrapper {
+	margin:0 0 0;
+	padding:25px 25px 25px 75px;
+	overflow: hidden;
+	}
+
+#main {
+	width: 78.59%;
+	float: left;
+	
+	}
+
+#content {
+	width: 72.669%;
+	float: left;
+	}
+
+#leftcolumn {
+	width: 24.275%;
+	margin-left:2.054%;
+	float: left;
+	}
+
+#rightcolumn {
+	width: 19.775%;
+	float: right;
+	overflow: hidden;
+	
+	}
+
+#footer {
+	clear: both;
+	padding:25px 25px 25px 75px;
+	overflow: hidden;
+	}
+
+/* Container
+--------------------------------------------- */
+#container {
+	-webkit-box-shadow:0 0 5px 0 #DDD;
+	-moz-box-shadow:0 0 5px 0 #DDD;
+	box-shadow:0 0 5px 0 #DDD;
+	}
+
+/* Header
+--------------------------------------------- */
+#header {
+	_height: 200px; /* IE6 and below */
+	}
+
+#header.no-image {
+	height: 150px;
+	background: url(images/header.jpg) repeat-x left bottom;
+	}
+
+#header img {
+	width: 100%;
+	height: auto;
+	_height: 200px; /* IE6 and below */
+	vertical-align:bottom;
+	cursor: ;
+	}
+
+#header #hgroup {
+	position: absolute;
+	left: 75px;
+	top: 0;
+	width: 90%;
+	}
+
+#header.no-image #hgroup {
+	position: static;
+	margin-left: 75px;
+	}
+
+#header h1,
+#header #site-title {
+	margin: 0;
+	padding: 0.8em 0 0 0;
+	color: #555;
+	font-size: 180%;
+	line-height: 1;
+	}
+
+#header h1 a,
+#header #site-title a {
+    color: #555;
+    font-weight: bold;
+	}
+
+#header p#site-description {
+	margin: 3px 0;
+    font-size: 12px;
+	}
+
+/* Menu
+-------------------------------------------------------------- */
+#menu-wrapper {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	z-index: 9999;
+	padding-left: 75px;
+	}
+
+#small-menu {
+	display: none; /* hide small menu initially */
+	}
+
+.menu ul { 
+	margin: 0 0 0 -0.8em;
+	padding-left: 0;
+	}
+
+.menu ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	}
+
+.menu ul li a {
+	padding: 0.1em 0.8em;
+	display: block;
+	color: #CCC;
+	border-right: solid 1px #CCC;
+	*white-space: nowrap; /* IE7 and below */
+	}
+
+.menu ul li a:hover {
+	text-decoration: underline;
+	}
+
+.menu ul ul {
+	background: #fff;
+	padding: 2px;
+	margin-left: 10px;
+	border: solid 1px #ccc;
+	display: none; /* hide dropdown */
+	width: 200px;
+	position: absolute;
+	top: 1.2em;
+	left: 0;
+	z-index: 9999;
+	}
+
+.menu ul ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+	}
+
+.menu ul ul li a {
+	background: #F8F8F8;
+	color: #555;
+	border-right: none;
+	}
+
+.menu ul ul li a:hover {
+	background: #EEE;
+	text-decoration: none;
+	}
+
+.menu ul li:hover > ul {
+	display: block; /* show dropdown on hover */
+	}
+
+.menu .current_page_item > a,
+.menu .current_page_ancestor > a {
+	font-weight: bold;
+	}
+
+/* Wrapper
+--------------------------------------------- */
+#wrapper {
+	border-bottom:1px solid #CCC;
+	}
+
+/* Posts
+--------------------------------------------- */
+#content .hentry {
+	margin-bottom: 2.6em;
+	}
+
+#content a {
+	text-decoration: none;
+	border-bottom: dotted 1px #0066aa;
+	}
+
+#content a:hover {
+	text-decoration: none;
+	border-bottom: solid 1px #0066aa;
+	}
+
+#content p {
+	line-height: 1.6;
+	margin: 0 0 1.6em;
+	}
+
+#content a.more-link {
+	width: 100%;
+	text-align: right;
+	}
+
+#content .hentry .entry-meta {
+	clear: both;
+	margin-top: 1em;
+	line-height: 1.4;
+	display: block;
+	background: #F6F6F6;
+	font-size: 90%;
+	padding: 0.4em;
+	color: #999;
+	}
+
+#content .hentry .entry-meta span.author {
+	background: url(images/mark_dark.png) no-repeat left center;
+	padding-left: 10px;
+	padding-right:  5px;
+	border: none;
+	}
+
+#content .hentry .entry-meta span.category,
+#content .hentry .entry-meta span.tag,
+#content .hentry .entry-meta span.comments {
+	border-left: solid 1px #AAA;
+	padding-left: 5px;
+	padding-right:  5px;
+	}
+
+#content .hentry .entry-header {
+	position: relative;
+	margin: 0;
+	display: block;
+	}
+
+.home #content .hentry .entry-header h2,
+h1.entry-title {
+	color: #dd6633;
+	font-size: 150%;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+	padding: 0 0 0.5em 0;
+	line-height: 1.2;
+	border-bottom: dotted 2px #CCC;
+	}
+
+.home #content .hentry .entry-header h2 a,
+h1.entry-title a {
+	color: #dd6633;
+	text-decoration:none;
+	border: none;
+	}
+
+.home #content .hentry .entry-header h2 a:hover {
+	text-decoration: underline;
+	}
+
+#content .hentry .entry-header .postdate {
+	font-size: 14px;
+	font-style: italic;
+	position: absolute;
+	left: -75px;
+	top: 0;
+	background: #dd6633;
+	color: #FFF;
+	padding: 2px 4px 15px 0;
+	text-align: right;
+	width: 56px;
+	}
+
+#content .hentry.sticky .entry-header .postdate {
+	background: #0066aa;
+	}
+
+#content .hentry .entry-header .postdate span {
+	display: block;
+	}
+
+.home #content .hentry.sticky .entry-header h2,
+.home #content .hentry.sticky .entry-header h2 a {
+	color: #0066aa;
+	}
+
+/* Text elements */
+#content blockquote {
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 7px solid #EEE;
+	}
+
+#content table caption {
+	font-weight: bold;
+	color: #333;
+	font-style: italic;
+	}
+
+#content table th {
+	background: #EFEFEF;
+	border-bottom: solid 1px #CCC;
+	font-weight: bold;
+	padding: 5px;
+	}
+
+#content td {
+	border-bottom: solid 1px #CCC;
+	padding: 5px;
+	}
+
+#content table td a {
+	border-bottom: none;
+	}
+
+#content pre {
+	border: dashed 1px #CCC;
+	padding: 10px;
+	}
+
+#content ul {
+	margin: 0 0 0 1em;
+	padding: 0 0 0 1em;
+	line-height: 1.6;
+	}
+
+#content ol {
+	margin: 0 0 0 1em;
+	padding: 0 0 0 1em;
+	list-style: decimal;
+	line-height: 1.6;
+	}
+
+#content ol ol {
+	list-style:upper-alpha;
+	}
+
+#content ol ol ol {
+	list-style:lower-roman;
+	}
+
+#content ol ol ol ol {
+	list-style:lower-alpha;
+	}
+
+#content dl {
+	margin:0 0 1em 0;
+	line-height: 1.6;
+	}
+
+#content dt {
+	font-weight: bold;
+	}
+
+#content dd {
+	margin-bottom: 1em;
+	padding: 0;
+	}
+
+#content del {
+	color: #C00;
+	}
+
+#content ins {
+	background: #ffc;
+	text-decoration: none;
+	}
+
+#content .hentry .page-link {
+	clear: both;
+	}
+
+#content .hentry .page-link a {
+	color: #0066aa;
+	padding: 2px 4px;
+	border:solid 1px #0066aa;
+	text-decoration:none;
+	}
+
+#content .hentry .page-link a:hover {
+	background: #F4F4F0;
+	}
+
+.single #content #nav-below {
+	margin-top: 2em;
+	line-height: 1.2;
+	}
+
+.single #content #nav-below .nav-previous {
+	display: block;
+	float: right;
+	}
+
+.single #content #nav-below:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+.attachment.single #main {
+	width: 100%;
+	}
+
+.attachment.single #content {
+	width:98%;
+	float: none;
+	}
+
+.attachment.single #content .entry-content .attachment {
+	text-align: center;
+	}
+
+/* Link Style */
+#content .hentry .entry-meta a,
+.single #content #nav-below a,
+#content #comments  a.comment-reply-link,
+#content #comments .navigation a {
+	border: none;
+	}
+
+#content .hentry .entry-meta a:hover,
+.single #content #nav-below a:hover,
+#content #comments  a:hover.comment-reply-link,
+#content #comments .navigation a:hover {
+	text-decoration: underline;
+	}
+
+/* pankuzu
+-------------------------------------------------------------------- */
+ul#pankuzu {
+	clear: both;
+	font-size: 12px;
+	line-height: 1.2;
+	list-style-type:none;
+	padding: 6px 0 6px 75px;
+	margin: 0;
+	border-bottom: solid 1px #CCC;
+	background: #F4F4F4;
+	}
+
+ul#pankuzu li {
+	display:inline;
+	color: #999;
+	}
+
+ul#pankuzu a {
+	padding-right: 0.5em;
+	text-align: left;
+	text-decoration: none;
+	color: #333;
+	}
+
+ul#pankuzu a:hover {
+	text-decoration: underline;
+	}
+
+/* Pagenation
+-------------------------------------------------------------------- */
+#content .tablenav {
+	margin: 4em 0 1em 0;
+	color: #0066aa;
+	}
+
+#content .tablenav a.page-numbers,
+#content .tablenav .current {
+	color: #0066aa;
+	padding: 2px .4em;
+	border:solid 1px #0066aa;
+	text-decoration:none;
+	font-size: 100%;
+	}
+
+#content .tablenav a.page-numbers {
+	font-weight: bold;
+	color: #0066aa;
+	}
+
+#content .tablenav a.page-numbers:hover {
+	background: #F4F4F0;
+	}
+
+#content .tablenav .current {
+	color: #333;
+	background: #F4F4F0;
+	border-color: #0066aa;
+	}
+
+#content .tablenav a.next,
+#content .tablenav a.prev {
+	border: none;
+	}
+
+#content .tablenav a.next:hover,
+#content .tablenav a.prev:hover {
+	text-decoration: underline;
+	background: none;
+	}
+
+/* Images
+-------------------------------------------------------------- */
+#content .hentry img.attachment-thumbnail.wp-post-image {
+	margin: 0 0 0.5em 1em;
+	float: right;
+	}
+
+#content .hentry img,
+.widget img {
+	max-width: 97.5%; /* Fluid images for posts, comments, and widgets */
+	height: auto;
+	border: 1px solid #ddd;
+	padding: 1px;
+	}
+
+img[class*="align"],
+img[class*="wp-image-"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+	}
+
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+
+.alignleft {
+	float: left;
+	margin-right: 0.5em;
+	}
+
+.alignright {
+	float: right;
+	margin-left: 0.5em;
+	}
+
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 0.75em;
+	}
+
+/* Image borders */
+img[class*="align"],
+img[class*="attachment"],
+img[class*="wp-image-"],
+#content .gallery .gallery-icon img {/* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
+	border: 1px solid #ddd;
+	padding: 1px;
+	}
+
+a:focus img[class*="attachment"],
+a:hover img[class*="attachment"],
+a:focus img[class*="align"],
+a:hover img[class*="align"],
+a:active img[class*="align"],
+a:focus img[class*="wp-image-"],
+a:hover img[class*="wp-image-"],
+a:active img[class*="wp-image-"],
+#content .gallery .gallery-icon a:focus img,
+#content .gallery .gallery-icon a:hover img,
+#content .gallery .gallery-icon a:active img,
+#content .hentry a:hover img {
+	border-color: #bbb;
+	}
+
+#content .hentry .gallery-item a,
+#content .hentry .entry-attachment a,
+#content .hentry .entry-attachment a:hover,
+#content .hentry .wp-caption a,
+#content .hentry .wp-caption a:hover,
+#content .hentry .gallery a:hover {
+	border: none ;
+	}
+
+
+#content .hentry .gallery-thumb {
+	float: right;
+	display: block;
+	margin: 0 0 10px 10px;
+	}
+
+#content .hentry .gallery {
+	margin: 0 auto;
+	clear: both;
+	}
+
+#content .hentry .gallery .gallery-item {
+	float: left;
+	text-align: center;
+	margin: 0 0 10px 0;
+	width: 33%;
+	}
+
+#content .hentry .wp-caption,
+#content .hentry .gallery-caption {
+	font-size: 12px;
+	line-height: 1.2;
+    color: #AAA;
+	max-width: 97.5%;
+	text-align: center;
+	}
+
+/* Comments
+-------------------------------------------------------------- */
+#content #comments {
+	margin-top: 20px;
+	display: block;
+	}
+
+#content #comments #comments-title {
+	font-size: 130%;
+	font-weight: bold;
+	margin: 1em 0;
+	}
+
+#content #comments #reply-title {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 1em 0;
+	}
+
+#content #comments .navigation {
+	position: relative;
+	height: 1em;
+	padding-bottom: 10px;
+	margin-bottom: 1em;
+	}
+
+#content #comments .navigation .nav-previous a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-left: 1em;
+	}
+
+#content #comments .navigation .nav-next a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-right: 1em;
+	}
+
+#content #comments ol.commentlist {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	}
+
+#content #comments ol.commentlist li.pingback,
+#content #comments ol.commentlist li.comment {
+	border-left: 2px solid #DDD;
+	clear: both;
+	margin-bottom: 1em;
+	padding: 0 0 0 10px;
+	position: relative;
+	list-style: none;
+	}
+
+#content #comments ol.commentlist li.pingback:after,
+#content #comments ol.commentlist li.comment:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+#content #comments li .comment_meta .author {
+	font-weight: bold;
+	margin: 0 0 5px 5px;
+	color: #000;
+	}
+
+#content #comments li.bypostauthor .comment_meta .author {
+	color: #dd6633;
+	}
+
+#content #comments li .comment_meta .time {
+	font-size: 85%;
+	margin: 0 0 5px 5px;
+	}
+
+#content #comments li .comment_meta img {
+	border: none;
+	margin: 0 5px 5px 0;
+	float: left;
+	}
+
+#content #comments li .comment_text {
+	clear: both;
+	margin: 0 0 0.7em 50px;
+	}
+
+#content #comments li .comment_text p {
+	line-height: 1.4;
+	}
+
+
+#content #comments li em {
+	font-size: 80%;
+	color: #999;
+	}
+
+#content #comments  a.comment-reply-link {
+	padding-left: 16px;
+	background: url(images/reply.png) no-repeat left center;
+	}
+
+/* Forms
+-------------------------------------------------------------- */
+#content #comments #respond  {
+	margin-bottom: 1em;
+	}
+
+#content #comments .commentlist #respond  {
+	margin-left: 60px;
+	}
+
+#content #comments #commentform label {
+	padding: 3px 0 5px 0;
+	}
+
+#content #comments #commentform em {
+	display: block;
+	padding: 5px 0;
+	}
+
+#content #comments #commentform label input{
+	width: 70%;
+	max-width: 300px;
+  	padding: 2px;
+	background: #FFF;
+	border: solid 1px #DDD;
+	-webkit-box-shadow:0 30px 20px -30px #EEE inset;
+	-moz-box-shadow:0 30px 20px -30px #EEE inset;
+	box-shadow:0 30px 20px -30px #EEE inset;
+	}
+
+#content #comments #commentform textarea{
+	width: 95%;
+	max-width: 400px;
+	height: 100px;
+  	padding: 2px;
+	background: #FFF;
+	border: solid 1px #DDD;
+	-webkit-box-shadow:0 30px 20px -30px #EEE inset;
+	-moz-box-shadow:0 30px 20px -30px #EEE inset;
+	box-shadow:0 30px 20px -30px #EEE inset;
+	}
+
+#content #comments #commentform input#submit{
+	padding: 5px 10px;
+	}
+
+#content #comments #commentform .form-allowed-tags {
+	width: 95%;
+	max-width: 400px;
+	font-size: 90%;
+	padding: 0 10px;
+	margin: 0.5em 0;
+	border-left: solid 1px #CCC;
+	color: #999;
+	line-height: 1;
+	}
+
+#content #comments #commentform .form-allowed-tags code {
+	display: block;
+	}
+
+#content #comments #commentform p {
+	margin: 0;
+	}
+
+/* Archive
+-------------------------------------------------------------------- */
+.archive #content ul,
+.search #content ul,
+.error404 #content ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+.archive #content ul li,
+.search #content ul li,
+.error404 #content ul li {
+	padding: 2px 0;
+	border-bottom: dotted 1px #CCC;
+	}
+
+.archive #content ul li a,
+.search #content ul li a,
+.error404 #content ul li a {
+	text-decoration: none;
+	color: #555;
+	border: none;
+	}
+
+.archive #content ul li a:hover,
+.search #content ul li a:hover,
+.error404 #content ul li a:hover {
+	text-decoration: underline;
+	}
+
+.archive #content ul li span,
+.search #content ul li span,
+.error404 #content ul li span {
+	padding: 0 0.5em 0 0;
+	float: left;
+	}
+
+.archive #content ul li em,
+.search #content ul li em,
+.error404 #content ul li em {
+	display: block;
+	float: right;
+	padding-left: 1.5em;
+	}
+
+.archive #content ul li:after,
+.search #content ul li:after,
+.error404 #content ul li:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	height:0
+	}
+
+
+/* Sidebars
+--------------------------------------------- */
+.widget {
+	margin-bottom: 40px;
+	margin-bottom: 2em;
+	}
+
+.widget_image img {
+	height: auto;
+	max-width: 100%;
+}
+
+.widget h3 {
+	font-size: 120%;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	padding: 0 0 5px 0;
+	border-bottom: solid 3px #CCC;
+	}
+
+.widget ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+.widget ul li {
+	padding: 2px 0 2px 10px;
+	border-bottom: solid 1px #DDD;
+	line-height: 1.2;
+	}
+
+.widget ul li ul li{
+	border-bottom: none;
+	border-top: solid 1px #DDD;
+	padding-bottom: 0;
+	margin-top: 2px
+	}
+
+#leftcolumn .widget ul li {
+	background: url(images/mark_light.png) no-repeat left 0.5em;
+	}
+
+#rightcolumn .widget ul li {
+	background: url(images/mark_dark.png) no-repeat left 0.5em;
+	}
+
+.widget ul li a {
+	color: #666;
+	border: none;
+	}
+
+.widget ul li ul {
+	margin-left: 5px;
+	}
+
+.widget table {
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.widget table th,
+.widget table td {
+	}
+
+.widget #calendar_wrap tbody a {
+	text-decoration: underline;
+	}
+
+.widget #calendar_wrap table caption {
+	padding: 2px 0;
+	}
+
+.widget #calendar_wrap table tfoot {
+	border-top: solid 1px #DDD;
+	}
+
+.widget #calendar_wrap table tfoot td#prev {
+	text-align: left;
+	}
+
+.widget #calendar_wrap table tfoot td#next {
+	text-align: right;
+	}
+
+.widget #calendar_wrap table td,
+.widget #calendar_wrap table th {
+	text-align: right;
+	padding: 2px;
+	}
+
+.widget .textwidget{
+	line-height: 1.4;
+	}
+
+.widget .textwidget a {
+	text-decoration: underline;
+	}
+
+/* Calendar Widget */
+
+.widget_calendar #wp-calendar {
+	color: #0066aa;
+	width: 95%;
+	text-align: center;
+	}
+
+.widget_calendar #wp-calendar caption,
+.widget_calendar #wp-calendar td,
+.widget_calendar #wp-calendar th {
+	text-align: center;
+	}
+
+.widget_calendar #wp-calendar caption {
+	font-weight: bold;
+	padding: 5px 0 3px 0;
+	text-transform: uppercase;
+	}
+
+.widget_calendar #wp-calendar th {
+	background: #f4f4f4;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	}
+
+.widget_calendar #wp-calendar tfoot td {
+	background: #f4f4f4;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	}
+
+/* Search Widget */
+
+form#searchform:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	height:0
+	}
+
+form#searchform #qsearch {
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 99%;
+	height: 31px;
+	margin: 0 0 25px 0;
+	background: #FFF;
+	border: solid 1px #DDD;
+	-webkit-box-shadow:0 30px 20px -30px #EEE inset;
+	-moz-box-shadow:0 30px 20px -30px #EEE inset;
+	box-shadow:0 30px 20px -30px #EEE inset;
+	}
+
+form#searchform #qsearch input {
+	float: left;
+	border: none;
+	background: transparent;
+	margin: 0;
+}
+
+form#searchform #qsearch input#s {
+	width: 80%;
+	padding: 5px 0 5px 2px;
+	font-size: 14px;
+	}
+
+form#searchform #qsearch .btn{
+	float: right;
+	margin: 6px 5px 0 0; 
+	}
+
+/* Footer
+--------------------------------------------- */
+#footer {
+	font-size: 0.8em;
+	border-top:1px solid #FFF;
+	-webkit-box-shadow:0 30px 20px -30px #DDD inset;
+	-moz-box-shadow:0 30px 20px -30px #DDD inset;
+	box-shadow:0 30px 20px -30px #DDD inset;
+	}
+
+#footer p {
+	line-height: 1.5;
+	}
+
+#footer .home {
+	font-weight: bold;
+	padding-right: 5px;
+	}
+
+#footer .generator {
+	background: url(images/wordpress.png) no-repeat center left;
+	padding-left: 20px;
+	}
+
+/* Clearing Floats
+--------------------------------------------- */
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+.clearfix:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+
+/* Media queries for responsive design
+--------------------------------------------- */
+/* --- iPad Landscape --- */
+@media screen and (max-width: 1000px) {
+	/* --- General --- */
+	#container {
+		margin: 0 auto;
+		}
+
+	#wrapper {
+		overflow: hidden;
+		}
+
+	#main {
+		width: 76.59%;
+		}
+
+	#content {
+		width:98%;
+		float: left;
+		}
+
+	#leftcolumn {
+		margin:0;
+		float: none;
+		}
+
+	#rightcolumn {
+		width: 23.275%;
+		float: right;
+		}
+
+	/* --- Sidebars --- */
+	#leftcolumn {
+		width: 92.2%;
+		margin-left:0;
+		padding: 30px 0 0;
+		float: left;
+		}
+
+	#leftcolumn .widget ul li {
+		border-bottom: none;
+		display: inline;
+		}
+
+	#leftcolumn .widget ul li a {
+		text-decoration: underline;
+		}
+
+	#leftcolumn .widget ul li a:hover {
+		color: #999;
+		}
+
+	.widget ul li ul li{
+		border-top: none;
+		}
+
+	#leftcolumn aside:last-child {
+		margin-bottom: 0;
+		border-bottom: none;
+		}
+
+	#leftcolumn aside, #rightcolumn aside {
+		float: none;
+		overflow: hidden;
+		}
+}
+
+/* --- iPad Portrait --- */
+@media screen and (max-width: 800px) {
+	#container {
+		}
+
+	#wrapper {
+		}
+
+	#header h1,
+	#header #site-title {
+		padding: 5px 0 0 0;
+		font-size: 150%;
+		}
+
+	#header {
+		_height: 160px; /* IE6 and below */
+		}
+
+	#header img {
+		_height: 160px; /* IE6 and below */
+		}
+
+	#main {
+		width: 100%;
+		}
+
+	#content {
+		float: none;
+		}
+
+	#leftcolumn {
+		width: 100%;
+		}
+
+	#rightcolumn {
+		width: 100%;
+		float: none;
+		}
+
+	/* --- Main Nav --- */
+	#header #menu {
+		max-width: 100%;
+		}
+
+	#header #menu a {
+		line-height: 1.5em;
+		}
+
+	/* --- Sidebars --- */
+	#leftcolumn aside:last-child {
+		margin-bottom: 30px;
+		border-bottom: 1px solid #ddd;
+		}
+
+	#rightcolumn aside:last-child {
+		margin-bottom: 0;
+		border-bottom: none;
+		}
+}
+
+/* --- Smartphones and small Tablet PCs --- */
+@media screen and (max-width: 650px) {
+	#container {
+		}
+
+	#wrapper {
+		padding:10px;
+		}
+
+	#header,
+	#header.no-image {
+		height: 120px;
+		}
+
+	#header img {
+		height: 120px;
+		}
+
+	#header #hgroup {
+		left: 10px;
+		top: 0;
+		}
+
+	#header.no-image #hgroup {
+		margin-left: 10px;
+		}
+
+	#header h1,
+	#header #site-title {
+		padding: 5px 0 0 0;
+		font-size: 120%;
+		}
+
+	#header p#site-description {
+		margin: 0;
+		}
+
+	/* small menu */
+
+	#menu-wrapper {
+		padding-left: 5px;
+		bottom: 0;
+		}
+
+	#small-menu {
+		color: #CCC;
+		padding: 5px 10px;
+		cursor: pointer;
+		display: block;
+		}
+
+	#small-menu:hover,
+	#small-menu.active {
+		background: #f8f8f8;
+		color: #555;
+		}
+
+	.menu {
+		clear: both;
+		position: absolute;
+		top: bottom: 0;
+		width: 200px;
+		z-index: 10000;
+		padding: 5px;
+		background: #f8f8f8;
+		border: solid 1px #CCC;
+		display: none; /* visibility will be toggled with jquery */
+		z-index: 9999;
+		}
+
+	.menu ul { 
+		margin: 0;
+		padding-left: 1em;
+		}
+
+	.menu ul li {
+		clear: both;
+		float: none;
+		list-style: disc;
+		}
+
+	.menu ul li a,
+	.menu ul ul li a {
+		display: inline;
+		padding: 0;
+		border: none;
+		background: #f8f8f8;
+		color: #555 !important;
+		white-space: normal;
+		}
+
+	.menu ul li a:hover,
+	.menu ul ul li a:hover {
+		background: none;
+		text-decoration: underline;
+		}
+
+	.menu ul ul {
+		width: auto;
+		position: static;
+		display: block;
+		border: none;
+		background: #f8f8f8;
+		}
+
+	#content .hentry .entry-header {
+		position: static;
+		}
+
+	#content .hentry .entry-header .postdate {
+		position: static;
+		color: #000 !important;
+		background: none;
+		padding: 0 0 1em 0;
+		width: 100%;
+		text-align: left;
+		background: none !important;
+		}
+
+	#content .hentry .entry-header a:hover .postdate {
+		text-decoration: underline;
+		}
+
+	#content .hentry .entry-header .postdate span {
+		display: inline;
+		padding-right: 5px;
+		}
+
+	.home #content .hentry .entry-header h2,
+	h1.entry-title {
+		margin: 0;
+		}
+
+	#footer {
+		padding:10px;
+		}
+
+	#content .hentry .gallery {
+		margin: 0 10%;
+		}
+
+	#content .hentry .gallery .gallery-item {
+		width: 31%;
+		padding-right: 2%;
+		margin: 0;
+		}
+
+	#content .hentry .gallery .gallery-item img {
+		width: 100%;
+		height: auto;
+		}
+
+	#content .hentry .gallery .wp-caption .wp-caption-text,
+	#content .hentry .gallery .gallery-caption {
+		font-size: 10px;
+		line-height: 1;
+		}
+
+	ul#pankuzu {
+		padding: 2px 0 2px 10px;
+		}
+}
+
+@media screen and (min-width: 650px) {
+
+	/* ensure .menu is visible on desktop version */
+	.menu {
+		display: block !important;
+	}
+}
+
+/* --- Smartphones --- */
+@media screen and (max-width: 450px) {
+
+	#header p#site-description {
+		display: none;
+		}
+}

@@ -1,0 +1,224 @@
+# Copyright (C) 2012 £ukasz Kruszewski-Zelman http://krusze.pl
+# This file is distributed under the same license as the WPstart package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPstart 1.0.9\n"
+"Report-Msgid-Bugs-To: http://krusze.pl\n"
+"POT-Creation-Date: 2012-01-24 08:00+0000\n"
+"PO-Revision-Date: 2012-04-28 13:40+0100\n"
+"Last-Translator: £ukasz Kruszewski-Zelman <kontakt@krusze.pl>\n"
+"Language-Team: krusze.pl <kontakt@krusze.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/content-extensions.php
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Bookmark"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Newer <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "<span class=\"meta-nav\">&larr;</span> Older"
+msgstr ""
+
+#: functions.php
+msgid "More &raquo;"
+msgstr ""
+
+#: functions.php
+msgid "Sidebar 1"
+msgstr ""
+
+#: functions.php
+msgid "Sidebar 2"
+msgstr ""
+
+#: functions.php
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php
+msgid "Colophon"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: comments.php
+msgid "Protected Comments: Please enter your password to view comments."
+msgstr ""
+
+#: comments.php
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php
+msgid "Comments (RSS)"
+msgstr ""
+
+#: comments.php
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions.php
+msgid "Header"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Categories"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Tags:"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Original dimensions %s"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Link to image"
+msgstr ""
+
+#: includes/content-extensions.php
+#: page.php
+msgid "(Edit)"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Published on:"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Author:"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "View posts by this author"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "1 Comment"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "% Comments"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Page not found"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Powered by WordPress"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Content"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Posts by %s"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "You are currently browsing the archives for the %s category."
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/content-extensions.php
+#: sidebar.php
+msgid "Archives"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Permalink: %s"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "No posts found."
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Search"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Search for:"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "No results found."
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: includes/content-extensions.php
+#: page.php
+msgid "Pages:"
+msgstr ""
+
+#: sidebar.php
+msgid "Meta"
+msgstr ""
+
+#: includes/content-extensions.php
+msgid "Permalink: "
+msgstr ""
+

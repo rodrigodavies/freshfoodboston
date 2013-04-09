@@ -1,0 +1,56 @@
+/*
+Theme Name: WPstart
+Description: Used to style the TinyMCE editor.
+*/
+
+html .mceContentBody { max-width:640px; }
+body, input, textarea {}
+
+/* Text elements */
+a:link { color:#1155cc; }
+a:visited { color:#660099; }
+a:hover { color:#660099; }
+a:active { color:#660099; }
+a img { border:none; text-decoration:none; }
+abbr, acronym { border-bottom:1px dotted; cursor:help; }
+big { font-size:150%; }
+blockquote { font-style:italic; quotes:none; }
+cite { font-style:italic; }
+code { font-family:monospace, serif; }
+del { text-decoration:line-through; }
+dd { margin-bottom:10px; margin-bottom:1rem; }
+dl { margin-bottom:10px; margin-bottom:1rem; }
+dt { font-weight:bold; }
+em { font-style:italic; }
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+hr { background:#eee; border:none; clear:both; height:1px; margin:20px 0; margin:2rem 0; }
+i { font-style:italic; }
+ins { background:#fff6bf; text-decoration:none; }
+p { margin:0 0 10px; margin:0 0 1rem; }
+pre { background:#eee; font-family:monospace, serif; line-height:1; margin-bottom:1rem; padding:1rem; }
+sub { top:0.5ex; }
+sup, sub { height:0; line-height:1; position:relative; vertical-align:baseline; }
+sup { bottom:1ex;}
+ul, ol { margin:0 0 20px 20px; margin:0 0 2rem 2rem; padding:0; }
+ul { list-style:disc; }
+ol { list-style:decimal; }
+ol ol { list-style:upper-alpha; }
+ol ol ol { list-style:lower-roman; }
+ol ol ol ol { list-style:lower-alpha; }
+
+/* Images: align */
+.alignleft, img.alignleft { display:inline; float:left; margin:10px 20px 10px 0; margin:1rem 2rem 1rem 0; }
+.alignright, img.alignright { display:inline; float:right; margin:10px 0 10px 20px; margin:1rem 0 1rem 2rem; }
+.aligncenter, img.aligncenter { clear:both; display:block; margin-left:auto; margin-right:auto; }
+.alignnone { clear:both; margin:0 0 10px; margin:0 0 1rem; }
+
+/* Images: caption */
+.wp-caption img { margin:0; padding:0; }
+.wp-caption p.wp-caption-text { font-size:12px; font-size:1.2rem; line-height:2; margin:0; }
+
+.wp-smiley { margin:0; }
