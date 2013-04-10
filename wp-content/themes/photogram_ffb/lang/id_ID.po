@@ -1,0 +1,1064 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arthemia Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-22 14:25+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michael Jubel Hutagalung <michaeljubel@gmail.com>\n"
+"Language-Team: Colorlabs Project <sales@colorlabsproject.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: c:/wamp/www/wp-content/themes/arthemia-premium\n"
+"X-Textdomain-Support: yes"
+
+#: functions/admin-functions.php:2476
+#: includes/theme-functions.php:281
+#@ colabsthemes
+#@ equilibria
+msgid "Home"
+msgstr "Utama"
+
+#: 404.php:15
+#@ equilibria
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Tidak Ditemukan"
+
+#: 404.php:18
+#@ equilibria
+msgid "Ooops, We cannot find you the page you are looking for. You may try to search our site for another keyword or use the navigational tools in this website."
+msgstr "Maaf, kami tidak dapat menemukan halaman yang Anda cari. Silakan gunakan kata kunci lain atau gunakan navigasi yang tersedia dalam website ini."
+
+#: archive.php:31
+#: page-blog.php:28
+#: search.php:25
+#: single.php:22
+#@ equilibria
+msgid "No Comment"
+msgstr "Belum Ada Komentar"
+
+#: archive.php:31
+#: page-blog.php:28
+#: search.php:25
+#: single.php:22
+#@ equilibria
+msgid "One Comment"
+msgstr "Satu Komentar"
+
+#: archive.php:31
+#: page-blog.php:28
+#: search.php:25
+#: single.php:22
+#@ equilibria
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: search.php:44
+#@ equilibria
+msgid "No posts found. Try a different search?"
+msgstr "Artikel tidak ditemukan. Coba kata kunci lain?"
+
+#: functions/images/colorpicker/comments.php:44
+#@ default
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: includes/theme-functions.php:649
+#@ default
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang menunggu moderasi."
+
+#: functions/images/colorpicker/comments.php:20
+#@ colabsthemes
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: functions/admin-shortcodes.php:1572
+#@ colabsthemes
+msgid "Name"
+msgstr "Nama"
+
+#: includes/loop.php:26
+#@ joycolors
+msgid "by"
+msgstr "oleh"
+
+#: page-slideshow.php:36
+#@ equilibria
+msgid "Read the full story &raquo;"
+msgstr "Baca keseluruhan artikel &raquo;"
+
+#: functions/admin-functions.php:1435
+#@ colabsthemes
+msgid "Search Results"
+msgstr "Hasil Pencarian"
+
+#: functions/images/colorpicker/comments.php:46
+#@ default
+msgid "Post Comment"
+msgstr "Poskan Komentar"
+
+#: functions/admin-backup.php:73
+#@ colabsthemes
+msgid "ColorLabs Import/Export Settings"
+msgstr "Settingan ColorLabs Import/Export "
+
+#: functions/admin-backup.php:73
+#@ colabsthemes
+msgid "Import/Export Settings"
+msgstr "Settingan Import/Export"
+
+#: functions/admin-backup.php:132
+#@ colabsthemes
+msgid "Import Settings"
+msgstr "Settingan Import"
+
+#: functions/admin-backup.php:134
+#@ colabsthemes
+msgid "If you have settings in a backup file on your computer, the ColorLabs Framework can import those into this site. To get started, upload your backup file to import from below."
+msgstr "Jika kamu punya settingan dalam sebuah backup/cadangan file dalam komputer kamu, the ColorLabs Framework dapat mengimportnya ke situs ini. Untuk memulainya, upload backupan file ketersebut dibawah ini "
+
+#: functions/admin-backup.php:139
+#, php-format
+#@ colabsthemes
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "Upload Data: (Ukuran maksimal: %s)"
+
+#: functions/admin-backup.php:142
+#@ colabsthemes
+msgid "Upload File and Import"
+msgstr "Upload Data dan Import"
+
+#: functions/admin-backup.php:151
+#@ colabsthemes
+msgid "Export Settings"
+msgstr "Settingan Export"
+
+#: functions/admin-backup.php:153
+#@ colabsthemes
+msgid "When you click the button below, the ColorLabs Framework will create a text file for you to save to your computer."
+msgstr "Ketika kamu klik tombol dibawah ini, the ColorLabs Framework akan membuat sebuah file text untuk kamu simpan di komputer."
+
+#: functions/admin-backup.php:154
+#, php-format
+#@ colabsthemes
+msgid "This text file can be used to restore your settings here on \"%s\", or to easily setup another website with the same settings\"."
+msgstr "Text File ini dapat digunakan untuk mengembalikan settingan kamu pada  \"%s\", atau untuk memudahkan penginstallan pada website lain dengan settingan yang sama\"."
+
+#: functions/admin-backup.php:158
+#@ colabsthemes
+msgid "All Settings"
+msgstr "Semua Settingan"
+
+#: functions/admin-backup.php:159
+#@ colabsthemes
+msgid "This will contain all of the options listed below."
+msgstr "Ini akan berisi semua opsi di bawah ini."
+
+#: functions/admin-backup.php:161
+#: functions/admin-functions.php:2941
+#: functions/admin-interface-functions.php:52
+#@ colabsthemes
+msgid "Theme Options"
+msgstr "Opsi-opsi Tema"
+
+#: functions/admin-backup.php:163
+#: functions/admin-interface-functions.php:62
+#@ colabsthemes
+msgid "SEO Settings"
+msgstr "Settingan SEO"
+
+#: functions/admin-backup.php:165
+#: functions/admin-functions.php:2945
+#@ colabsthemes
+msgid "Sidebar Manager"
+msgstr "Pengaturan Sidebar"
+
+#: functions/admin-backup.php:165
+#@ colabsthemes
+msgid "This will contain only the custom sidebars themselves and not the widgets within them"
+msgstr "Ini akan berisi hanya sidebars kustom sendiri dan bukan widget di dalamnya"
+
+#: functions/admin-backup.php:167
+#: functions/admin-framework-settings.php:199
+#: functions/admin-functions.php:2956
+#@ colabsthemes
+#@ default
+msgid "Framework Settings"
+msgstr "Settingan Framework"
+
+#: functions/admin-backup.php:170
+#@ colabsthemes
+msgid "Download Export File"
+msgstr "Unduh Export Data"
+
+#: functions/admin-backup.php:211
+#@ colabsthemes
+msgid "Welcome to the ColorLabs Import/Export Manager."
+msgstr "Selamat Datang di Pengaturan ColorLabs Import/Export."
+
+#: functions/admin-backup.php:212
+#@ colabsthemes
+msgid "Here are a few notes on using this screen."
+msgstr "Berikut adalah beberapa catatan tentang cara menggunakan layar ini."
+
+#: functions/admin-backup.php:213
+#@ colabsthemes
+msgid "The backup manager allows you to backup or restore your \"Theme Options\" and other settings to or from a text file."
+msgstr "Manajer cadangan memungkinkan Anda untuk backup atau restore \"Opsi-opsi Tema\" dan pengaturan lainnya ke atau dari sebuah file teks."
+
+#: functions/admin-backup.php:214
+#@ colabsthemes
+msgid "To create a backup, simply select the setting type you'd like to backup (or \"All Settings\") and hit the \"Download Export File\" button."
+msgstr "Untuk membuat sebuah backupan, cukup pilih jenis setelan yang ingin di backup (atau \"Semua Settingan\") dan tekan tombol \"Unduh Ekport File\"."
+
+#: functions/admin-backup.php:215
+#@ colabsthemes
+msgid "To restore your settings from a backup, browse your computer for the file (under the \"Import Settings\" heading) and hit the \"Upload File and Import\" button. This will restore only the settings that have changed since the backup."
+msgstr "Untuk mengembalikan pengaturan Anda dari cadangan/backupan, browsing komputer Anda untuk file (di bawah \"Pengaturan Impor \") dan tekan tombol \"Upload File dan Impor\". Ini hanya akan mengembalikan pengaturan yang telah berubah sejak dibackup."
+
+#: functions/admin-backup.php:217
+#@ colabsthemes
+msgid "Please note that only valid backup files generated through the ColorLabs Import/Export Manager should be imported."
+msgstr "Perlu diketahui bahwa hanya file cadangan yang valid yang dihasilkan melalui Manager Impor / Ekspor ColorLabs harus diimpor."
+
+#: functions/admin-backup.php:219
+#@ colabsthemes
+msgid "Looking for assistance?"
+msgstr "Mencari Bantuan? "
+
+#: functions/admin-backup.php:220
+#, php-format
+#@ colabsthemes
+msgid "Please post your query on the %sColorLabs Support Forums%s where we will do our best to assist you further."
+msgstr "Silahkan posting pertanyaan Anda pada %sColorLabs Support Forum%s dimana kami akan melakukan yang terbaik untuk membantu Anda lebih lanjut."
+
+#: functions/admin-backup.php:240
+#, php-format
+#@ colabsthemes
+msgid "Please note that this backup manager backs up only your settings and not your content. To backup your content, please use the %sWordPress Export Tool%s."
+msgstr "Harap diperhatikan bahwa manajer backup hanya mengatur settingan dan bukan konten. Untuk membackup konten Anda, silakan gunakan %sWordPress Ekspor Tool%d."
+
+#: functions/admin-backup.php:243
+#@ colabsthemes
+msgid "There was a problem importing your settings. Please Try again."
+msgstr "Ada masalah dengan proses mengimpor pengaturan Anda. Silakan coba lagi."
+
+#: functions/admin-backup.php:245
+#@ colabsthemes
+msgid "There was a problem exporting your settings. Please Try again."
+msgstr "Ada masalah mengexport pengaturan Anda. Silakan coba lagi."
+
+#: functions/admin-backup.php:247
+#@ colabsthemes
+msgid "The import file you've provided is invalid. Please try again."
+msgstr "File impor Anda  tidak valid. Silakan coba lagi."
+
+#: functions/admin-backup.php:249
+#, php-format
+#@ colabsthemes
+msgid "Settings successfully imported. | Return to %sTheme Options%s"
+msgstr "Pengaturan berhasil diimpor. | Kembali ke %sOpsi Tema%s"
+
+#: functions/admin-custom.php:507
+#@ colabsthemes
+msgid " Custom Settings"
+msgstr "kustom Pengaturan"
+
+#: functions/admin-dashboard.php:31
+#@ colabsthemes
+msgid "Dashboard"
+msgstr ""
+
+#: functions/admin-dashboard.php:45
+#@ colabsthemes
+msgid "Info"
+msgstr "Informasi"
+
+#: functions/admin-dashboard.php:51
+#@ colabsthemes
+msgid "Product Version"
+msgstr "Versi Produk"
+
+#: functions/admin-dashboard.php:52
+#@ colabsthemes
+msgid "Framework Version"
+msgstr "Versi Framework"
+
+#: functions/admin-dashboard.php:55
+#@ colabsthemes
+msgid "Product Support"
+msgstr "Produk Suport"
+
+#: functions/admin-dashboard.php:55
+#@ colabsthemes
+msgid "Submit a Support Ticket"
+msgstr "Kirim Tiket Support"
+
+#: functions/admin-dashboard.php:55
+#@ colabsthemes
+msgid "Theme Documentation"
+msgstr "Dukumentasi Tema"
+
+#: functions/admin-dashboard.php:69
+#@ colabsthemes
+msgid "ColorLabs News"
+msgstr "Berita Colorlabs"
+
+#: functions/admin-dashboard.php:90
+#@ colabsthemes
+msgid "ColorLabs Tweets"
+msgstr ""
+
+#: functions/admin-dashboard.php:106
+#@ colabsthemes
+msgid "ColorLabs Support"
+msgstr "Colorlabs Bantuan"
+
+#: functions/admin-editor.php:29
+#: functions/admin-editor.php:31
+#: functions/admin-editor.php:33
+#: functions/admin-editor.php:35
+#: functions/admin-editor.php:182
+#@ colabsthemes
+msgid "Attention!"
+msgstr "Perhatian!"
+
+#: functions/admin-editor.php:29
+#@ colabsthemes
+msgid "For security reasons, the file you are attempting to edit cannot be modified via this screen."
+msgstr "Untuk alasan keamanan, file yang Anda mencoba untuk mengedit tidak dapat dimodifikasi melalui layar ini."
+
+#: functions/admin-editor.php:31
+#@ colabsthemes
+msgid "Your <code>custom/</code> directory does not appear to exist. Have you remembered to rename <code>/custom-sample</code>?"
+msgstr "Direktori <code>Kustom Anda/</code> tampaknya tidak ada. Apakah Anda ingat untuk mengubah nama <code>/custom-sampel</code>?"
+
+#: functions/admin-editor.php:33
+#@ colabsthemes
+msgid "The file you are attempting does not appear to exist."
+msgstr "File yang Anda coba tampilkan tidak ada."
+
+#: functions/admin-editor.php:35
+#, php-format
+#@ colabsthemes
+msgid "Your <code>/custom/%s</code> file is not writable by the server, and in order to modify the file via the admin panel, Backbone needs to be able to write to this file. All you have to do is set this file&#8217;s permissions to 666, and you&#8217;ll be good to go."
+msgstr "File <code>/custom/%s</ code> Anda tidak dapat ditulis oleh server, dan untuk memodifikasi file melalui panel admin, Backbone harus dapat menulis ke berkas ini. Yang harus Anda lakukan adalah mengatur hak akses file ini untuk 666, dan Anda akan baik untuk pergi."
+
+#: functions/admin-editor.php:47
+#@ colabsthemes
+msgid "You don&#8217;t have admin privileges to access theme options."
+msgstr "Anda tidak memiliki hak ADMIN istimewa untuk akses pemilihan tema."
+
+#: functions/admin-editor.php:58
+#@ colabsthemes
+msgid "You have attempted to modify an ineligible file. Only files within the ColorLabs <code>/custom</code> folder may be modified via this interface. Thank you."
+msgstr "Anda telah mencoba memodifikasi sebuah file yg tidak memenuhi syarat. File hanya dalam ColorLabs <code>/kustom</ code> Folder dapat dimodifikasi melalui interface ini. Terima kasih."
+
+#: functions/admin-editor.php:128
+#, php-format
+#@ colabsthemes
+msgid "Currently editing: <code>%s</code>"
+msgstr "Saat Mengedit: <code>%s</code>"
+
+#: functions/admin-editor.php:138
+#@ colabsthemes
+msgid "Edit selected file"
+msgstr "Edit file terpilih"
+
+#: functions/admin-editor.php:143
+#@ colabsthemes
+msgid "<strong>Note:</strong> If you make a mistake in your code while modifying a <acronym title=\"PHP: Hypertext Preprocessor\">PHP</acronym> file, saving this page <em>may</em> result your site becoming temporarily unusable. Prior to editing such files, be sure to have access to the file via <acronym title=\"File Transfer Protocol\">FTP</acronym> or other means so that you can correct the error."
+msgstr "<strong>Catatan:</strong> Jika anda membuat sebuah kesalahan dalam koding modifikasi sementara file <acronym title=\"PHP: Hypertext Preprocessor\">PHP</acronym>  simpan page ini <em>Mungkin</em> mengakibatkan situs Anda menjadi sementara tidak dapat digunakan. Sebelum mengedit file tersebut, pastikan untuk memiliki akses ke file melalui <acronym title=\"File Transfer Protocol\">FTP</acronym> atau cara lain sehingga Anda dapat memperbaiki kesalahan."
+
+#: functions/admin-editor.php:160
+#: functions/admin-editor.php:205
+#@ colabsthemes
+msgid "Color Reference"
+msgstr "Referensi Warna"
+
+#: functions/admin-editor.php:182
+#@ colabsthemes
+msgid "In order to edit your custom files, you&#8217;ll need to change the name of your <code>custom-sample</code> folder to <code>custom</code>."
+msgstr "Untuk mengedit kustom file anda, anda akan perlu untuk mengganti nama dari Foder <code>custom-sample</code> Anda menjadi <code>custom</code>."
+
+#: functions/admin-editor.php:206
+#@ colabsthemes
+msgid "Color reference for custom file editor"
+msgstr "Referensi Warna untuk Editor file kustom"
+
+#: functions/admin-functions.php:1436
+#@ colabsthemes
+msgid "Author Archives"
+msgstr "Arsip-arsip Penulis"
+
+#: functions/admin-functions.php:1439
+#@ colabsthemes
+msgid "Category Archive"
+msgstr "Kategori Arsip"
+
+#: functions/admin-functions.php:1440
+#: functions/admin-functions.php:1445
+#@ colabsthemes
+msgid " Archive"
+msgstr "Arsip"
+
+#: functions/admin-functions.php:1441
+#@ colabsthemes
+msgid "Daily Archive"
+msgstr "Arsip Harian"
+
+#: functions/admin-functions.php:1442
+#@ colabsthemes
+msgid "Monthly Archive"
+msgstr "Arsip Bulanan"
+
+#: functions/admin-functions.php:1443
+#@ colabsthemes
+msgid "Yearly Archive"
+msgstr "Arsip Tahunan"
+
+#: functions/admin-functions.php:1444
+#@ colabsthemes
+msgid "Tag Archive"
+msgstr "Arsip Tag"
+
+#: functions/admin-functions.php:2354
+#@ colabsthemes
+msgid "&laquo; Previous"
+msgstr "&laquo; Sebelumnya"
+
+#: functions/admin-functions.php:2355
+#@ colabsthemes
+msgid "Next &raquo;"
+msgstr "Berikutnya &raquo;"
+
+#: functions/admin-functions.php:2473
+#@ colabsthemes
+msgid "You are here:"
+msgstr "Anda Disini"
+
+#: functions/admin-functions.php:2641
+#@ colabsthemes
+msgid "g:i a"
+msgstr ""
+
+#: functions/admin-functions.php:2644
+#, php-format
+#@ colabsthemes
+msgid "Minute %1$s"
+msgstr "Menit %1$s"
+
+#: functions/admin-functions.php:2644
+#@ colabsthemes
+msgid "i"
+msgstr ""
+
+#: functions/admin-functions.php:2647
+#@ colabsthemes
+msgid "g a"
+msgstr ""
+
+#: functions/admin-functions.php:2658
+#: functions/admin-functions.php:2664
+#: functions/admin-functions.php:2669
+#: functions/admin-functions.php:2674
+#@ colabsthemes
+msgid "Y"
+msgstr ""
+
+#: functions/admin-functions.php:2659
+#: functions/admin-functions.php:2670
+#@ colabsthemes
+msgid "F"
+msgstr ""
+
+#: functions/admin-functions.php:2660
+#@ colabsthemes
+msgid "j"
+msgstr ""
+
+#: functions/admin-functions.php:2665
+#, php-format
+#@ colabsthemes
+msgid "Week %1$s"
+msgstr "Minggu %1$s"
+
+#: functions/admin-functions.php:2665
+#@ colabsthemes
+msgid "W"
+msgstr ""
+
+#: functions/admin-functions.php:2681
+#, php-format
+#@ colabsthemes
+msgid "Search results for &quot;%1$s&quot;"
+msgstr "Hasil Pencarian untuk &quot;%1$s&quot;"
+
+#: functions/admin-functions.php:2685
+#@ colabsthemes
+msgid "404 Not Found"
+msgstr "404 Tidak Ditemukan"
+
+#: functions/admin-functions.php:2930
+#@ colabsthemes
+msgid "ColorLabs Project"
+msgstr ""
+
+#: functions/admin-functions.php:2950
+#@ colabsthemes
+msgid "SEO Manager"
+msgstr "Pengaturan SEO"
+
+#: functions/admin-functions.php:2959
+#@ colabsthemes
+msgid "Update Framework"
+msgstr ""
+
+#: functions/admin-interface-functions.php:72
+#@ colabsthemes
+msgid "Layout Settings"
+msgstr "Pengaturan Tampilan"
+
+#: functions/admin-interface-functions.php:80
+#@ colabsthemes
+msgid "Updates"
+msgstr ""
+
+#: functions/admin-interface.php:197
+#@ colabsthemes
+msgid "Custom File Editor"
+msgstr "Editor File Kustom"
+
+#: functions/admin-interface.php:240
+#@ colabsthemes
+msgid "Readme"
+msgstr "Baca Saya"
+
+#: functions/admin-interface.php:399
+#@ colabsthemes
+msgid "Framework"
+msgstr ""
+
+#: functions/admin-interface.php:1674
+#@ colabsthemes
+msgid "New Version"
+msgstr "Versi Terbaru"
+
+#: functions/admin-interface.php:1675
+#@ colabsthemes
+msgid "New Feature"
+msgstr "Fitur Baru"
+
+#: functions/admin-interface.php:1676
+#@ colabsthemes
+msgid "Bugfix"
+msgstr "Perbaikan Error"
+
+#: functions/admin-interface.php:1696
+#@ colabsthemes
+msgid "Theme update is available"
+msgstr "Update Tema Telah Tersedia"
+
+#: functions/admin-interface.php:1696
+#@ colabsthemes
+msgid "Get the new version"
+msgstr "Dapatkan Versi Terbaru"
+
+#: functions/admin-interface.php:1696
+#, php-format
+#@ colabsthemes
+msgid "Update Type: %s"
+msgstr ""
+
+#: functions/admin-interface.php:1741
+#, php-format
+#@ colabsthemes
+msgid "Theme update is available (v%s). %sDownload new version%s (%sSee Changelog%s)"
+msgstr "Update Tema Telah Tersedia (v%s). %sUnduh Versi Terbaru%s (%sLihat Changelog%s)"
+
+#: functions/admin-medialibrary-uploader.php:66
+#@ default
+msgid "CoLabsFramework Internal Container"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:192
+#@ default
+msgid "Upload"
+msgstr ""
+
+#: functions/admin-medialibrary-uploader.php:229
+#@ colabsthemes
+msgid "View File"
+msgstr "Lihat Berkas"
+
+#: functions/admin-medialibrary-uploader.php:422
+#@ colabsthemes
+msgid "Gallery"
+msgstr "Galeri"
+
+#: functions/admin-medialibrary-uploader.php:422
+#@ colabsthemes
+msgid "Previously Uploaded"
+msgstr "Telah Diperbaharui Sebelumnya"
+
+#: functions/admin-readme.php:29
+#@ colabsthemes
+msgid " - README.txt Theme File"
+msgstr ""
+
+#: functions/admin-sbm.php:877
+#@ default
+msgid "Sidebar Settings"
+msgstr ""
+
+#: functions/admin-shortcodes.php:477
+#@ colabsthemes
+msgid "No related posts found"
+msgstr "Tidak ada posting terkait yg ditemukan"
+
+#: functions/admin-shortcodes.php:1001
+#@ colabsthemes
+msgid "Hide the Content"
+msgstr "Sembunyikan Konten"
+
+#: functions/admin-shortcodes.php:1002
+#@ colabsthemes
+msgid "Show the Content"
+msgstr "Tampilkan Konten"
+
+#: functions/admin-shortcodes.php:1009
+#@ colabsthemes
+msgid "Read More"
+msgstr "Baca selengkapnya"
+
+#: functions/admin-shortcodes.php:1010
+#@ colabsthemes
+msgid "Read Less"
+msgstr "Baca lebih sedikit"
+
+#: functions/admin-shortcodes.php:1121
+#@ colabsthemes
+msgid "Message via the contact form"
+msgstr "Pesan Melalui Konten From"
+
+#: functions/admin-shortcodes.php:1122
+#@ colabsthemes
+msgid "Submit"
+msgstr "Kirim"
+
+#: functions/admin-shortcodes.php:1418
+#@ colabsthemes
+msgid "Please enter your name"
+msgstr "Masukkan nama anda"
+
+#: functions/admin-shortcodes.php:1419
+#@ colabsthemes
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr "Masukkan alamat email Anda (dan pastikan itu berlaku)"
+
+#: functions/admin-shortcodes.php:1420
+#@ colabsthemes
+msgid "Please enter your message"
+msgstr "Masukan Pesan Anda"
+
+#: functions/admin-shortcodes.php:1503
+#: functions/admin-shortcodes.php:1511
+#@ colabsthemes
+msgid "From: "
+msgstr "Dari:"
+
+#: functions/admin-shortcodes.php:1503
+#: functions/admin-shortcodes.php:1511
+#@ colabsthemes
+msgid "Reply-To: "
+msgstr ""
+
+#: functions/admin-shortcodes.php:1533
+#@ colabsthemes
+msgid "Your email was successfully sent."
+msgstr "Email anda berhasil terkirim."
+
+#: functions/admin-shortcodes.php:1542
+#@ colabsthemes
+msgid "There were one or more errors while submitting the form."
+msgstr "Ada satu atau lebih kesalahan saat mengirimkan formulir."
+
+#: functions/admin-shortcodes.php:1550
+#@ colabsthemes
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr "E-mail belum terisi. Silahkan menambahkan kontak e-mail!"
+
+#: functions/admin-shortcodes.php:1583
+#@ colabsthemes
+msgid "Email"
+msgstr ""
+
+#: functions/admin-shortcodes.php:1594
+#@ colabsthemes
+msgid "Message"
+msgstr "Pesan"
+
+#: functions/admin-shortcodes.php:1730
+#@ colabsthemes
+msgid "Send a copy of this email to yourself"
+msgstr "Kirimkan salinan email ini kepada diri sendiri."
+
+#: functions/admin-shortcodes.php:1739
+#@ colabsthemes
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr "Jika anda ingin mengirip form ini, jangan isi apapun di dalam field ini."
+
+#: functions/admin-shortcodes.php:2114
+#: functions/admin-shortcodes.php:2164
+#: functions/admin-shortcodes.php:2180
+#, php-format
+#@ colabsthemes
+msgid "My %s Profile"
+msgstr "%s Profil Saya"
+
+#: functions/admin-shortcodes.php:2135
+#@ colabsthemes
+msgid "Subscribe to our RSS feed"
+msgstr "Berlangganan RSS feed kami."
+
+#: functions/admin-shortcodes.php:2477
+#: includes/widgets/widget-colabs-twitter.php:24
+#@ colabsthemes
+#@ equilibria
+msgid "Follow"
+msgstr "Mengikuti"
+
+#: functions/images/colorpicker/comments.php:4
+#@ colabsthemes
+msgid "Comments To This Entry"
+msgstr "Komentar Untuk Pesan Ini"
+
+#: functions/images/colorpicker/comments.php:47
+#@ default
+msgid "Cancel"
+msgstr ""
+
+#: functions/install-script.php:757
+#@ cp
+msgid "This category was automatically created by ColorLabs. All your blog posts should be assigned to this category or a sub-category under blog."
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:51
+#@ colabsthemes
+msgid "Customize the Shortcode"
+msgstr "Kustomisasi Shortcode"
+
+#: functions/js/shortcode-generator/dialog.php:60
+#@ colabsthemes
+msgid "Preview"
+msgstr "Pratinjau"
+
+#: functions/js/shortcode-generator/dialog.php:74
+#@ colabsthemes
+msgid "Shortcode Generator Error"
+msgstr ""
+
+#: functions/js/shortcode-generator/dialog.php:77
+#, php-format
+#@ colabsthemes
+msgid "Your version of the CoLabsFramework (%s) does not yet support shortcodes. Shortcodes were introduced with version %s of the framework."
+msgstr "Versi dari CoLabsFramework (%s) belum mendukung shortcodes, Shortcodes diperkenankan untuk versi %s dari framework"
+
+#: functions/js/shortcode-generator/dialog.php:79
+#: functions/js/shortcode-generator/dialog.php:93
+#@ colabsthemes
+msgid "What to do now?"
+msgstr "Apa yang harus dilakukan sekarang?"
+
+#: functions/js/shortcode-generator/dialog.php:81
+#@ colabsthemes
+msgid "Upgrading your theme, or rather the CoLabsFramework portion of it, will do the trick."
+msgstr "Upgrade tema anda, atau lebih tepatnya bagian CoLabsFramework, akan dilakukan trik."
+
+#: functions/js/shortcode-generator/dialog.php:83
+#, php-format
+#@ colabsthemes
+msgid "The framework is a collection of functionality that all CoLabsThemes have in common. In most cases you can update the framework even if you have modified your theme, because the framework resides in a separate location (under %s)."
+msgstr "Kerangka kerja ini adalah kumpulan fungsi bahwa semua CoLabsThemes memiliki kesamaan. Dalam kebanyakan kasus Anda dapat memperbarui kerangka bahkan jika Anda telah memodifikasi tema, karena kerangka berada di lokasi yang terpisah (dibawah %s)."
+
+#: functions/js/shortcode-generator/dialog.php:85
+#, php-format
+#@ colabsthemes
+msgid "There's a tutorial on how to do this on colorlabsproject.com: %sHow to upgradeyour theme%s."
+msgstr "Ada tutorial tentang cara untuk melakukan ini pada colorlabsproject.com: %sBagaimana cara upgrade Tema Anda%s."
+
+#: functions/js/shortcode-generator/dialog.php:87
+#@ colabsthemes
+msgid "<strong>Remember:</strong> Always backup your theme before you update it or make changes to it."
+msgstr "<strong>Ingat:</strong> Selalu backup TeMA ada sebelum anda mengupdatenya atau membuat perubahan."
+
+#: functions/js/shortcode-generator/dialog.php:91
+#@ colabsthemes
+msgid "Looks like your active theme is not from ColorLabs. The shortcode generator only works with themes from ColorLabs."
+msgstr "Terlihat seperti tema aktif Anda bukan dari ColorLabs. Generator shortcode hanya bekerja dengan tema dari ColorLabs."
+
+#: functions/js/shortcode-generator/dialog.php:95
+#@ colabsthemes
+msgid "Pick a fight: (1) If you already have a theme from ColorLabs, install and activate it or (2) if you don't yet have one of the awesome ColorLabs theme head over to the <a href=\"http://colorlabsproject.com/themes/\" target=\"_blank\" title=\"ColorLabs Gallery\">ColorLabs Gallery</a> and get one."
+msgstr "Bentrok: (1) Jika Anda sudah memiliki tema dari ColorLabs, menginstal dan mengaktifkannya atau (2) jika Anda belum memiliki salah satu kepala tema ColorLabs <a href=\"http://colorlabsproject.com/themes/\" target=\"_blank\" title=\"ColorLabs Gallery\">ColorLabs Gallery</a> dan dapatkan salah satunya."
+
+#: includes/theme-functions.php:72
+#@ colabsthemes
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Posting Lama"
+
+#: includes/theme-functions.php:73
+#@ colabsthemes
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Posting Baru<span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/theme-functions.php:224
+#@ colabsthemes
+msgid "on "
+msgstr ""
+
+#: includes/theme-functions.php:262
+#@ default
+msgid "Primary Navigation"
+msgstr "Navigasi Utama"
+
+#: includes/widgets/widget-colabs-twitter.php:43
+#@ equilibria
+msgid "Title (optional):"
+msgstr "Judul (opsional):"
+
+#: includes/widgets/widget-colabs-archives.php:55
+#: includes/widgets/widget-colabs-categories.php:57
+#: includes/widgets/widget-colabs-googlemaps.php:58
+#: includes/widgets/widget-colabs-links.php:56
+#: includes/widgets/widget-colabs-popular.php:54
+#: includes/widgets/widget-colabs-tags.php:60
+#@ equilibria
+#@ default
+msgid "Title:"
+msgstr "Judul:"
+
+#: includes/widgets/widget-colabs-tags.php:15
+#@ default
+msgid "Tags"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:24
+#@ equilibria
+msgid "on Twitter"
+msgstr "dalam Twitter"
+
+#: includes/widgets/widget-colabs-twitter.php:47
+#@ equilibria
+msgid "Username:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:51
+#@ equilibria
+msgid "Limit:"
+msgstr "Batas:"
+
+#: functions.php:47
+#@ equilibria
+msgid " Read the full story &raquo;"
+msgstr ""
+
+#: includes/loop.php:26
+#@ joycolors
+msgid "in"
+msgstr ""
+
+#: includes/loop.php:52
+#@ joycolors
+msgid "Pages:"
+msgstr ""
+
+#: includes/loop.php:61
+#@ joycolors
+msgid "Tagged as:"
+msgstr ""
+
+#: includes/loop.php:64
+#@ joycolors
+msgid "Edit this entry"
+msgstr ""
+
+#: includes/slider.php:104
+#: includes/theme-functions.php:247
+#@ colabsthemes
+msgid "Posted by:"
+msgstr ""
+
+#: includes/slider.php:124
+#@ colabsthemes
+msgid "Next"
+msgstr ""
+
+#: includes/slider.php:125
+#@ colabsthemes
+msgid "Previous"
+msgstr ""
+
+#: includes/theme-functions.php:249
+#@ colabsthemes
+msgid "{ Edit }"
+msgstr ""
+
+#: includes/theme-functions.php:646
+#, php-format
+#@ default
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: includes/theme-functions.php:656
+#, php-format
+#@ default
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/theme-functions.php:656
+#@ default
+msgid "(Edit)"
+msgstr ""
+
+#: includes/theme-options.php:320
+#@ colabsthemes
+msgid " Image Settings"
+msgstr ""
+
+#: includes/theme-options.php:330
+#@ colabsthemes
+msgid " Page Settings"
+msgstr ""
+
+#: includes/widgets/widget-colabs-archives.php:9
+#@ equilibria
+msgid "Colorlabs - Archives"
+msgstr ""
+
+#: includes/widgets/widget-colabs-archives.php:15
+#@ default
+msgid "Archives"
+msgstr ""
+
+#: includes/widgets/widget-colabs-categories.php:9
+#@ equilibria
+msgid "Colorlabs - Categories"
+msgstr ""
+
+#: includes/widgets/widget-colabs-categories.php:15
+#@ default
+msgid "Categories"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:9
+#@ equilibria
+msgid "Colorlabs - Google Maps"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:62
+#@ default
+msgid "Latitude:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:66
+#@ default
+msgid "Longitude:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:70
+#@ default
+msgid "Width:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:74
+#@ default
+msgid "Height:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:78
+#@ default
+msgid "Zoom Level: <small>(1-19)</small>"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:82
+#@ default
+msgid "Map Type:<br /><small>(ROADMAP, SATELLITE, HYBRID, TERRAIN)</small>"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:86
+#@ default
+msgid "Address for directions:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-googlemaps.php:90
+#@ default
+msgid "Info Bubble Content:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-links.php:9
+#@ equilibria
+msgid "Colorlabs - Links"
+msgstr ""
+
+#: includes/widgets/widget-colabs-links.php:15
+#@ default
+msgid "Links"
+msgstr ""
+
+#: includes/widgets/widget-colabs-links.php:60
+#@ default
+msgid "Select Link Category"
+msgstr ""
+
+#: includes/widgets/widget-colabs-popular.php:9
+#@ equilibria
+msgid "Colorlabs - Popular Posts"
+msgstr ""
+
+#: includes/widgets/widget-colabs-popular.php:15
+#@ default
+msgid "Popular Posts"
+msgstr ""
+
+#: includes/widgets/widget-colabs-popular.php:58
+#@ default
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/widget-colabs-tags.php:9
+#@ equilibria
+msgid "Colorlabs - Tags"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:9
+#@ equilibria
+msgid "Colorlabs - Twitter"
+msgstr ""
+
+#: includes/widgets/widget-colabs-twitter.php:14
+#@ default
+msgid "Twitter"
+msgstr ""
+
+#: index.php:27
+#: page-business.php:26
+#@ equilibria
+msgid "Read more"
+msgstr ""
+
+#: index.php:27
+#: page-business.php:26
+#@ equilibria
+msgid "Contact Us"
+msgstr ""
+

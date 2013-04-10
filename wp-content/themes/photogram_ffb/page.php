@@ -1,12 +1,7 @@
-<?php
-/*
-  Template Name: User photo upload page
-*/
-?>
 <?php get_header(); ?>
-
+    
     <div class="main-content-wrapper row">
-      <div class="main-content column col12">
+      <div class="main-content column col10">
         <article class="entry-post">
 		<?php if(have_posts()): while(have_posts()): the_post(); ?>	          
           <div class="entry-content row">            
@@ -23,5 +18,8 @@
         </article><!-- .entry-post -->
       </div><!-- .main-content -->
       
-</div>
+<!--      <aside class="primary-sidebar column col4">
+        <?php get_sidebar(); ?>
+      </aside> --><!-- .primary-sidebar -->
+	</div>  
 <?php get_footer(); ?>
