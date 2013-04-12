@@ -25,8 +25,13 @@
   <?php if(get_option('photogram_disable_mobile')=='false'){?>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <?php }?>
-  <?php wp_enqueue_script("jquery"); ?>
   <?php wp_head();?>
+
+<link rel="stylesheet" type="text/css" href="wp-includes/css/geo.css" media="screen, projection, tv">
+
+<script language="javascript" type="text/javascript" src="wp-includes/js/jquery/jquery2.js"></script>
+<script language="javascript" type="text/javascript" src="wp-includes/js/jquery/jquery.cookie.js"></script>
+
 </head>
 <body <?php body_class(); ?>>
 <header class="header container"> 
@@ -65,7 +70,7 @@ if (have_posts()) :
   <div class='row'>
   <div class="slider-container">
     <?php 
-				
+
 		while (have_posts()) : the_post(); if(colabs_image('link=img&return=true')==null) continue;
 		$image = colabs_image('width=55&height=55&return=true');
 		$pattern = '/src="([^"]*)"/';
