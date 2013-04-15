@@ -73,7 +73,7 @@ function gip_form_shortcode(){
 
 	echo gip_get_upload_image_form($gip_image_caption = $_POST['gip_image_caption'], $gip_image_tags = $_POST['gip_image_tags'], $geo_address = $_POST['geo_address']);
     echo gip_get_geolocation_form();
-
+    echo gip_get_upload_image_submit();
 }
 
 
@@ -157,14 +157,21 @@ function gip_get_upload_image_form($gip_image_caption = '', $gip_image_category 
   $out .= '<input type="text" id="gip_image_caption" name="gip_image_caption" placeholder = "Three bananas for $1" value="' . $gip_image_caption . '"/><br/>';
   $out .= '<br/><label for="gip_image_tags">Step 3. Add some tags, like <i>vegetable</i> or <i>cooked meal</i></label>';
   $out .= '<input type="text" id="gip_image_tags" name="gip_image_tags" placeholder = "Tags" value="' . $gip_image_tags . '"/><br/>';
-  $out .= '<br/><label for="geo_address">Step 4. Where did you find it? If you do not see a map below, type the address here</label>';
+  $out .= '<br/><label for="geo_address">Step 4. Where did you find it? If the map below is incorrect or missing, type the address here</label>';
   $out .= '<input type="text" id="geo_address" name="geo_address" placeholder = "Address" value="' . $geo_address . '"/><br/><br/>';
-
-  $out .= '<input type="submit" id="gip_submit" name="gip_submit" value="Submit your photo">';
-  $out .= '</form>';
 
   return $out;
   
+}
+
+function gip_get_upload_image_submit(){
+
+  $out2 .= '';
+  $out2 .= '<input type="submit" id="gip_submit" name="gip_submit" value="Submit your photo">';
+  $out2 .= '</form>';
+
+  return $out2;
+
 }
 
 function gip_get_geolocation_form(){
@@ -190,6 +197,7 @@ function gip_get_geolocation_form(){
 					latitude = $.cookie("posLat");
 					longitude = $.cookie("posLon");
 					accuracy = $.cookie("posAccuracy");
+					document.getElementById("status").innerHTML = "We saved your location from a previous visit. <a id=\"clear_cookies\" href=\" javascript:clear_cookies();\" style=\"cursor:pointer;\">Click here to clear it (you'll need to refresh your browser to detect a new location).</a>";
 					//document.getElementById("status").innerHTML = "Location data retrieved from cookies. <a id=\"clear_cookies\" href=\" javascript:clear_cookies();\" style=\"cursor:pointer; margin-left: 15px;\"> clear cookies</a>";
 					updateDisplay();
 					
@@ -222,7 +230,7 @@ function gip_get_geolocation_form(){
 		
 		function updateDisplay() {
 			//var gmapdata = '<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;ie=UTF8&amp;hq=&amp;ll=' + latitude + ',' + longitude + '&amp;output=embed"></iframe>';
-			var gmapdata = '<img src="http://maps.google.com/maps/api/staticmap?center=' + latitude + ',' + longitude + '&zoom=16&size=425x350&sensor=false" />';
+			var gmapdata = '<img src="http://maps.google.com/maps/api/staticmap?center=' + latitude + ',' + longitude + '&zoom=16&size=400x350&sensor=true" />';
 					
 			document.getElementById("placeholder").innerHTML = gmapdata;
 			document.getElementById("latitude").value = latitude;

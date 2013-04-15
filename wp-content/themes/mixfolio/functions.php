@@ -73,8 +73,8 @@ function mixfolio_setup() {
 	 * Enable support for Post Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	/* set_post_thumbnail_size( 300, 200, true ); // 300 pixels wide by 200 pixels high, hard crop mode */
-	/* add_image_size( 'mixfolio-featured-thumbnail', 300, 200, true ); // 300 pixels wide by 200 pixels high, hard crop mode */
+	set_post_thumbnail_size( 300, 300, true ); // 300 pixels wide by 300 pixels high, hard crop mode
+	add_image_size( 'mixfolio-featured-thumbnail', 300, 300, true ); // 300 pixels wide by 300 pixels high, hard crop mode */
 
 	/**
 	 * Enable support for Post Formats
