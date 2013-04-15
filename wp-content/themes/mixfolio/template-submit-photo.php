@@ -12,17 +12,12 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', get_post_format() ); ?>
 
-			<?php mixfolio_content_nav( 'nav-below' ); ?>
-
 		<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php
-	if ( 'image' != $format && 'gallery' != $format && 'video' != $format )
-		get_sidebar();
-?>
+<?php get_sidebar(); ?>
 
 
 	<script type="text/javascript">
