@@ -5,16 +5,6 @@
 
 get_header(); ?>
 
-<?php
-	$format = get_post_format();
-	if ( false === $format )
-		$format = 'standard';
-
-	$post_class = 'standard';
-	if ( 'image' == $format || 'gallery' == $format || 'video' == $format )
-		$post_class = 'full-width';
-?>
-
 	<div id="primary" class="<?php echo $post_class; ?>">
 		<div id="content" role="main">
 
