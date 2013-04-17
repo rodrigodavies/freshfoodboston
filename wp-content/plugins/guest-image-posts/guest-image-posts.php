@@ -59,9 +59,9 @@ function gip_form_shortcode(){
       if($post_id = wp_insert_post($user_image_data)){
       
         gip_process_image('gip_image_file', $post_id, $result['caption']);
-      	update_post_meta($post_id, '_lat', $lat);
-		update_post_meta($post_id, '_lon', $lon);
-		update_post_meta($post_id, '_address', $geo_address);
+      	update_post_meta($post_id, 'geo_latitude', $lat);
+		update_post_meta($post_id, 'geo_longitude', $lon);
+		update_post_meta($post_id, 'geo_address', $geo_address);
 
         //wp_set_object_terms($post_id, (int)$_POST['gip_image_category'], 'geo_address', 'gip_image_category');
       
@@ -86,12 +86,15 @@ function gip_process_image($file, $post_id, $caption){
  
   $attachment_id = media_handle_upload($file, $post_id);
  
-  update_post_meta($post_id, '_thumbnail_id', $attachment_id, $tags);
+  update_post_meta($post_id, '_thumbnail_id', $attachment_id, $gip_image_tags);
+  update_post_meta($post_id, 'geo_latitude', $lat);
+  update_post_meta($post_id, 'geo_latitude', $lon);
+  update_post_meta($post_id, 'geo_address', $geo_address);
 
 	$attachment_data = array(
 		'ID' => $attachment_id,
 		'post_excerpt' => $caption,
-		'tags' => $tags
+		'tags_input' => $gip_image_tags
 	);
   
   wp_update_post($attachment_data);
@@ -155,7 +158,7 @@ function gip_get_upload_image_form($gip_image_caption = '', $gip_image_category 
   $out .= '<input type="file" size="60" name="gip_image_file" id="gip_image_file"><br/>';
   $out .= '<label for="gip_image_caption">Step 2. Describe what you found and how much it cost.</label>';
   $out .= '<input type="text" id="gip_image_caption" name="gip_image_caption" placeholder = "Three bananas for $1" value="' . $gip_image_caption . '"/><br/>';
-  $out .= '<br/><label for="gip_image_tags">Step 3. Add some tags, like <i>vegetable</i> or <i>cooked meal</i></label>';
+  $out .= '<br/><label for="gip_image_tags">Step 3. Add some tags, like <i>vegetable</i>, <i>cooked meal</i> or <i>Dorchester</i></label>';
   $out .= '<input type="text" id="gip_image_tags" name="gip_image_tags" placeholder = "Tags" value="' . $gip_image_tags . '"/><br/>';
   $out .= '<br/><label for="geo_address">Step 4. Where did you find it? If the map below is incorrect or missing, type the address here</label>';
   $out .= '<input type="text" id="geo_address" name="geo_address" placeholder = "Address" value="' . $geo_address . '"/><br/><br/>';
