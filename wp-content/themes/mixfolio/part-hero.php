@@ -4,7 +4,8 @@
 ?>
 
 	<div class="row">
-		<div class="hero clearfix">
+		<div class="hero clearfix fade in">
+			<button type="button" class="close" data-dismiss="alert" style="float:right">×</button>
 			<?php if ( ! isset( $mixfolio_options[ 'mixfolio_display_contact_information' ] ) && ! isset( $mixfolio_options[ 'mixfolio_twitter_id' ] ) ) { ?>
 				<div class="columns twelve">
 			<?php } else { ?>

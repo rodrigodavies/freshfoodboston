@@ -1219,7 +1219,7 @@ article.comment {
 .hero {
 	background-color: rgb(174, 213, 255);
 	margin-bottom: 30px;
-	padding: 20px 60px;
+	padding: 10px 40px 1px 15px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -1231,6 +1231,27 @@ article.comment {
 	color: #fff;
 	text-decoration: none;
 }
+
+.hero .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 20px;
+}
+
+button {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
 .hero h2 {
 	font-size: 3em;
 	text-shadow: 1px 1px 2px #fff;
