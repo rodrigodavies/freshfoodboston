@@ -22,7 +22,8 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'content', get_post_format() ); ?>
-			<?php if ( has_post_thumbnail() ) { the_post_thumbnail();} ?> 
+			<?php if ( has_post_thumbnail() ) { the_post_thumbnail();} ?>
+			<?php echo GeoMashup::show_on_map_link(); ?> 
 			<?php if(function_exists('the_ratings')) { the_ratings(); } ?>
 			<?php mixfolio_content_nav( 'nav-below' ); ?>
 
