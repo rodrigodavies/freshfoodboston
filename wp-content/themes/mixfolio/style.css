@@ -736,6 +736,12 @@ article.post {
 	display: block;
 	margin: 0 auto 24px;
 }
+
+.entry-content img {
+	border: 1px gray;
+	border-radius: 10px;
+}
+
 .single-attachment .entry-title,
 .single-attachment .entry-meta {
 	text-align: center;
