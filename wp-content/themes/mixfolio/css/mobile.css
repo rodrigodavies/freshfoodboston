@@ -21,7 +21,8 @@
 		#primary,#secondary { width:100%; float:none; }
 		.row, body, .container, #branding .container { width: 100%; min-width: 0; margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; }
 		.row .row .column, .row .row .columns { padding: 0; }
-		.column, .columns { width: auto !important; float: none; margin-left: 0px; margin-right: 0px; padding-left: 20px; padding-right: 20px; }
+		.column, .columns { width: auto !important; float: none; margin-left: 0px; margin-right: 0px; padding-left: 10px; padding-right: 10px; }
+		.hero { padding: 10px 20px; }
 		.main-outer {
 			padding: 0;
 		}
@@ -52,6 +53,8 @@
 		body.single-format-gallery .gallery-columns-3 .gallery-item {width: 47.8% !important; margin-left: 4.4%; float: right; padding: 0; }
 
 		body.single-format-gallery .gallery-columns-3 .gallery-item:nth-child(odd) { margin-left: 0px; padding-left: 0px; float: left; }
+
+		.gm-map { padding-left: 0px; padding-right: 0px;}
 }
 
 @media screen and (max-width: 768px) {
