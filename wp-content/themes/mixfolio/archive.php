@@ -24,7 +24,7 @@ get_header(); ?>
 								printf( __( 'Category Archives: %s', 'mixfolio' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 
 							} elseif ( is_tag() ) {
-								printf( __( 'Tag Archives: %s', 'mixfolio' ), '<span>' . single_tag_title( '', false ) . '</span>' );
+								printf( __( 'Search: %s', 'mixfolio' ), '<span>' . single_tag_title( '', false ) . '</span>' );
 
 							} elseif ( is_author() ) {
 								/* Queue the first post, that way we know
