@@ -1217,9 +1217,10 @@ article.comment {
 	margin: 20px;
 }
 .hero {
-	background-color: rgb(174, 213, 255);
+	background-color: transparent;
 	margin-bottom: 30px;
 	padding: 10px 40px 1px 15px;
+	border: 1.5px dashed red;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -1253,8 +1254,15 @@ button.close {
 }
 
 .hero h2 {
-	font-size: 3em;
+	font-size: 2.5em;
 	text-shadow: 1px 1px 2px #fff;
+}
+
+.hero-text {
+	font-size: 1.3em;
+	text-align: center;
+	text-shadow: 1px 1px 2px #fff;
+	padding-bottom: 6px;
 }
 h3.twitter a {
 	background: url( 'images/twitter.png' ) no-repeat 100% 50%;

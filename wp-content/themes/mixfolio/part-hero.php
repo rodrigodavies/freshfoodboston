@@ -5,7 +5,6 @@
 
 	<div class="row">
 		<div class="hero clearfix fade in">
-			<button type="button" class="close" data-dismiss="alert" style="float:right">×</button>
 			<?php if ( ! isset( $mixfolio_options[ 'mixfolio_display_contact_information' ] ) && ! isset( $mixfolio_options[ 'mixfolio_twitter_id' ] ) ) { ?>
 				<div class="columns twelve">
 			<?php } else { ?>
@@ -17,7 +16,7 @@
 					</h2>
 				<?php endif; ?>
 				<?php if ( isset( $mixfolio_options[ 'mixfolio_welcome_area_message' ] ) ) : ?>
-					<div class="subheader">
+					<div class="hero-text">
 						<?php echo $mixfolio_options[ 'mixfolio_welcome_area_message' ]; // HTML Allowed ?>
 					</div>
 				<?php endif; ?>

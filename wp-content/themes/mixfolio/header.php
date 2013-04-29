@@ -42,7 +42,9 @@
 						<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'mixfolio' ); ?>"><?php _e( 'Skip to content', 'mixfolio' ); ?></a></div>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 2, 'container_class' => 'menu', 'menu_class' => 'main', 'fallback_cb' => false ) ); ?>
 					</nav>
-
+					<div class="widget widget_search">
+					<?php get_search_form(); ?>
+					
 					<div class="hide-on-phones">
 					
 					</div><!-- .hide-on-phones -->
