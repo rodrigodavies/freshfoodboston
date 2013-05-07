@@ -1,0 +1,3215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Urban Farms and Community Gardens</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/UrbanFarmGarden.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/UrbanFarmGarden.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>The Food Project</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Food Project<br>
+<b>Address:</b> 850 Harrison Avenue, Boston, MA, 02118<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>850 Harrison Avenue, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>The Food Project</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Food Project<br>
+<b>Address:</b> 40 West Cottage Street, Dorchester, MA, 02125<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>40 West Cottage Street, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>The Food Project</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Food Project<br>
+<b>Address:</b> 18 Albion St.�, Dorchester, MA, 02143<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>18 Albion St.�, Dorchester, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>The Food Project</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Food Project<br>
+<b>Address:</b> 123 Langdon St, Dorchester, MA, 02119<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>123 Langdon St, Dorchester, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>City Growers</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> City Growers<br>
+<b>Address:</b> 950 Blue Hill Avenue, Dorchester, MA, 02186<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>950 Blue Hill Avenue, Dorchester, MA, 02186</address>
+		</Placemark>
+		<Placemark>
+			<name>City Growers</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> City Growers<br>
+<b>Address:</b> 76 Lucerne St, Dorchester, MA, 02124<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>76 Lucerne St, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>City Growers</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> City Growers<br>
+<b>Address:</b> 131 Glenway Street, Dorchester, MA, 02121<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>131 Glenway Street, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>ReVision House</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> ReVision House<br>
+<b>Address:</b> 38 Fabyan St, Dorchester, MA, 02124<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>38 Fabyan St, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Pilot Urban Agriculture overlay district</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Pilot Urban Agriculture overlay district<br>
+<b>Address:</b> 23-29 Tucker Street�, Dorchester, MA, 02124<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>23-29 Tucker Street�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Pilot Urban Agriculture overlay district</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Pilot Urban Agriculture overlay district<br>
+<b>Address:</b> 131 Glenway Street, Dorchester, MA, 02121<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>131 Glenway Street, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Allandale Farms</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Allandale Farms<br>
+<b>Address:</b> 259 Allandale Road, Jamaica Plain, MA, 02467<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>259 Allandale Road, Jamaica Plain, MA, 02467</address>
+		</Placemark>
+		<Placemark>
+			<name>City Growers</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> City Growers<br>
+<b>Address:</b> 33 Shirley St, Roxbury, MA, 02169<br>
+<b>Type:</b> Urban Farm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Urban Farm</value>
+				</Data>
+			</ExtendedData>
+			<address>33 Shirley St, Roxbury, MA, 02169</address>
+		</Placemark>
+		<Placemark>
+			<name>Charles River Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Charles River Community Garden<br>
+<b>Address:</b> 1450 Soldiers Field Road, Allston-Brighton, MA, 02135<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1450 Soldiers Field Road, Allston-Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Chestnut Hill Reservoir Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Chestnut Hill Reservoir Garden<br>
+<b>Address:</b> Chestnut Hill Driveway�, Allston-Brighton, MA, 02135<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Chestnut Hill Driveway�, Allston-Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Christian Herter Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Christian Herter Garden<br>
+<b>Address:</b> 1155 Soldiers Field Rd. along the Charles River at Herter Park next to Public Theater�, Allston-Brighton, MA, 02134<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1155 Soldiers Field Rd. along the Charles River at Herter Park next to Public Theater�, Allston-Brighton, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Commonwealth Tenants Association Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Commonwealth Tenants Association Community Garden<br>
+<b>Address:</b> 35 Fidelis Way, Allston-Brighton, MA, 02135<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>35 Fidelis Way, Allston-Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Jackson Mann School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Jackson Mann School Garden<br>
+<b>Address:</b> 500 Cambridge St, Allston-Brighton, MA, 02134<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>500 Cambridge St, Allston-Brighton, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Penniman Road Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Penniman Road Garden<br>
+<b>Address:</b> 30 Penniman Rd.�, Allston-Brighton, MA, 02134<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>30 Penniman Rd.�, Allston-Brighton, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Blackwood/Claremont Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Blackwood/Claremont Garden<br>
+<b>Address:</b> 1 Claremont Street, Back Bay/Beacon Hill, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1 Claremont Street, Back Bay/Beacon Hill, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Follen Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Follen Garden<br>
+<b>Address:</b> Follen St. and Braddock Park�, Back Bay/Beacon Hill, MA, 02116<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Follen St. and Braddock Park�, Back Bay/Beacon Hill, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>Greenwich/Cumberland Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Greenwich/Cumberland Garden<br>
+<b>Address:</b> Greenwich Park and Cumberland St.�, Back Bay/Beacon Hill, MA, 02116<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Greenwich Park and Cumberland St.�, Back Bay/Beacon Hill, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>Harcourt/West Canton Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Harcourt/West Canton Garden<br>
+<b>Address:</b> Harcourt St. and West Canton St.�, Back Bay/Beacon Hill, MA, 02116<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Harcourt St. and West Canton St.�, Back Bay/Beacon Hill, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>Saranac/New Castle Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Saranac/New Castle Garden<br>
+<b>Address:</b> 1-99 Watson St, Boston, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1-99 Watson St, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Lars Anderson Gardens</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lars Anderson Gardens<br>
+<b>Address:</b> 25 Newton St, Brookline, MA, 02445<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>25 Newton St, Brookline, MA, 02445</address>
+		</Placemark>
+		<Placemark>
+			<name>Corcoran Park Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Corcoran Park Garden<br>
+<b>Address:</b> 186 Walden St, Cambridge, MA, 02140<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>186 Walden St, Cambridge, MA, 02140</address>
+		</Placemark>
+		<Placemark>
+			<name>Don McMath Park Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Don McMath Park Community Garden<br>
+<b>Address:</b> 150 Sherman St, Cambridge, MA, 02140<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>150 Sherman St, Cambridge, MA, 02140</address>
+		</Placemark>
+		<Placemark>
+			<name>Field of Dreams Gardens</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Field of Dreams Gardens<br>
+<b>Address:</b> 30 Elmer St, Cambridge, MA, 02138<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>30 Elmer St, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Fresh Pond Parkway Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fresh Pond Parkway Garden<br>
+<b>Address:</b> 300 Fresh Pond Pkwy, Cambridge, MA, 02138<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>300 Fresh Pond Pkwy, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Green Street Neighborhood Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Green Street Neighborhood Park<br>
+<b>Address:</b> Green St. 1blk from Mass. Ave. Cambridgeport�, Cambridge, MA, 02138<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Green St. 1blk from Mass. Ave. Cambridgeport�, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Moore Street Neighborhood Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Moore Street Neighborhood Park<br>
+<b>Address:</b> 89 Moore St, Cambridge, MA, 02139<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>89 Moore St, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Neville Manor Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Neville Manor Garden<br>
+<b>Address:</b> 650 Concord Ave, Cambridge, MA, 02138<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>650 Concord Ave, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Sacramento Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sacramento Street Garden<br>
+<b>Address:</b> 21 Sacramento St, Cambridge, MA, 02138<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>21 Sacramento St, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Simplex Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Simplex Community Garden<br>
+<b>Address:</b> 6 Emily Street, Cambridge, MA, 02139<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>6 Emily Street, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Squirrel Brand Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Squirrel Brand Community Garden<br>
+<b>Address:</b> 236 Broadway, Cambridge, MA, 02139<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>236 Broadway, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Watson Street/Peggy Hayes Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Watson Street/Peggy Hayes Garden<br>
+<b>Address:</b> 12 Watson St, Cambridge, MA, 02139<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>12 Watson St, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Whittemore Avenue Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Whittemore Avenue Garden<br>
+<b>Address:</b> 25 Whittemore Ave, Cambridge, MA, 02140<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>25 Whittemore Ave, Cambridge, MA, 02140</address>
+		</Placemark>
+		<Placemark>
+			<name>Gordon St Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Gordon St Park<br>
+<b>Address:</b> 6 Gordon St, Cambridge, MA, 02139<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>6 Gordon St, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>13th Street Circle Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 13th Street Circle Garden<br>
+<b>Address:</b> 100 13 St, Charlestown, MA, 02129<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>100 13 St, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>8th Street Circle Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 8th Street Circle Garden<br>
+<b>Address:</b> 39 Constitution Wharf, Charlestown, MA, 02129<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>39 Constitution Wharf, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>9th Street Circle Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 9th Street Circle Garden<br>
+<b>Address:</b> 3 Pier 7, Charlestown, MA, 02129<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>3 Pier 7, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>Charlestown Sprouts Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Charlestown Sprouts Garden<br>
+<b>Address:</b> 70 Terminal St, Charlestown, MA, 02129<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>70 Terminal St, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>Gardens for Charlestown</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Gardens for Charlestown<br>
+<b>Address:</b> 555 Medford St, Charlestown, MA, 02129<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>555 Medford St, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>West Prescott School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> West Prescott School Garden<br>
+<b>Address:</b> 41 School St, Charlestown, MA,<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>41 School St, Charlestown, MA,</address>
+		</Placemark>
+		<Placemark>
+			<name>Chelsea Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Chelsea Community Garden<br>
+<b>Address:</b> 34 Hawthorn St, Chelsea, MA, 02150<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>34 Hawthorn St, Chelsea, MA, 02150</address>
+		</Placemark>
+		<Placemark>
+			<name>CNHS Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> CNHS Garden<br>
+<b>Address:</b> 19 Shawmut St, Chelsea, MA, 02150<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>19 Shawmut St, Chelsea, MA, 02150</address>
+		</Placemark>
+		<Placemark>
+			<name>10 Josephine Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 10 Josephine Street Garden<br>
+<b>Address:</b> 10 Josephine St., Dorchester, MA, 02122<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>10 Josephine St., Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>29 Josephine Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 29 Josephine Street Garden<br>
+<b>Address:</b> 29 Josephine St.�, Dorchester, MA, 02122<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>29 Josephine St.�, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Audrey Jacobs Memorial Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Audrey Jacobs Memorial Community Garden<br>
+<b>Address:</b> 32 Bullard Street�, Dorchester, MA, 02121<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Bullard Street�, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Barry Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Barry Street Garden<br>
+<b>Address:</b> 39 Barry St.�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>39 Barry St.�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Bellevue Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bellevue Park<br>
+<b>Address:</b> 7 Stanley St, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>7 Stanley St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Bullard Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bullard Street Garden<br>
+<b>Address:</b> 33 Bullard St.�, Dorchester, MA, 02121<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>33 Bullard St.�, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Clayborne Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Clayborne Street Garden<br>
+<b>Address:</b> 42 Claybourne St.�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>42 Claybourne St.�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Clementine Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Clementine Park<br>
+<b>Address:</b> 163 Centre St, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>163 Centre St, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Columbia Point Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Columbia Point Community Garden<br>
+<b>Address:</b> 255-265 Mt. Vernon St.�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>255-265 Mt. Vernon St.�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Dorchester Education Complex Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dorchester Education Complex Garden<br>
+<b>Address:</b> 9 Peacevale Road�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>9 Peacevale Road�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Erie/Ellington Streets Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Erie/Ellington Streets Park<br>
+<b>Address:</b> 72-78 Erie Street�, Dorchester, MA, 02121<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>72-78 Erie Street�, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Esperanza Garden / Garden of Hope�</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Esperanza Garden / Garden of Hope�<br>
+<b>Address:</b> 45 Magnolia St, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>45 Magnolia St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Fannie Lou Hamer Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fannie Lou Hamer Community Garden<br>
+<b>Address:</b> 103-109 Greenbriar St.�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>103-109 Greenbriar St.�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Faulkner &amp; Freeman Sts Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Faulkner &amp; Freeman Sts Garden<br>
+<b>Address:</b> 35 Faulkner St. (corner of Faulkner and Freeman)�, Dorchester, MA, 02122<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>35 Faulkner St. (corner of Faulkner and Freeman)�, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Harvard/Wales Sts Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Harvard/Wales Sts Community Garden<br>
+<b>Address:</b> Harvard St. and Freeman St.�, Dorchester, MA, 02122<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Harvard St. and Freeman St.�, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Lee School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lee School Garden<br>
+<b>Address:</b> 155 Talbot St, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>155 Talbot St, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Leyland Street Community Garden Ext</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Leyland Street Community Garden Ext<br>
+<b>Address:</b> 20 Leyland St.�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>20 Leyland St.�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Leyland Street Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Leyland Street Park<br>
+<b>Address:</b> 6-18 Leyland St.�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>6-18 Leyland St.�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Lydon Way Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lydon Way Garden<br>
+<b>Address:</b> 57 Msgr. Patrick J. Lydon Way�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>57 Msgr. Patrick J. Lydon Way�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Monadnock Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Monadnock Street Garden<br>
+<b>Address:</b> 21-23 Monadnock Street�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>21-23 Monadnock Street�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Nightingale Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nightingale Garden<br>
+<b>Address:</b> 512 Park Street�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>512 Park Street�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Nightingale St/Generations of Hope</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nightingale St/Generations of Hope<br>
+<b>Address:</b> 85-89 Nightingale St.�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>85-89 Nightingale St.�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Nonquit Green</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nonquit Green<br>
+<b>Address:</b> 5 Nonquit St, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>5 Nonquit St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Nonquit Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nonquit Street Garden<br>
+<b>Address:</b> 30-31 Nonquit St.�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>30-31 Nonquit St.�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Norton/Stonehurst Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Norton/Stonehurst Garden<br>
+<b>Address:</b> 101 Norton st, Dorchester, MA, 02122<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>101 Norton st, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Paul Sullivan House Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Paul Sullivan House Community Garden<br>
+<b>Address:</b> 126 Park St, Dorchester, MA, 02122<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>126 Park St, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Quincy/Coleman Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Quincy/Coleman Garden<br>
+<b>Address:</b> Quincy St. and Coleman St.�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Quincy St. and Coleman St.�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>ReVision House Urban Farm #2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> ReVision House Urban Farm #2<br>
+<b>Address:</b> 35-45 Fabyan St., Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>35-45 Fabyan St., Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Sargent Street Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sargent Street Park<br>
+<b>Address:</b> 39-43 Sargent Street�, Dorchester, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>39-43 Sargent Street�, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Spencer Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Spencer Street Garden<br>
+<b>Address:</b> 96 Spencer Street�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>96 Spencer Street�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Torrey Street Park Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Torrey Street Park Garden<br>
+<b>Address:</b> 19 Torrey St.�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>19 Torrey St.�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Wheatland Avenue Victory Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Wheatland Avenue Victory Garden<br>
+<b>Address:</b> 86 Wheatland Ave.�, Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>86 Wheatland Ave.�, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Bremen Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bremen Street Garden<br>
+<b>Address:</b> 294 Bremen St, East Boston, MA, 02128<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>294 Bremen St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Eagle Hill Memorial Park Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Eagle Hill Memorial Park Garden<br>
+<b>Address:</b> 339-343 Border St.�, East Boston, MA, 02128<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>339-343 Border St.�, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Garden at the Rockies</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Garden at the Rockies<br>
+<b>Address:</b> 144-150 Marginal St.�, East Boston, MA, 02128<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>144-150 Marginal St.�, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Joe Ciampa Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Joe Ciampa Garden<br>
+<b>Address:</b> Marginal St. at Cottage St.�, East Boston, MA, 02128<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Marginal St. at Cottage St.�, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Our Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Our Garden<br>
+<b>Address:</b> 316-324 Meridian St.�, East Boston, MA, 02128<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>316-324 Meridian St.�, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Shore Plaza East Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Shore Plaza East Garden<br>
+<b>Address:</b> In plaza at 520 Border St.�, East Boston, MA, 02128<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>In plaza at 520 Border St.�, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Richard Parker Memorial Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Richard Parker Memorial Community Garden<br>
+<b>Address:</b> 15 Park Dr, Fenway/Kenmore, MA, 02115<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>15 Park Dr, Fenway/Kenmore, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Symphony Road Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Symphony Road Garden<br>
+<b>Address:</b> 56-72 Symphony Road�, Fenway/Kenmore, MA, 02115<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>56-72 Symphony Road�, Fenway/Kenmore, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>60 Paul Gore Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 60 Paul Gore Street Garden<br>
+<b>Address:</b> 60 Paul Gore St.�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>60 Paul Gore St.�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Agassiz Community &amp; School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Agassiz Community &amp; School Garden<br>
+<b>Address:</b> 80  South St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>80  South St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Anson Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Anson Street Garden<br>
+<b>Address:</b> 17 Anson Street�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>17 Anson Street�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Arcola Street Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Arcola Street Park<br>
+<b>Address:</b> 2 Arcola St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2 Arcola St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Bowditch Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bowditch Garden<br>
+<b>Address:</b> 90 Green St.�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>90 Green St.�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Brookside Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Brookside Community Garden<br>
+<b>Address:</b> 32 Merriam St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Merriam St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Egleston Square Peace Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Egleston Square Peace Garden<br>
+<b>Address:</b> 3133 Washington St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>3133 Washington St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Farnsworth House Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Farnsworth House Garden<br>
+<b>Address:</b> 10 Child St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>10 Child St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Forbes Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Forbes Street Garden<br>
+<b>Address:</b> 19-31 Forbes St.�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>19-31 Forbes St.�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Hall/Boynton Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Hall/Boynton Street Garden<br>
+<b>Address:</b> 50 Hall St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>50 Hall St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Hennigan School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Hennigan School Garden<br>
+<b>Address:</b> 15 Walden St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>15 Walden St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Lamartine/Hubbard Streets Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lamartine/Hubbard Streets Garden<br>
+<b>Address:</b> 206 Lamartine St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>206 Lamartine St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Lawndale Terrace Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lawndale Terrace Garden<br>
+<b>Address:</b> 2 Lawndale Terrace, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2 Lawndale Terrace, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>McBride Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> McBride Garden<br>
+<b>Address:</b> 60 Boynton St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>60 Boynton St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Minton Stable Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Minton Stable Garden<br>
+<b>Address:</b> 110-112 Williams Street�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>110-112 Williams Street�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Mission Hill Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mission Hill Community Garden<br>
+<b>Address:</b> 746 Parker St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>746 Parker St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Nira Avenue Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nira Avenue Garden<br>
+<b>Address:</b> 10 Nira Ave.�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>10 Nira Ave.�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Oakdale Street Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Oakdale Street Community Garden<br>
+<b>Address:</b> 6 Oakdale St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>6 Oakdale St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Paul Gore/Beecher Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Paul Gore/Beecher Street Garden<br>
+<b>Address:</b> 2 Beecher St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2 Beecher St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Round Hill Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Round Hill Street Garden<br>
+<b>Address:</b> 56 Day St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>56 Day St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>South Street BHA Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> South Street BHA Community Garden<br>
+<b>Address:</b> 119 South St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>119 South St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>South Street Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> South Street Community Garden<br>
+<b>Address:</b> 271 South St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>271 South St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Southwest Corridor Community Farm</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Southwest Corridor Community Farm<br>
+<b>Address:</b> 57 Lamartine Street, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>57 Lamartine Street, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>St Rose Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> St Rose Street Garden<br>
+<b>Address:</b> 34-36 Saint Rose St.�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>34-36 Saint Rose St.�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Starr Lane Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Starr Lane Park<br>
+<b>Address:</b> 17 Starr Lane�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>17 Starr Lane�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Stonybrook Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Stonybrook Community Garden<br>
+<b>Address:</b> 57-59 Lamartine St, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>57-59 Lamartine St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Walden Street Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Walden Street Community Garden<br>
+<b>Address:</b> 13-15 Walden St.�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>13-15 Walden St.�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Leland Street Herb Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Leland Street Herb Garden<br>
+<b>Address:</b> 2-6 Leland St.�, Jamaica Plain, MA, 02130<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2-6 Leland St.�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Clark/Cooper Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Clark/Cooper Community Garden<br>
+<b>Address:</b> 500 Walk Hill St.�, Mattapan, MA, 02131<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>500 Walk Hill St.�, Mattapan, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Imani Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Imani Garden<br>
+<b>Address:</b> 2-98 Dr. Mary M. Beatty Circle�, Mattapan, MA, 02126<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2-98 Dr. Mary M. Beatty Circle�, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Kennedy Playground Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Kennedy Playground Community Garden<br>
+<b>Address:</b> 32 Edgewater Drive�, Mattapan, MA, 02126<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Edgewater Drive�, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Lucerne/Balsam Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lucerne/Balsam Street Garden<br>
+<b>Address:</b> 74 Lucerne St, Mattapan, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>74 Lucerne St, Mattapan, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Revision House Urban Farm #1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Revision House Urban Farm #1<br>
+<b>Address:</b> 34-42 Fabyan St., Mattapan, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>34-42 Fabyan St., Mattapan, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Shangri-La Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Shangri-La Community Garden<br>
+<b>Address:</b> 25 Almont St, Mattapan, MA, 02126<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>25 Almont St, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>The Learning Garden at City Natives</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Learning Garden at City Natives<br>
+<b>Address:</b> 30 Edgewater Drive�, Mattapan, MA, 02126<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>30 Edgewater Drive�, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Franklin Field BHA Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Franklin Field BHA Garden<br>
+<b>Address:</b> 120 Westview Way, Mattapan or Dorchester, MA, 02124<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>120 Westview Way, Mattapan or Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Haley Elementary School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Haley Elementary School<br>
+<b>Address:</b> 570 American Legion Highway�, Roslindale, MA, 02131<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>570 American Legion Highway�, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Longfellow House Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Longfellow House Garden<br>
+<b>Address:</b> 885 South St, Roslindale, MA, 02131<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>885 South St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Philbrick School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Philbrick School Garden<br>
+<b>Address:</b> 40 Philbrick St, Roslindale, MA, 02131<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>40 Philbrick St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Southwest Boston Garden Club</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Southwest Boston Garden Club<br>
+<b>Address:</b> 100 Rowe St, Roslindale, MA, 02131<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>100 Rowe St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Lawn Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lawn Street Garden<br>
+<b>Address:</b> 59-63 Lawn St.�, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>59-63 Lawn St.�, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Tobin Community Center Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Tobin Community Center Garden<br>
+<b>Address:</b> 1481 Tremont St.�, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1481 Tremont St.�, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Allan Crite Garden I</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Allan Crite Garden I<br>
+<b>Address:</b> 107-125 Cedar Street�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>107-125 Cedar Street�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Alvah Kittredge Sq Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Alvah Kittredge Sq Park<br>
+<b>Address:</b> 4 Alvah Kittredge Park, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>4 Alvah Kittredge Park, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Boston Evening Academy Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Boston Evening Academy Garden<br>
+<b>Address:</b> 17 Kearsarge Ave.�, Roxbury, MA, 211<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>17 Kearsarge Ave.�, Roxbury, MA, 211</address>
+		</Placemark>
+		<Placemark>
+			<name>Centre Place Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Centre Place Garden<br>
+<b>Address:</b> 66 Centre St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>66 Centre St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Dacia/Woodcliff Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dacia/Woodcliff Community Garden<br>
+<b>Address:</b> 47 Dacia St, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>47 Dacia St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Dearborn School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dearborn School Garden<br>
+<b>Address:</b> 35 Greenville St, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>35 Greenville St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Dennis Street Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dennis Street Community Garden<br>
+<b>Address:</b> 26 Huckins St, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>26 Huckins St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Edward L. Cooper Memoridal Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Edward L. Cooper Memoridal Garden<br>
+<b>Address:</b> 24-26 Linwood St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>24-26 Linwood St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Egleston Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Egleston Community Garden<br>
+<b>Address:</b> 2040 Columbus Ave.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2040 Columbus Ave.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Elm Hill Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Elm Hill Park<br>
+<b>Address:</b> 80 Elm Hill Park, Roxbury, MA, 02121<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>80 Elm Hill Park, Roxbury, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Garden 'N da Ruff</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Garden 'N da Ruff<br>
+<b>Address:</b> 2-50 Holworthy St, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2-50 Holworthy St, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Granada Park Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Granada Park Garden<br>
+<b>Address:</b> 23 Granada Park�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>23 Granada Park�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Greenwood Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Greenwood Community Garden<br>
+<b>Address:</b> 140-142 Greenwood St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>140-142 Greenwood St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Hawthorne Youth &amp; Comm Cntr Grdn</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Hawthorne Youth &amp; Comm Cntr Grdn<br>
+<b>Address:</b> 9 Fulda Street�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>9 Fulda Street�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Highland Avenue Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Highland Avenue Community Garden<br>
+<b>Address:</b> 10-14 Highland Ave.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>10-14 Highland Ave.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Highland Park 400 Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Highland Park 400 Garden<br>
+<b>Address:</b> 26-34 Linwood St, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>26-34 Linwood St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Jardin de la Amistad</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Jardin de la Amistad<br>
+<b>Address:</b> 403-405 Dudley St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>403-405 Dudley St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Julian, Judson, Dean Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Julian, Judson, Dean Garden<br>
+<b>Address:</b> 48 Julian St, Roxbury, MA, 02125<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>48 Julian St, Roxbury, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Leyland Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Leyland Street Garden<br>
+<b>Address:</b> 6-18 Leyland St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>6-18 Leyland St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Madison Park Village Comm Grdn</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Madison Park Village Comm Grdn<br>
+<b>Address:</b> 55 Malcom X Blvd, aka New Dudley St.�, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>55 Malcom X Blvd, aka New Dudley St.�, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Magazine Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Magazine Street Garden<br>
+<b>Address:</b> 25-35 Magazine St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>25-35 Magazine St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Magnolia &amp; Woodford Streets Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Magnolia &amp; Woodford Streets Garden<br>
+<b>Address:</b> Magnolia St. at Woodford St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Magnolia St. at Woodford St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Margaret Wright Memorial Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Margaret Wright Memorial Garden<br>
+<b>Address:</b> 61-67 Fort Avenue�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>61-67 Fort Avenue�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Calvary Holy Church</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mt. Calvary Holy Church<br>
+<b>Address:</b> 347 Blue Hill Ave. at Otisfield St.�, Roxbury, MA, 02121<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>347 Blue Hill Ave. at Otisfield St.�, Roxbury, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Phyllis Wheatley/Warren Place</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Phyllis Wheatley/Warren Place<br>
+<b>Address:</b> Pevear Pl. and Warren Pl.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Pevear Pl. and Warren Pl.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Savin/Maywood Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Savin/Maywood Street Garden<br>
+<b>Address:</b> 54-60 Savin St. and 51-65 Maywood St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>54-60 Savin St. and 51-65 Maywood St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>St. Joseph's Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> St. Joseph's Garden<br>
+<b>Address:</b> Regent St. and Hulbert St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Regent St. and Hulbert St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>The Food Project Lot #1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Food Project Lot #1<br>
+<b>Address:</b> Langdon Street and Geeorge St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Langdon Street and Geeorge St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>The Food Project Lot #3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Food Project Lot #3<br>
+<b>Address:</b> 18 Albion St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>18 Albion St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>The Food Project Lot #2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> The Food Project Lot #2<br>
+<b>Address:</b> West Cottage St. and Brook Ave.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>West Cottage St. and Brook Ave.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>United Neighborhood of Lower Roxbury Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> United Neighborhood of Lower Roxbury Community Garden<br>
+<b>Address:</b> Warwick St. and Windsor St. off Melnea Cass Blvd.�, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Warwick St. and Windsor St. off Melnea Cass Blvd.�, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Wakullah St. Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Wakullah St. Community Garden<br>
+<b>Address:</b> Wakullah St. and Hewes St.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Wakullah St. and Hewes St.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Waldren Road Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Waldren Road Garden<br>
+<b>Address:</b> 7 Waldren Rd.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>7 Waldren Rd.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Warren Gardens Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Warren Gardens Community Garden<br>
+<b>Address:</b> Warren St. and Walnut Ave.�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Warren St. and Walnut Ave.�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Winthrop Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Winthrop Street Garden<br>
+<b>Address:</b> 25 Winthrop Street�, Roxbury, MA, 02119<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>25 Winthrop Street�, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Bessie Barnes Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bessie Barnes Garden<br>
+<b>Address:</b> 25-29 Warwick St.�, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>25-29 Warwick St.�, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Frederick Douglas Peace Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Frederick Douglas Peace Garden<br>
+<b>Address:</b> 998 Tremont st, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>998 Tremont st, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Harrison Urban Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Harrison Urban Garden<br>
+<b>Address:</b> 700 Harrison Ave, Roxbury, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>700 Harrison Ave, Roxbury, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Kendall &amp; Lenox Streets Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Kendall &amp; Lenox Streets Garden<br>
+<b>Address:</b> 100 Kendall St, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>100 Kendall St, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Parker St Guerilla Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Parker St Guerilla Garden<br>
+<b>Address:</b> 777 Parker St, Roxbury, MA, 02120<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>777 Parker St, Roxbury, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Avon Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Avon Street Garden<br>
+<b>Address:</b> 117 Summer St.�, Somerville, MA, 02143<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>117 Summer St.�, Somerville, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>Bikeway Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bikeway Garden<br>
+<b>Address:</b> Somerville Community Path, Somerville, MA, 02144<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>Somerville Community Path, Somerville, MA, 02144</address>
+		</Placemark>
+		<Placemark>
+			<name>Conwell Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Conwell Garden<br>
+<b>Address:</b> 1 Capen Ct, Somerville, MA, 02144<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1 Capen Ct, Somerville, MA, 02144</address>
+		</Placemark>
+		<Placemark>
+			<name>Glen Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Glen Garden<br>
+<b>Address:</b> 5 Palmer Ave, Somerville, MA, 02145<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>5 Palmer Ave, Somerville, MA, 02145</address>
+		</Placemark>
+		<Placemark>
+			<name>Mystic Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mystic Community Garden<br>
+<b>Address:</b> 530 Mystic Ave., Somerville, MA, 02155<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>530 Mystic Ave., Somerville, MA, 02155</address>
+		</Placemark>
+		<Placemark>
+			<name>Osgood Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Osgood Garden<br>
+<b>Address:</b> 11 Osgood St., Somerville, MA, 02143<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>11 Osgood St., Somerville, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>Somerville Community Growing Center</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Somerville Community Growing Center<br>
+<b>Address:</b> 22 Vinal Ave., Somerville, MA, 02143<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>22 Vinal Ave., Somerville, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>Tufts University Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Tufts University Garden<br>
+<b>Address:</b> 89 Powderhouse Blvd, Somerville, MA, 02144<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>89 Powderhouse Blvd, Somerville, MA, 02144</address>
+		</Placemark>
+		<Placemark>
+			<name>Walnut Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Walnut Street Garden<br>
+<b>Address:</b> 11 Giles Park, Somerville, MA, 02144<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>11 Giles Park, Somerville, MA, 02144</address>
+		</Placemark>
+		<Placemark>
+			<name>Conley School Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Conley School Garden<br>
+<b>Address:</b> 16 Dale St, South Boston, MA, 02131<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>16 Dale St, South Boston, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Foster's Nook Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Foster's Nook Community Garden<br>
+<b>Address:</b> 344 Athens St.�, South Boston, MA, 02127<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>344 Athens St.�, South Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>Berkeley Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Berkeley Street Garden<br>
+<b>Address:</b> 50 Berkeley St, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>50 Berkeley St, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Braddock Park Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Braddock Park Garden<br>
+<b>Address:</b> 32 Braddock Park, South End, MA, 02116<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Braddock Park, South End, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>Dartmouth Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dartmouth Garden<br>
+<b>Address:</b> 29-31 Dartmouth Street�, South End, MA, 02116<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>29-31 Dartmouth Street�, South End, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>Northhampton St Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Northhampton St Community Garden<br>
+<b>Address:</b> 75 Northampton St.�, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>75 Northampton St.�, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Peters Park Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peters Park Community Garden<br>
+<b>Address:</b> 1277 Washington St, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1277 Washington St, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Rutland Green</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rutland Green<br>
+<b>Address:</b> 74-76 Rutland St.�, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>74-76 Rutland St.�, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Rutland Washington Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rutland Washington Community Garden<br>
+<b>Address:</b> 1595 Washington St.�, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1595 Washington St.�, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Rutlands's Haven Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rutlands's Haven Community Garden<br>
+<b>Address:</b> 11 Rutland St, South End, ma, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>11 Rutland St, South End, ma, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Titus Sparrow Park Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Titus Sparrow Park Community Garden<br>
+<b>Address:</b> 200 West Newton St, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>200 West Newton St, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Unity Towers Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Unity Towers Garden<br>
+<b>Address:</b> 371 Shawmut Ave, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>371 Shawmut Ave, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Warren &amp; Clarendon Streets Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Warren &amp; Clarendon Streets Garden<br>
+<b>Address:</b> 20 Clarendon St , South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>20 Clarendon St , South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Washington Manor Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Washington Manor Community Garden<br>
+<b>Address:</b> 1701 Washington St, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>1701 Washington St, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Wellington Common</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Wellington Common<br>
+<b>Address:</b> 32 Wellington St, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Wellington St, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Wellington Green</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Wellington Green<br>
+<b>Address:</b> 2 Wellington St, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>2 Wellington St, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>West Springfield Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> West Springfield Garden<br>
+<b>Address:</b> 106-116 West Springfield St.�, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>106-116 West Springfield St.�, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Worcester Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Worcester Street Garden<br>
+<b>Address:</b> 114 Worcester St.�, South End, MA, 02118<br>
+<b>Type:</b> Community Garden
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Type'>
+					<value>Community Garden</value>
+				</Data>
+			</ExtendedData>
+			<address>114 Worcester St.�, South End, MA, 02118</address>
+		</Placemark>
+	</Document>
+</kml>

@@ -1,0 +1,4161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>CSAs</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/CSA.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/CSA.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>CSA1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA1<br>
+<b>INFO:</b> Dragonfly Farms,200 Harvard St, Allston, MA, 2124,Fridays between 3pm - 7pm<br>
+<b>Name:</b> Dragonfly Farms<br>
+<b>Full Address:</b> 200 Harvard St, Allston, MA<br>
+<b>Location:</b> 200 Harvard St<br>
+<b>Area:</b> Allston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Fridays between 3pm - 7pm<br>
+<b>Contact:</b> Susan Ventura, 9784333906
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Dragonfly Farms,200 Harvard St, Allston, MA, 2124,Fridays between 3pm - 7pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Dragonfly Farms</value>
+				</Data>
+				<Data name='Location'>
+					<value>200 Harvard St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Allston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Fridays between 3pm - 7pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Susan Ventura, 9784333906</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M9955</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>200 Harvard St, Allston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA2<br>
+<b>INFO:</b> Enterprise Farm,300 Summer Street, Boston, MA, 2210,Thursdays from 3:00-9:00 PM<br>
+<b>Name:</b> Enterprise Farm<br>
+<b>Full Address:</b> 300 Summer Street, Boston, MA<br>
+<b>Location:</b> 300 Summer Street<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2210<br>
+<b>Time/Day:</b> Thursdays from 3:00-9:00 PM<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Enterprise Farm,300 Summer Street, Boston, MA, 2210,Thursdays from 3:00-9:00 PM</value>
+				</Data>
+				<Data name='Name'>
+					<value>Enterprise Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>300 Summer Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2210</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays from 3:00-9:00 PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>300 Summer Street, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA3<br>
+<b>INFO:</b> Farmer Dave's CSA,1 Boston Medical Center Place, Boston, MA, 2115,Friday from 11:00-2:30<br>
+<b>Name:</b> Farmer Dave's CSA<br>
+<b>Full Address:</b> 1 Boston Medical Center Place, Boston, MA<br>
+<b>Location:</b> 1 Boston Medical Center Place<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2115<br>
+<b>Time/Day:</b> Friday from 11:00-2:30<br>
+<b>Contact:</b> Bethany Bellingham
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Farmer Dave's CSA,1 Boston Medical Center Place, Boston, MA, 2115,Friday from 11:00-2:30</value>
+				</Data>
+				<Data name='Name'>
+					<value>Farmer Dave's CSA</value>
+				</Data>
+				<Data name='Location'>
+					<value>1 Boston Medical Center Place</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2115</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday from 11:00-2:30</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Bethany Bellingham</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M21216</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1 Boston Medical Center Place, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA4<br>
+<b>INFO:</b> Farmer's Garden,224 Causeway St., Boston, MA, 2144,Wednesdays from 10-5pm<br>
+<b>Name:</b> Farmer's Garden<br>
+<b>Full Address:</b> 224 Causeway St., Boston, MA<br>
+<b>Location:</b> 224 Causeway St.<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2144<br>
+<b>Time/Day:</b> Wednesdays from 10-5pm<br>
+<b>Contact:</b> Tammy Noons, 508-889-7632�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Farmer's Garden,224 Causeway St., Boston, MA, 2144,Wednesdays from 10-5pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Farmer's Garden</value>
+				</Data>
+				<Data name='Location'>
+					<value>224 Causeway St.</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2144</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesdays from 10-5pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Tammy Noons, 508-889-7632�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>224 Causeway St., Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA5<br>
+<b>INFO:</b> Kitchen Garden ,89 South Street, Boston, MA, 2111,3:30pm-6pm�<br>
+<b>Name:</b> Kitchen Garden<br>
+<b>Full Address:</b> 89 South Street, Boston, MA<br>
+<b>Location:</b> 89 South Street<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2111<br>
+<b>Time/Day:</b> 3:30pm-6pm�<br>
+<b>Contact:</b> (413) 387-5163
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Kitchen Garden ,89 South Street, Boston, MA, 2111,3:30pm-6pm�</value>
+				</Data>
+				<Data name='Name'>
+					<value>Kitchen Garden</value>
+				</Data>
+				<Data name='Location'>
+					<value>89 South Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2111</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>3:30pm-6pm�</value>
+				</Data>
+				<Data name='Contact'>
+					<value>(413) 387-5163</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>89 South Street, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA6<br>
+<b>INFO:</b> Red Fire Farm,200 Atlantic Avenue, Boston, MA, 2109,Tuesdays, 12-6 pm<br>
+<b>Name:</b> Red Fire Farm<br>
+<b>Full Address:</b> 200 Atlantic Avenue, Boston, MA<br>
+<b>Location:</b> 200 Atlantic Avenue<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2109<br>
+<b>Time/Day:</b> Tuesdays, 12-6 pm<br>
+<b>Contact:</b> Ryan Voiland, 413-467-7645
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Red Fire Farm,200 Atlantic Avenue, Boston, MA, 2109,Tuesdays, 12-6 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Red Fire Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>200 Atlantic Avenue</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2109</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays, 12-6 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Ryan Voiland, 413-467-7645</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M10201</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>200 Atlantic Avenue, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA7</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA7<br>
+<b>INFO:</b> Siena Farms�,106 Waltham St., Boston, MA, 2118,Mon 1PM-7PM/ Thursdays 1PM-7PM<br>
+<b>Name:</b> Siena Farms�<br>
+<b>Full Address:</b> 106 Waltham St., Boston, MA<br>
+<b>Location:</b> 106 Waltham St.<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2118<br>
+<b>Time/Day:</b> Mon 1PM-7PM/ Thursdays 1PM-7PM<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Siena Farms�,106 Waltham St., Boston, MA, 2118,Mon 1PM-7PM/ Thursdays 1PM-7PM</value>
+				</Data>
+				<Data name='Name'>
+					<value>Siena Farms�</value>
+				</Data>
+				<Data name='Location'>
+					<value>106 Waltham St.</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2118</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mon 1PM-7PM/ Thursdays 1PM-7PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>106 Waltham St., Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA8</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA8<br>
+<b>INFO:</b> Siena Farms�,348 Congress Street, Boston, MA, 2210,Mon 3pm to 8pm/ Thursdays 3pm to 8pm<br>
+<b>Name:</b> Siena Farms�<br>
+<b>Full Address:</b> 348 Congress Street, Boston, MA<br>
+<b>Location:</b> 348 Congress Street<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2210<br>
+<b>Time/Day:</b> Mon 3pm to 8pm/ Thursdays 3pm to 8pm<br>
+<b>Contact:</b> 9782615365�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Siena Farms�,348 Congress Street, Boston, MA, 2210,Mon 3pm to 8pm/ Thursdays 3pm to 8pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Siena Farms�</value>
+				</Data>
+				<Data name='Location'>
+					<value>348 Congress Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2210</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mon 3pm to 8pm/ Thursdays 3pm to 8pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>9782615365�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>348 Congress Street, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA9</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA9<br>
+<b>INFO:</b> Siena Farms�,Dartmouth St. and Boylston St, Boston, MA, 2116,Tuesdays 11AM-6:30PM Or Fridays 11AM-6:30PM<br>
+<b>Name:</b> Siena Farms�<br>
+<b>Full Address:</b> Dartmouth St. and Boylston St, Boston, MA<br>
+<b>Location:</b> Dartmouth St. and Boylston St<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2116<br>
+<b>Time/Day:</b> Tuesdays 11AM-6:30PM Or Fridays 11AM-6:30PM<br>
+<b>Contact:</b> Chris Kurth
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Siena Farms�,Dartmouth St. and Boylston St, Boston, MA, 2116,Tuesdays 11AM-6:30PM Or Fridays 11AM-6:30PM</value>
+				</Data>
+				<Data name='Name'>
+					<value>Siena Farms�</value>
+				</Data>
+				<Data name='Location'>
+					<value>Dartmouth St. and Boylston St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2116</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays 11AM-6:30PM Or Fridays 11AM-6:30PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Chris Kurth</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M18457</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Dartmouth St. and Boylston St, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA10</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA10<br>
+<b>INFO:</b> Silverbrook Farm,1 City Hall Plaza, Boston, MA, 2201,Wednesday from 11 AM to 5:45 PM�<br>
+<b>Name:</b> Silverbrook Farm<br>
+<b>Full Address:</b> 1 City Hall Plaza, Boston, MA<br>
+<b>Location:</b> 1 City Hall Plaza<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2201<br>
+<b>Time/Day:</b> Wednesday from 11 AM to 5:45 PM�<br>
+<b>Contact:</b> Andrew Pollock
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Silverbrook Farm,1 City Hall Plaza, Boston, MA, 2201,Wednesday from 11 AM to 5:45 PM�</value>
+				</Data>
+				<Data name='Name'>
+					<value>Silverbrook Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>1 City Hall Plaza</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2201</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday from 11 AM to 5:45 PM�</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Andrew Pollock</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M21017</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1 City Hall Plaza, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA11</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA11<br>
+<b>INFO:</b> Silverbrook Farm,206 Clarendon Street, Boston, MA, 2116,Friday from 11AM to 6PM<br>
+<b>Name:</b> Silverbrook Farm<br>
+<b>Full Address:</b> 206 Clarendon Street, Boston, MA<br>
+<b>Location:</b> 206 Clarendon Street<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2116<br>
+<b>Time/Day:</b> Friday from 11AM to 6PM<br>
+<b>Contact:</b> 508-991-5185�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Silverbrook Farm,206 Clarendon Street, Boston, MA, 2116,Friday from 11AM to 6PM</value>
+				</Data>
+				<Data name='Name'>
+					<value>Silverbrook Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>206 Clarendon Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2116</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday from 11AM to 6PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value>508-991-5185�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>206 Clarendon Street, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA12</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA12<br>
+<b>INFO:</b> Sparrow Arc Farm,12 Farnsworth St, Boston, MA, 2210,Friday afternoons<br>
+<b>Name:</b> Sparrow Arc Farm<br>
+<b>Full Address:</b> 12 Farnsworth St, Boston, MA<br>
+<b>Location:</b> 12 Farnsworth St<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2210<br>
+<b>Time/Day:</b> Friday afternoons<br>
+<b>Contact:</b> 207-948-6105�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Sparrow Arc Farm,12 Farnsworth St, Boston, MA, 2210,Friday afternoons</value>
+				</Data>
+				<Data name='Name'>
+					<value>Sparrow Arc Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>12 Farnsworth St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2210</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday afternoons</value>
+				</Data>
+				<Data name='Contact'>
+					<value>207-948-6105�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>12 Farnsworth St, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA13</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA13<br>
+<b>INFO:</b> Stillman Farms,1 City Hall Plaza, Boston, MA, 2201,Wednesdays, 1-6pm<br>
+<b>Name:</b> Stillman Farms<br>
+<b>Full Address:</b> 1 City Hall Plaza, Boston, MA<br>
+<b>Location:</b> 1 City Hall Plaza<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2201<br>
+<b>Time/Day:</b> Wednesdays, 1-6pm<br>
+<b>Contact:</b> Genevieve Stillman
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stillman Farms,1 City Hall Plaza, Boston, MA, 2201,Wednesdays, 1-6pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stillman Farms</value>
+				</Data>
+				<Data name='Location'>
+					<value>1 City Hall Plaza</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2201</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesdays, 1-6pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Genevieve Stillman</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M7169</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1 City Hall Plaza, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA14</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA14<br>
+<b>INFO:</b> Stone Soup Farm,89 South Street, Boston, MA, 2111,Tuesdays, 4-7pm<br>
+<b>Name:</b> Stone Soup Farm<br>
+<b>Full Address:</b> 89 South Street, Boston, MA<br>
+<b>Location:</b> 89 South Street<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2111<br>
+<b>Time/Day:</b> Tuesdays, 4-7pm<br>
+<b>Contact:</b> 413.687.4341
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stone Soup Farm,89 South Street, Boston, MA, 2111,Tuesdays, 4-7pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stone Soup Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>89 South Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2111</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays, 4-7pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>413.687.4341</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>89 South Street, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA15</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA15<br>
+<b>INFO:</b> Stony Brook Valley Farm,200 Atlantic Avenue, Boston, MA, 2109,Tues. 11 am ? 6 pm<br>
+<b>Name:</b> Stony Brook Valley Farm<br>
+<b>Full Address:</b> 200 Atlantic Avenue, Boston, MA<br>
+<b>Location:</b> 200 Atlantic Avenue<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2109<br>
+<b>Time/Day:</b> Tues. 11 am ? 6 pm<br>
+<b>Contact:</b> (413) 467 1658 farmers(at)stonybrookvalleyfarm(dot)com
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stony Brook Valley Farm,200 Atlantic Avenue, Boston, MA, 2109,Tues. 11 am ? 6 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stony Brook Valley Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>200 Atlantic Avenue</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2109</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tues. 11 am ? 6 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>(413) 467 1658 farmers(at)stonybrookvalleyfarm(dot)com</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://stonybrookvalleyfarm.com/csa-basics/</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Meat and poultry; eggs sold as part of Red Fire</value>
+				</Data>
+			</ExtendedData>
+			<address>200 Atlantic Avenue, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA16</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA16<br>
+<b>INFO:</b> World PEAS,150 Harrison Avenue, Boston, MA, 2111,Tuesdays between 3:30 and 6:30<br>
+<b>Name:</b> World PEAS<br>
+<b>Full Address:</b> 150 Harrison Avenue, Boston, MA<br>
+<b>Location:</b> 150 Harrison Avenue<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2111<br>
+<b>Time/Day:</b> Tuesdays between 3:30 and 6:30<br>
+<b>Contact:</b> 978-654-6745
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>World PEAS,150 Harrison Avenue, Boston, MA, 2111,Tuesdays between 3:30 and 6:30</value>
+				</Data>
+				<Data name='Name'>
+					<value>World PEAS</value>
+				</Data>
+				<Data name='Location'>
+					<value>150 Harrison Avenue</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2111</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays between 3:30 and 6:30</value>
+				</Data>
+				<Data name='Contact'>
+					<value>978-654-6745</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>150 Harrison Avenue, Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA17</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA17<br>
+<b>INFO:</b> Enterprise Farm,1378A Beacon Street, Brookline, MA, 2446,Thursdays from 2-6pm<br>
+<b>Name:</b> Enterprise Farm<br>
+<b>Full Address:</b> 1378A Beacon Street, Brookline, MA<br>
+<b>Location:</b> 1378A Beacon Street<br>
+<b>Area:</b> Brookline<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2446<br>
+<b>Time/Day:</b> Thursdays from 2-6pm<br>
+<b>Contact:</b> Dave Jackson
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Enterprise Farm,1378A Beacon Street, Brookline, MA, 2446,Thursdays from 2-6pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Enterprise Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>1378A Beacon Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Brookline</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2446</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays from 2-6pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Dave Jackson</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M25337</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1378A Beacon Street, Brookline, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA19</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA19<br>
+<b>INFO:</b> Red Fire Farm,15 Washington St., Brookline, MA, 2135,Thursdays 3:30 - 7 pm<br>
+<b>Name:</b> Red Fire Farm<br>
+<b>Full Address:</b> 15 Washington St., Brookline, MA<br>
+<b>Location:</b> 15 Washington St.<br>
+<b>Area:</b> Brookline<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2135<br>
+<b>Time/Day:</b> Thursdays 3:30 - 7 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Red Fire Farm,15 Washington St., Brookline, MA, 2135,Thursdays 3:30 - 7 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Red Fire Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>15 Washington St.</value>
+				</Data>
+				<Data name='Area'>
+					<value>Brookline</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2135</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 3:30 - 7 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>15 Washington St., Brookline, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA20</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA20<br>
+<b>INFO:</b> Stony Brook Valley Farm,15 Washington St, Brookline, MA, 2135,3:30 ? 7 pm [day?]<br>
+<b>Name:</b> Stony Brook Valley Farm<br>
+<b>Full Address:</b> 15 Washington St, Brookline, MA<br>
+<b>Location:</b> 15 Washington St<br>
+<b>Area:</b> Brookline<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2135<br>
+<b>Time/Day:</b> 3:30 ? 7 pm [day?]<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stony Brook Valley Farm,15 Washington St, Brookline, MA, 2135,3:30 ? 7 pm [day?]</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stony Brook Valley Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>15 Washington St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Brookline</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2135</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>3:30 ? 7 pm [day?]</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>15 Washington St, Brookline, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA21</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA21<br>
+<b>INFO:</b> Austin Brothers Valley Farm,533 Massachusetts Ave, Cambridge, MA, 2139,Second Monday of every month, 11:30-1<br>
+<b>Name:</b> Austin Brothers Valley Farm<br>
+<b>Full Address:</b> 533 Massachusetts Ave, Cambridge, MA<br>
+<b>Location:</b> 533 Massachusetts Ave<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Second Monday of every month, 11:30-1<br>
+<b>Contact:</b> Bill, Michael, Kathy and Roxanne Austin (413) 668-6843, austin-farm@hotmail.com
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Austin Brothers Valley Farm,533 Massachusetts Ave, Cambridge, MA, 2139,Second Monday of every month, 11:30-1</value>
+				</Data>
+				<Data name='Name'>
+					<value>Austin Brothers Valley Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>533 Massachusetts Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Second Monday of every month, 11:30-1</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Bill, Michael, Kathy and Roxanne Austin (413) 668-6843, austin-farm@hotmail.com</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.farmfresh.org/food/farm.php?farm=1094</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Second Monday of each month, 11:30-1:00. In the parking lot behind the Harvest Co-op. December-May.June- November during farmers market season 11:30-5:30</value>
+				</Data>
+			</ExtendedData>
+			<address>533 Massachusetts Ave, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA22</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA22<br>
+<b>INFO:</b> Bay EndFarm,23 White St, Cambridge, MA, 2140,<br>
+<b>Name:</b> Bay EndFarm<br>
+<b>Full Address:</b> 23 White St, Cambridge, MA<br>
+<b>Location:</b> 23 White St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> <br>
+<b>Contact:</b> erin@bayendfarm.com
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Bay EndFarm,23 White St, Cambridge, MA, 2140,</value>
+				</Data>
+				<Data name='Name'>
+					<value>Bay EndFarm</value>
+				</Data>
+				<Data name='Location'>
+					<value>23 White St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value></value>
+				</Data>
+				<Data name='Contact'>
+					<value>erin@bayendfarm.com</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.bayendfarm.com/csa_page.htm</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>23 White St, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA23</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA23<br>
+<b>INFO:</b> Brookfield Farm,175 Richdale Ave, Cambridge, MA, 2140,Thursdays 3- 7pm<br>
+<b>Name:</b> Brookfield Farm<br>
+<b>Full Address:</b> 175 Richdale Ave, Cambridge, MA<br>
+<b>Location:</b> 175 Richdale Ave<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Thursdays 3- 7pm<br>
+<b>Contact:</b> Daniel Kaplan, 413) 253-7991, info@brookfieldfarm.org
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Brookfield Farm,175 Richdale Ave, Cambridge, MA, 2140,Thursdays 3- 7pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Brookfield Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>175 Richdale Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 3- 7pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Daniel Kaplan, 413) 253-7991, info@brookfieldfarm.org</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>175 Richdale Ave, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA24</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA24<br>
+<b>INFO:</b> Drumlin Farm,1075 Cambridge Street, Cambridge, MA, 2141,Thursdays from 2PM?8PM<br>
+<b>Name:</b> Drumlin Farm<br>
+<b>Full Address:</b> 1075 Cambridge Street, Cambridge, MA<br>
+<b>Location:</b> 1075 Cambridge Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2141<br>
+<b>Time/Day:</b> Thursdays from 2PM?8PM<br>
+<b>Contact:</b> Greg @ (781) 259-2238
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Drumlin Farm,1075 Cambridge Street, Cambridge, MA, 2141,Thursdays from 2PM?8PM</value>
+				</Data>
+				<Data name='Name'>
+					<value>Drumlin Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>1075 Cambridge Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2141</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays from 2PM?8PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Greg @ (781) 259-2238</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.massaudubon.org/PDF/sanctuaries/drumlin/csa/CloverCSAFAQ.pdf</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1075 Cambridge Street, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA25</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA25<br>
+<b>INFO:</b> Enterprise Farm,1764 Massachusetts Ave, Cambridge, MA, 2140,Thursdays from 3-8 pm<br>
+<b>Name:</b> Enterprise Farm<br>
+<b>Full Address:</b> 1764 Massachusetts Ave, Cambridge, MA<br>
+<b>Location:</b> 1764 Massachusetts Ave<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Thursdays from 3-8 pm<br>
+<b>Contact:</b> 413 665 8608�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Enterprise Farm,1764 Massachusetts Ave, Cambridge, MA, 2140,Thursdays from 3-8 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Enterprise Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>1764 Massachusetts Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays from 3-8 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>413 665 8608�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1764 Massachusetts Ave, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA26</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA26<br>
+<b>INFO:</b> Enterprise Farm,23 White Street, Cambridge, MA, 2140,Wednesday from 3-7 pm<br>
+<b>Name:</b> Enterprise Farm<br>
+<b>Full Address:</b> 23 White Street, Cambridge, MA<br>
+<b>Location:</b> 23 White Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Wednesday from 3-7 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Enterprise Farm,23 White Street, Cambridge, MA, 2140,Wednesday from 3-7 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Enterprise Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>23 White Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday from 3-7 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value>Winter only</value>
+				</Data>
+			</ExtendedData>
+			<address>23 White Street, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA27</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA27<br>
+<b>INFO:</b> Farm School�,130 Fawcett St, Cambridge, MA, 2140,Tuesday<br>
+<b>Name:</b> Farm School�<br>
+<b>Full Address:</b> 130 Fawcett St, Cambridge, MA<br>
+<b>Location:</b> 130 Fawcett St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Tuesday<br>
+<b>Contact:</b> Kim Bryant, 978 248 9427�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Farm School�,130 Fawcett St, Cambridge, MA, 2140,Tuesday</value>
+				</Data>
+				<Data name='Name'>
+					<value>Farm School�</value>
+				</Data>
+				<Data name='Location'>
+					<value>130 Fawcett St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesday</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Kim Bryant, 978 248 9427�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>130 Fawcett St, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA28</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA28<br>
+<b>INFO:</b> Food Project,1075 Cambridge Street, Cambridge, MA, 2140,Tuesdays<br>
+<b>Name:</b> Food Project<br>
+<b>Full Address:</b> 1075 Cambridge Street, Cambridge, MA<br>
+<b>Location:</b> 1075 Cambridge Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Tuesdays<br>
+<b>Contact:</b> csa@thefoodproject.org.
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project,1075 Cambridge Street, Cambridge, MA, 2140,Tuesdays</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project</value>
+				</Data>
+				<Data name='Location'>
+					<value>1075 Cambridge Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays</value>
+				</Data>
+				<Data name='Contact'>
+					<value>csa@thefoodproject.org.</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1075 Cambridge Street, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA29</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA29<br>
+<b>INFO:</b> Food Project,200 Columbia St, Cambridge, MA, 2140,Tuesdays<br>
+<b>Name:</b> Food Project<br>
+<b>Full Address:</b> 200 Columbia St, Cambridge, MA<br>
+<b>Location:</b> 200 Columbia St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Tuesdays<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project,200 Columbia St, Cambridge, MA, 2140,Tuesdays</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project</value>
+				</Data>
+				<Data name='Location'>
+					<value>200 Columbia St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>200 Columbia St, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA30</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA30<br>
+<b>INFO:</b> Food Project,40 Montgomery St, Cambridge, MA, 2140,Tuesdays<br>
+<b>Name:</b> Food Project<br>
+<b>Full Address:</b> 40 Montgomery St, Cambridge, MA<br>
+<b>Location:</b> 40 Montgomery St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Tuesdays<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project,40 Montgomery St, Cambridge, MA, 2140,Tuesdays</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project</value>
+				</Data>
+				<Data name='Location'>
+					<value>40 Montgomery St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>40 Montgomery St, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA31</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA31<br>
+<b>INFO:</b> Groundworks Farm,581 Massachusetts Avenue�, Cambridge, MA, 2139,Sunday, 12-3<br>
+<b>Name:</b> Groundworks Farm<br>
+<b>Full Address:</b> 581 Massachusetts Avenue�, Cambridge, MA<br>
+<b>Location:</b> 581 Massachusetts Avenue�<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Sunday, 12-3<br>
+<b>Contact:</b> Margaret Evans, 802-310-4951�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Groundworks Farm,581 Massachusetts Avenue�, Cambridge, MA, 2139,Sunday, 12-3</value>
+				</Data>
+				<Data name='Name'>
+					<value>Groundworks Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>581 Massachusetts Avenue�</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Sunday, 12-3</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Margaret Evans, 802-310-4951�</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M40708</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Chicken, meat, egg, and cheese shares also available</value>
+				</Data>
+			</ExtendedData>
+			<address>581 Massachusetts Avenue�, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA32</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA32<br>
+<b>INFO:</b> Heavens Harvest Farm�,18 Palmer St, Cambridge, MA, 2138,<br>
+<b>Name:</b> Heavens Harvest Farm�<br>
+<b>Full Address:</b> 18 Palmer St, Cambridge, MA<br>
+<b>Location:</b> 18 Palmer St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2138<br>
+<b>Time/Day:</b> <br>
+<b>Contact:</b> Ashley &amp; Ethel Howard, 508-867-9577�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Heavens Harvest Farm�,18 Palmer St, Cambridge, MA, 2138,</value>
+				</Data>
+				<Data name='Name'>
+					<value>Heavens Harvest Farm�</value>
+				</Data>
+				<Data name='Location'>
+					<value>18 Palmer St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2138</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value></value>
+				</Data>
+				<Data name='Contact'>
+					<value>Ashley &amp; Ethel Howard, 508-867-9577�</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M13496</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Jamaica Plain/Community Servings (meals outreach program)�</value>
+				</Data>
+			</ExtendedData>
+			<address>18 Palmer St, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA33</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA33<br>
+<b>INFO:</b> John Crow Farm,581 Mass. Ave., Cambridge, MA, 2139,Mon 3pm-6pm<br>
+<b>Name:</b> John Crow Farm<br>
+<b>Full Address:</b> 581 Mass. Ave., Cambridge, MA<br>
+<b>Location:</b> 581 Mass. Ave.<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Mon 3pm-6pm<br>
+<b>Contact:</b> 978-235-4708
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>John Crow Farm,581 Mass. Ave., Cambridge, MA, 2139,Mon 3pm-6pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>John Crow Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>581 Mass. Ave.</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mon 3pm-6pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>978-235-4708</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>581 Mass. Ave., Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA34</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA34<br>
+<b>INFO:</b> Kitchen Garden ,45 Mt. Auburn Street, Cambridge, MA, 2139,4:30pm-6pm�<br>
+<b>Name:</b> Kitchen Garden<br>
+<b>Full Address:</b> 45 Mt. Auburn Street, Cambridge, MA<br>
+<b>Location:</b> 45 Mt. Auburn Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> 4:30pm-6pm�<br>
+<b>Contact:</b> Caroline Pam
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Kitchen Garden ,45 Mt. Auburn Street, Cambridge, MA, 2139,4:30pm-6pm�</value>
+				</Data>
+				<Data name='Name'>
+					<value>Kitchen Garden</value>
+				</Data>
+				<Data name='Location'>
+					<value>45 Mt. Auburn Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>4:30pm-6pm�</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Caroline Pam</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M26072</value>
+				</Data>
+				<Data name='Notes'>
+					<value>egg, fruit also available</value>
+				</Data>
+			</ExtendedData>
+			<address>45 Mt. Auburn Street, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA35</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA35<br>
+<b>INFO:</b> Picadilly Farm,Jackson Street, Cambridge, MA, 2139,Tuesday, 2-9pm<br>
+<b>Name:</b> Picadilly Farm<br>
+<b>Full Address:</b> Jackson Street, Cambridge, MA<br>
+<b>Location:</b> Jackson Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Tuesday, 2-9pm<br>
+<b>Contact:</b> Jenny &amp; Bruce Wooster, 603-239-8718�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Picadilly Farm,Jackson Street, Cambridge, MA, 2139,Tuesday, 2-9pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Picadilly Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>Jackson Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesday, 2-9pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Jenny &amp; Bruce Wooster, 603-239-8718�</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M15463</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Jackson Street, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA36</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA36<br>
+<b>INFO:</b> Red Fire Farm,32 Vassar Street, Cambridge, MA, 2139,Fridays from 3:00-6:30 pm<br>
+<b>Name:</b> Red Fire Farm<br>
+<b>Full Address:</b> 32 Vassar Street, Cambridge, MA<br>
+<b>Location:</b> 32 Vassar Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Fridays from 3:00-6:30 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Red Fire Farm,32 Vassar Street, Cambridge, MA, 2139,Fridays from 3:00-6:30 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Red Fire Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>32 Vassar Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Fridays from 3:00-6:30 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>32 Vassar Street, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA37</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA37<br>
+<b>INFO:</b> Red Fire Farm,581 Massachusetts Avenue,, Cambridge, MA, 2139,Wednesday's 4:30-7:30 pm, Fridays from 2:30 - 6 pm<br>
+<b>Name:</b> Red Fire Farm<br>
+<b>Full Address:</b> 581 Massachusetts Avenue,, Cambridge, MA<br>
+<b>Location:</b> 581 Massachusetts Avenue,<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Wednesday's 4:30-7:30 pm, Fridays from 2:30 - 6 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Red Fire Farm,581 Massachusetts Avenue,, Cambridge, MA, 2139,Wednesday's 4:30-7:30 pm, Fridays from 2:30 - 6 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Red Fire Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>581 Massachusetts Avenue,</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday's 4:30-7:30 pm, Fridays from 2:30 - 6 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>581 Massachusetts Avenue,, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA38</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA38<br>
+<b>INFO:</b> Siena Farms�,1 Belmont St, Cambridge, MA, 2138,Mondays 12PM-8PM/ Thur 12PM-8PM<br>
+<b>Name:</b> Siena Farms�<br>
+<b>Full Address:</b> 1 Belmont St, Cambridge, MA<br>
+<b>Location:</b> 1 Belmont St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2138<br>
+<b>Time/Day:</b> Mondays 12PM-8PM/ Thur 12PM-8PM<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Siena Farms�,1 Belmont St, Cambridge, MA, 2138,Mondays 12PM-8PM/ Thur 12PM-8PM</value>
+				</Data>
+				<Data name='Name'>
+					<value>Siena Farms�</value>
+				</Data>
+				<Data name='Location'>
+					<value>1 Belmont St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2138</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mondays 12PM-8PM/ Thur 12PM-8PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1 Belmont St, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA39</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA39<br>
+<b>INFO:</b> Sparrow Arc Farm,190 Massachusetts Ave, Cambridge, MA, 2139,Friday afternoons<br>
+<b>Name:</b> Sparrow Arc Farm<br>
+<b>Full Address:</b> 190 Massachusetts Ave, Cambridge, MA<br>
+<b>Location:</b> 190 Massachusetts Ave<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Friday afternoons<br>
+<b>Contact:</b> Matthew Linehan
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Sparrow Arc Farm,190 Massachusetts Ave, Cambridge, MA, 2139,Friday afternoons</value>
+				</Data>
+				<Data name='Name'>
+					<value>Sparrow Arc Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>190 Massachusetts Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday afternoons</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Matthew Linehan</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M43122</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>190 Massachusetts Ave, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA40</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA40<br>
+<b>INFO:</b> Sparrow Arc Farm,208 Concord Ave, Cambridge, MA, 2138,Friday afternoons<br>
+<b>Name:</b> Sparrow Arc Farm<br>
+<b>Full Address:</b> 208 Concord Ave, Cambridge, MA<br>
+<b>Location:</b> 208 Concord Ave<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2138<br>
+<b>Time/Day:</b> Friday afternoons<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Sparrow Arc Farm,208 Concord Ave, Cambridge, MA, 2138,Friday afternoons</value>
+				</Data>
+				<Data name='Name'>
+					<value>Sparrow Arc Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>208 Concord Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2138</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday afternoons</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>208 Concord Ave, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA41</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA41<br>
+<b>INFO:</b> Stone Soup Farm,45 Mt. Auburn Street, Cambridge, MA, 2138,Tuesdays 3-6:30pm<br>
+<b>Name:</b> Stone Soup Farm<br>
+<b>Full Address:</b> 45 Mt. Auburn Street, Cambridge, MA<br>
+<b>Location:</b> 45 Mt. Auburn Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2138<br>
+<b>Time/Day:</b> Tuesdays 3-6:30pm<br>
+<b>Contact:</b> Jarrett Man
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stone Soup Farm,45 Mt. Auburn Street, Cambridge, MA, 2138,Tuesdays 3-6:30pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stone Soup Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>45 Mt. Auburn Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2138</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays 3-6:30pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Jarrett Man</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M19471</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>45 Mt. Auburn Street, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA42</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA42<br>
+<b>INFO:</b> World PEAS,19b Pemberton st., Cambridge, MA, 2140,Tuesdays between 5 and 7 pm.<br>
+<b>Name:</b> World PEAS<br>
+<b>Full Address:</b> 19b Pemberton st., Cambridge, MA<br>
+<b>Location:</b> 19b Pemberton st.<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2140<br>
+<b>Time/Day:</b> Tuesdays between 5 and 7 pm.<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>World PEAS,19b Pemberton st., Cambridge, MA, 2140,Tuesdays between 5 and 7 pm.</value>
+				</Data>
+				<Data name='Name'>
+					<value>World PEAS</value>
+				</Data>
+				<Data name='Location'>
+					<value>19b Pemberton st.</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2140</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays between 5 and 7 pm.</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>19b Pemberton st., Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA43</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA43<br>
+<b>INFO:</b> World PEAS,2067 Massachusetts Avenue, Cambridge, MA, 2141,Tuesdays 4:00 - 8:00 pm<br>
+<b>Name:</b> World PEAS<br>
+<b>Full Address:</b> 2067 Massachusetts Avenue, Cambridge, MA<br>
+<b>Location:</b> 2067 Massachusetts Avenue<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2141<br>
+<b>Time/Day:</b> Tuesdays 4:00 - 8:00 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>World PEAS,2067 Massachusetts Avenue, Cambridge, MA, 2141,Tuesdays 4:00 - 8:00 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>World PEAS</value>
+				</Data>
+				<Data name='Location'>
+					<value>2067 Massachusetts Avenue</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2141</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays 4:00 - 8:00 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>2067 Massachusetts Avenue, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA44</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA44<br>
+<b>INFO:</b> World PEAS,955 Mass Ave, Cambridge, Cambridge, MA, 2139,Tuesdays, by 4 pm<br>
+<b>Name:</b> World PEAS<br>
+<b>Full Address:</b> 955 Mass Ave, Cambridge, Cambridge, MA<br>
+<b>Location:</b> 955 Mass Ave, Cambridge<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Tuesdays, by 4 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>World PEAS,955 Mass Ave, Cambridge, Cambridge, MA, 2139,Tuesdays, by 4 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>World PEAS</value>
+				</Data>
+				<Data name='Location'>
+					<value>955 Mass Ave, Cambridge</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays, by 4 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M16157</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>955 Mass Ave, Cambridge, Cambridge, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA45</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA45<br>
+<b>INFO:</b> World PEAS,14 Green St, Charlestown, MA, 2129,Wednesdays from 5:00 to 7:30 pm<br>
+<b>Name:</b> World PEAS<br>
+<b>Full Address:</b> 14 Green St, Charlestown, MA<br>
+<b>Location:</b> 14 Green St<br>
+<b>Area:</b> Charlestown<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2129<br>
+<b>Time/Day:</b> Wednesdays from 5:00 to 7:30 pm<br>
+<b>Contact:</b> Matthew Himmel
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>World PEAS,14 Green St, Charlestown, MA, 2129,Wednesdays from 5:00 to 7:30 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>World PEAS</value>
+				</Data>
+				<Data name='Location'>
+					<value>14 Green St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Charlestown</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2129</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesdays from 5:00 to 7:30 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Matthew Himmel</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>14 Green St, Charlestown, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA46</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA46<br>
+<b>INFO:</b> Food Project Subsidized,ABCD Dorchester Head Start / Gertrude E. Townsend Head Start / Early Head Start @ Geneva Ave, 198 Geneva Ave, Dorchester, MA, 2121,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0026<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> ABCD Dorchester Head Start / Gertrude E. Townsend Head Start / Early Head Start @ Geneva Ave, 198 Geneva Ave, Dorchester, MA<br>
+<b>Location:</b> ABCD Dorchester Head Start / Gertrude E. Townsend Head Start / Early Head Start @ Geneva Ave, 198 Geneva Ave<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2121<br>
+<b>Time/Day:</b> Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0026<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,ABCD Dorchester Head Start / Gertrude E. Townsend Head Start / Early Head Start @ Geneva Ave, 198 Geneva Ave, Dorchester, MA, 2121,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0026</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>ABCD Dorchester Head Start / Gertrude E. Townsend Head Start / Early Head Start @ Geneva Ave, 198 Geneva Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2121</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0026</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>ABCD Dorchester Head Start / Gertrude E. Townsend Head Start / Early Head Start @ Geneva Ave, 198 Geneva Ave, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA47</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA47<br>
+<b>INFO:</b> Food Project Subsidized,ABCD Dorchester Neighborhood Service Center, 110 Claybourne St, Dorchester, MA, 2124,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0027<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> ABCD Dorchester Neighborhood Service Center, 110 Claybourne St, Dorchester, MA<br>
+<b>Location:</b> ABCD Dorchester Neighborhood Service Center, 110 Claybourne St<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0027<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,ABCD Dorchester Neighborhood Service Center, 110 Claybourne St, Dorchester, MA, 2124,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0027</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>ABCD Dorchester Neighborhood Service Center, 110 Claybourne St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0027</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>ABCD Dorchester Neighborhood Service Center, 110 Claybourne St, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA48</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA48<br>
+<b>INFO:</b> Food Project Subsidized,Catholic Charities Teen Center at St. Peter's, 278 Bowdoin St, Dorchester, MA, 2121,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0028<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> Catholic Charities Teen Center at St. Peter's, 278 Bowdoin St, Dorchester, MA<br>
+<b>Location:</b> Catholic Charities Teen Center at St. Peter's, 278 Bowdoin St<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2121<br>
+<b>Time/Day:</b> Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0028<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,Catholic Charities Teen Center at St. Peter's, 278 Bowdoin St, Dorchester, MA, 2121,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0028</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>Catholic Charities Teen Center at St. Peter's, 278 Bowdoin St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2121</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0028</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Catholic Charities Teen Center at St. Peter's, 278 Bowdoin St, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA49</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA49<br>
+<b>INFO:</b> Food Project Subsidized,Dorchester CARES Family Resource Center, 200 Bowdoin St, Dorchester, MA, 2122,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0029<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> Dorchester CARES Family Resource Center, 200 Bowdoin St, Dorchester, MA<br>
+<b>Location:</b> Dorchester CARES Family Resource Center, 200 Bowdoin St<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2122<br>
+<b>Time/Day:</b> Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0029<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,Dorchester CARES Family Resource Center, 200 Bowdoin St, Dorchester, MA, 2122,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0029</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>Dorchester CARES Family Resource Center, 200 Bowdoin St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2122</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0029</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Dorchester CARES Family Resource Center, 200 Bowdoin St, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA50</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA50<br>
+<b>INFO:</b> Food Project Subsidized,230 Bowdoin St, Dorchester, MA, 2122,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0030<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> 230 Bowdoin St, Dorchester, MA<br>
+<b>Location:</b> 230 Bowdoin St<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2122<br>
+<b>Time/Day:</b> Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0030<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,230 Bowdoin St, Dorchester, MA, 2122,Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0030</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>230 Bowdoin St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2122</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Maura Beaufait, Healthy Food Access Coordinator,�mbeaufai@bidmc.harvard.edu, 617-754-0030</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>230 Bowdoin St, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA51</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA51<br>
+<b>INFO:</b> Langwater Farm�,1900 Dorchester Ave.�, Dorchester, MA, 2124,Fridays between 3 and 7pm<br>
+<b>Name:</b> Langwater Farm�<br>
+<b>Full Address:</b> 1900 Dorchester Ave.�, Dorchester, MA<br>
+<b>Location:</b> 1900 Dorchester Ave.�<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Fridays between 3 and 7pm<br>
+<b>Contact:</b> Rory, Kevin, &amp; Kate O&#39;Dwyer
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Langwater Farm�,1900 Dorchester Ave.�, Dorchester, MA, 2124,Fridays between 3 and 7pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Langwater Farm�</value>
+				</Data>
+				<Data name='Location'>
+					<value>1900 Dorchester Ave.�</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Fridays between 3 and 7pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Rory, Kevin, &amp; Kate O'Dwyer</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M32593</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1900 Dorchester Ave.�, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA52</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA52<br>
+<b>INFO:</b> Silverbrook Farm,637 Washington Street, Dorchester, MA, 2124,Thursday from 11AM to 6PM<br>
+<b>Name:</b> Silverbrook Farm<br>
+<b>Full Address:</b> 637 Washington Street, Dorchester, MA<br>
+<b>Location:</b> 637 Washington Street<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Thursday from 11AM to 6PM<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Silverbrook Farm,637 Washington Street, Dorchester, MA, 2124,Thursday from 11AM to 6PM</value>
+				</Data>
+				<Data name='Name'>
+					<value>Silverbrook Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>637 Washington Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday from 11AM to 6PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>637 Washington Street, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA53</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA53<br>
+<b>INFO:</b> Victory Programs' ReVision Urban Farm,38 Fabyan Street, Dorchester, MA, 2124,Wednesday afternoon beginning at 5<br>
+<b>Name:</b> Victory Programs' ReVision Urban Farm<br>
+<b>Full Address:</b> 38 Fabyan Street, Dorchester, MA<br>
+<b>Location:</b> 38 Fabyan Street<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Wednesday afternoon beginning at 5<br>
+<b>Contact:</b> Shani Fletcher
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Victory Programs' ReVision Urban Farm,38 Fabyan Street, Dorchester, MA, 2124,Wednesday afternoon beginning at 5</value>
+				</Data>
+				<Data name='Name'>
+					<value>Victory Programs' ReVision Urban Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>38 Fabyan Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday afternoon beginning at 5</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Shani Fletcher</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>38 Fabyan Street, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA54</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA54<br>
+<b>INFO:</b> Victory Programs' ReVision Urban Farm,1062 Blue Hill Avenue, Dorchester, MA, 2186,Thursday and Friday 2:30pm - 6:30pm, Saturday 10:00am - 2:00pm<br>
+<b>Name:</b> Victory Programs' ReVision Urban Farm<br>
+<b>Full Address:</b> 1062 Blue Hill Avenue, Dorchester, MA<br>
+<b>Location:</b> 1062 Blue Hill Avenue<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2186<br>
+<b>Time/Day:</b> Thursday and Friday 2:30pm - 6:30pm, Saturday 10:00am - 2:00pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Victory Programs' ReVision Urban Farm,1062 Blue Hill Avenue, Dorchester, MA, 2186,Thursday and Friday 2:30pm - 6:30pm, Saturday 10:00am - 2:00pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Victory Programs' ReVision Urban Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>1062 Blue Hill Avenue</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2186</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday and Friday 2:30pm - 6:30pm, Saturday 10:00am - 2:00pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1062 Blue Hill Avenue, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA55</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA55<br>
+<b>INFO:</b> Victory Programs' ReVision Urban Farm,2181 Washington St, Dorchester, MA, 2182,Wednesday afternoon beginning at 7<br>
+<b>Name:</b> Victory Programs' ReVision Urban Farm<br>
+<b>Full Address:</b> 2181 Washington St, Dorchester, MA<br>
+<b>Location:</b> 2181 Washington St<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2182<br>
+<b>Time/Day:</b> Wednesday afternoon beginning at 7<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Victory Programs' ReVision Urban Farm,2181 Washington St, Dorchester, MA, 2182,Wednesday afternoon beginning at 7</value>
+				</Data>
+				<Data name='Name'>
+					<value>Victory Programs' ReVision Urban Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>2181 Washington St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2182</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday afternoon beginning at 7</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>2181 Washington St, Dorchester, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA56</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA56<br>
+<b>INFO:</b> Farmer Dave's CSA,120 Liverpool Street, East Boston, MA, 2128,Mondays from 3:30-6:30<br>
+<b>Name:</b> Farmer Dave's CSA<br>
+<b>Full Address:</b> 120 Liverpool Street, East Boston, MA<br>
+<b>Location:</b> 120 Liverpool Street<br>
+<b>Area:</b> East Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2128<br>
+<b>Time/Day:</b> Mondays from 3:30-6:30<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Farmer Dave's CSA,120 Liverpool Street, East Boston, MA, 2128,Mondays from 3:30-6:30</value>
+				</Data>
+				<Data name='Name'>
+					<value>Farmer Dave's CSA</value>
+				</Data>
+				<Data name='Location'>
+					<value>120 Liverpool Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>East Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2128</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mondays from 3:30-6:30</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>120 Liverpool Street, East Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA57</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA57<br>
+<b>INFO:</b> World PEAS,215 Bremen Street, East Boston, MA, 2128,Tuesdays between 4 and 10pm<br>
+<b>Name:</b> World PEAS<br>
+<b>Full Address:</b> 215 Bremen Street, East Boston, MA<br>
+<b>Location:</b> 215 Bremen Street<br>
+<b>Area:</b> East Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2128<br>
+<b>Time/Day:</b> Tuesdays between 4 and 10pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>World PEAS,215 Bremen Street, East Boston, MA, 2128,Tuesdays between 4 and 10pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>World PEAS</value>
+				</Data>
+				<Data name='Location'>
+					<value>215 Bremen Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>East Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2128</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays between 4 and 10pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>215 Bremen Street, East Boston, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA58</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA58<br>
+<b>INFO:</b> Brookfield Farm,64 Kenton Rd, Jamaica Plain, MA, 2130,Thursdays 3- 7pm<br>
+<b>Name:</b> Brookfield Farm<br>
+<b>Full Address:</b> 64 Kenton Rd, Jamaica Plain, MA<br>
+<b>Location:</b> 64 Kenton Rd<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Thursdays 3- 7pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Brookfield Farm,64 Kenton Rd, Jamaica Plain, MA, 2130,Thursdays 3- 7pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Brookfield Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>64 Kenton Rd</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 3- 7pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.farmfresh.org/food/farm.php?farm=1147</value>
+				</Data>
+				<Data name='Notes'>
+					<value>vegetables, fruits, herbs, flowers, beef and pork</value>
+				</Data>
+			</ExtendedData>
+			<address>64 Kenton Rd, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA59</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA59<br>
+<b>INFO:</b> Enterprise Farm,672 Centre Street, Jamaica Plain, MA, 2130,Thursdays from 2:00-6:00pm<br>
+<b>Name:</b> Enterprise Farm<br>
+<b>Full Address:</b> 672 Centre Street, Jamaica Plain, MA<br>
+<b>Location:</b> 672 Centre Street<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Thursdays from 2:00-6:00pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Enterprise Farm,672 Centre Street, Jamaica Plain, MA, 2130,Thursdays from 2:00-6:00pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Enterprise Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>672 Centre Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays from 2:00-6:00pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>672 Centre Street, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA60</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA60<br>
+<b>INFO:</b> Farmer Dave's CSA,18 Marbury Terrace, Jamaica Plain, MA, 2130,Fri 4:00 - 7:00 p.m<br>
+<b>Name:</b> Farmer Dave's CSA<br>
+<b>Full Address:</b> 18 Marbury Terrace, Jamaica Plain, MA<br>
+<b>Location:</b> 18 Marbury Terrace<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Fri 4:00 - 7:00 p.m<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Farmer Dave's CSA,18 Marbury Terrace, Jamaica Plain, MA, 2130,Fri 4:00 - 7:00 p.m</value>
+				</Data>
+				<Data name='Name'>
+					<value>Farmer Dave's CSA</value>
+				</Data>
+				<Data name='Location'>
+					<value>18 Marbury Terrace</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Fri 4:00 - 7:00 p.m</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>18 Marbury Terrace, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA61</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA61<br>
+<b>INFO:</b> Food Project,Amory St. and Cornwall St, Jamaica Plain, MA, 2130,Thursday<br>
+<b>Name:</b> Food Project<br>
+<b>Full Address:</b> Amory St. and Cornwall St, Jamaica Plain, MA<br>
+<b>Location:</b> Amory St. and Cornwall St<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Thursday<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project,Amory St. and Cornwall St, Jamaica Plain, MA, 2130,Thursday</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project</value>
+				</Data>
+				<Data name='Location'>
+					<value>Amory St. and Cornwall St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Amory St. and Cornwall St, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA62</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA62<br>
+<b>INFO:</b> Food Project,Hampstead Rd, Jamaica Plain, MA, 2130,Thursday<br>
+<b>Name:</b> Food Project<br>
+<b>Full Address:</b> Hampstead Rd, Jamaica Plain, MA<br>
+<b>Location:</b> Hampstead Rd<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Thursday<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project,Hampstead Rd, Jamaica Plain, MA, 2130,Thursday</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project</value>
+				</Data>
+				<Data name='Location'>
+					<value>Hampstead Rd</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Hampstead Rd, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA63</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA63<br>
+<b>INFO:</b> Food Project Subsidized,ABCD Jamaica Plain Head Start, 315 Centre St, Jamaica Plain, MA, 2130,<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> ABCD Jamaica Plain Head Start, 315 Centre St, Jamaica Plain, MA<br>
+<b>Location:</b> ABCD Jamaica Plain Head Start, 315 Centre St<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> <br>
+<b>Contact:</b> Cathy Wirth,�cwirth@neu.edu, 617-373-7617
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,ABCD Jamaica Plain Head Start, 315 Centre St, Jamaica Plain, MA, 2130,</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>ABCD Jamaica Plain Head Start, 315 Centre St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value></value>
+				</Data>
+				<Data name='Contact'>
+					<value>Cathy Wirth,�cwirth@neu.edu, 617-373-7617</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://thefoodproject.org/farm-to-family</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>ABCD Jamaica Plain Head Start, 315 Centre St, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA64</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA64<br>
+<b>INFO:</b> Food Project Subsidized,Martha Eliot Health Center, Jamaica Plain, MA, 2130,Christine Healey, Program and Community Partnerships Manager, Office of Child Advocacy,christine.healey@childrens.harvard.edu, 617-919-3053<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> Martha Eliot Health Center, Jamaica Plain, MA<br>
+<b>Location:</b> Martha Eliot Health Center<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Christine Healey, Program and Community Partnerships Manager, Office of Child Advocacy,christine.healey@childrens.harvard.edu, 617-919-3053<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,Martha Eliot Health Center, Jamaica Plain, MA, 2130,Christine Healey, Program and Community Partnerships Manager, Office of Child Advocacy,christine.healey@childrens.harvard.edu, 617-919-3053</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>Martha Eliot Health Center</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Christine Healey, Program and Community Partnerships Manager, Office of Child Advocacy,christine.healey@childrens.harvard.edu, 617-919-3053</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Martha Eliot Health Center, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA65</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA65<br>
+<b>INFO:</b> Heavens Harvest Farm�,18 Marbury Terrace, Jamaica Plain, MA, 2130,<br>
+<b>Name:</b> Heavens Harvest Farm�<br>
+<b>Full Address:</b> 18 Marbury Terrace, Jamaica Plain, MA<br>
+<b>Location:</b> 18 Marbury Terrace<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> <br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Heavens Harvest Farm�,18 Marbury Terrace, Jamaica Plain, MA, 2130,</value>
+				</Data>
+				<Data name='Name'>
+					<value>Heavens Harvest Farm�</value>
+				</Data>
+				<Data name='Location'>
+					<value>18 Marbury Terrace</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value></value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>18 Marbury Terrace, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA66</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA66<br>
+<b>INFO:</b> John Crow Farm,31 Germania St Building, Jamaica Plain, MA, 2130,Saturday 9am-12 noon<br>
+<b>Name:</b> John Crow Farm<br>
+<b>Full Address:</b> 31 Germania St Building, Jamaica Plain, MA<br>
+<b>Location:</b> 31 Germania St Building<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Saturday 9am-12 noon<br>
+<b>Contact:</b> Robert Varisco
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>John Crow Farm,31 Germania St Building, Jamaica Plain, MA, 2130,Saturday 9am-12 noon</value>
+				</Data>
+				<Data name='Name'>
+					<value>John Crow Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>31 Germania St Building</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturday 9am-12 noon</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Robert Varisco</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M41436</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>31 Germania St Building, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA67</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA67<br>
+<b>INFO:</b> Red Fire Farm,633 Centre St, Jamaica Plain, MA, 2130,Thursday 4:00 - 7 pm<br>
+<b>Name:</b> Red Fire Farm<br>
+<b>Full Address:</b> 633 Centre St, Jamaica Plain, MA<br>
+<b>Location:</b> 633 Centre St<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Thursday 4:00 - 7 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Red Fire Farm,633 Centre St, Jamaica Plain, MA, 2130,Thursday 4:00 - 7 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Red Fire Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>633 Centre St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday 4:00 - 7 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>633 Centre St, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA68</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA68<br>
+<b>INFO:</b> Stillman Farms,677 Centre St, Jamaica Plain, MA, 2130,�Tuesdays 12-5 or Saturdays 12-3.<br>
+<b>Name:</b> Stillman Farms<br>
+<b>Full Address:</b> 677 Centre St, Jamaica Plain, MA<br>
+<b>Location:</b> 677 Centre St<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> �Tuesdays 12-5 or Saturdays 12-3.<br>
+<b>Contact:</b> 508-867-7193�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stillman Farms,677 Centre St, Jamaica Plain, MA, 2130,�Tuesdays 12-5 or Saturdays 12-3.</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stillman Farms</value>
+				</Data>
+				<Data name='Location'>
+					<value>677 Centre St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>�Tuesdays 12-5 or Saturdays 12-3.</value>
+				</Data>
+				<Data name='Contact'>
+					<value>508-867-7193�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>677 Centre St, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA69</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA69<br>
+<b>INFO:</b> Victory Programs' ReVision Urban Farm,672 Centre Street, Jamaica Plain, MA, 2130,Wednesday afternoon beginning at 6<br>
+<b>Name:</b> Victory Programs' ReVision Urban Farm<br>
+<b>Full Address:</b> 672 Centre Street, Jamaica Plain, MA<br>
+<b>Location:</b> 672 Centre Street<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Wednesday afternoon beginning at 6<br>
+<b>Contact:</b> 617-822-3276
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Victory Programs' ReVision Urban Farm,672 Centre Street, Jamaica Plain, MA, 2130,Wednesday afternoon beginning at 6</value>
+				</Data>
+				<Data name='Name'>
+					<value>Victory Programs' ReVision Urban Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>672 Centre Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday afternoon beginning at 6</value>
+				</Data>
+				<Data name='Contact'>
+					<value>617-822-3276</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.localharvest.org/csa/M51012</value>
+				</Data>
+				<Data name='Notes'>
+					<value>$550 for an 18 week season or $200/season if you live in Dorchester or Mattapan and are a family with low income.</value>
+				</Data>
+			</ExtendedData>
+			<address>672 Centre Street, Jamaica Plain, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA70</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA70<br>
+<b>INFO:</b> Brookwood Community Farm,525 River Street, Mattapan, MA, 2126,Saturday 10-2<br>
+<b>Name:</b> Brookwood Community Farm<br>
+<b>Full Address:</b> 525 River Street, Mattapan, MA<br>
+<b>Location:</b> 525 River Street<br>
+<b>Area:</b> Mattapan<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2126<br>
+<b>Time/Day:</b> Saturday 10-2<br>
+<b>Contact:</b> Judy Lieberman (617) 980-2368 info@brookwoodcommunityfarm.org
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Brookwood Community Farm,525 River Street, Mattapan, MA, 2126,Saturday 10-2</value>
+				</Data>
+				<Data name='Name'>
+					<value>Brookwood Community Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>525 River Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Mattapan</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2126</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturday 10-2</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Judy Lieberman (617) 980-2368 info@brookwoodcommunityfarm.org</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.farmfresh.org/food/farm.php?farm=1151</value>
+				</Data>
+				<Data name='Notes'>
+					<value>Actually located in Milton, so no need to include on comm gardens data</value>
+				</Data>
+			</ExtendedData>
+			<address>525 River Street, Mattapan, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA71</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA71<br>
+<b>INFO:</b> Food Project,390 Dudley St, Roxbury, MA, 2119,Friday<br>
+<b>Name:</b> Food Project<br>
+<b>Full Address:</b> 390 Dudley St, Roxbury, MA<br>
+<b>Location:</b> 390 Dudley St<br>
+<b>Area:</b> Roxbury<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2119<br>
+<b>Time/Day:</b> Friday<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project,390 Dudley St, Roxbury, MA, 2119,Friday</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project</value>
+				</Data>
+				<Data name='Location'>
+					<value>390 Dudley St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Roxbury</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2119</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>390 Dudley St, Roxbury, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA72</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA72<br>
+<b>INFO:</b> Food Project Subsidized,ABCD Parker Hill Head Start, 714 Parker St, Roxbury, MA, 2120,<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> ABCD Parker Hill Head Start, 714 Parker St, Roxbury, MA<br>
+<b>Location:</b> ABCD Parker Hill Head Start, 714 Parker St<br>
+<b>Area:</b> Roxbury<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2120<br>
+<b>Time/Day:</b> <br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,ABCD Parker Hill Head Start, 714 Parker St, Roxbury, MA, 2120,</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>ABCD Parker Hill Head Start, 714 Parker St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Roxbury</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2120</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value></value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>ABCD Parker Hill Head Start, 714 Parker St, Roxbury, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA73</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA73<br>
+<b>INFO:</b> Food Project Subsidized,ABCD Roxbury Head Start, 30-32 Raynor Circle, Roxbury, MA, 2120,<br>
+<b>Name:</b> Food Project Subsidized<br>
+<b>Full Address:</b> ABCD Roxbury Head Start, 30-32 Raynor Circle, Roxbury, MA<br>
+<b>Location:</b> ABCD Roxbury Head Start, 30-32 Raynor Circle<br>
+<b>Area:</b> Roxbury<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2120<br>
+<b>Time/Day:</b> <br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project Subsidized,ABCD Roxbury Head Start, 30-32 Raynor Circle, Roxbury, MA, 2120,</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project Subsidized</value>
+				</Data>
+				<Data name='Location'>
+					<value>ABCD Roxbury Head Start, 30-32 Raynor Circle</value>
+				</Data>
+				<Data name='Area'>
+					<value>Roxbury</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2120</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value></value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>ABCD Roxbury Head Start, 30-32 Raynor Circle, Roxbury, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA74</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA74<br>
+<b>INFO:</b> Enterprise Farm,378 Highland Ave, Somerville, MA, 2143,Wednesdays from 2:00-7:00pm<br>
+<b>Name:</b> Enterprise Farm<br>
+<b>Full Address:</b> 378 Highland Ave, Somerville, MA<br>
+<b>Location:</b> 378 Highland Ave<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Wednesdays from 2:00-7:00pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Enterprise Farm,378 Highland Ave, Somerville, MA, 2143,Wednesdays from 2:00-7:00pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Enterprise Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>378 Highland Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesdays from 2:00-7:00pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>378 Highland Ave, Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA75</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA75<br>
+<b>INFO:</b> Farmer Dave's CSA,11 Olive Square, Somerville, MA, 2143,Wednesdays between 4:00-6:30<br>
+<b>Name:</b> Farmer Dave's CSA<br>
+<b>Full Address:</b> 11 Olive Square, Somerville, MA<br>
+<b>Location:</b> 11 Olive Square<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Wednesdays between 4:00-6:30<br>
+<b>Contact:</b> 978.349.1952�
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Farmer Dave's CSA,11 Olive Square, Somerville, MA, 2143,Wednesdays between 4:00-6:30</value>
+				</Data>
+				<Data name='Name'>
+					<value>Farmer Dave's CSA</value>
+				</Data>
+				<Data name='Location'>
+					<value>11 Olive Square</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesdays between 4:00-6:30</value>
+				</Data>
+				<Data name='Contact'>
+					<value>978.349.1952�</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>11 Olive Square, Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA76</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA76<br>
+<b>INFO:</b> Farmer Dave's CSA,16 Garfield Ave., Somerville, MA, 2143,Wednesdays between 3:00-7:00<br>
+<b>Name:</b> Farmer Dave's CSA<br>
+<b>Full Address:</b> 16 Garfield Ave., Somerville, MA<br>
+<b>Location:</b> 16 Garfield Ave.<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Wednesdays between 3:00-7:00<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Farmer Dave's CSA,16 Garfield Ave., Somerville, MA, 2143,Wednesdays between 3:00-7:00</value>
+				</Data>
+				<Data name='Name'>
+					<value>Farmer Dave's CSA</value>
+				</Data>
+				<Data name='Location'>
+					<value>16 Garfield Ave.</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesdays between 3:00-7:00</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>16 Garfield Ave., Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA77</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA77<br>
+<b>INFO:</b> First Root Farm,Davis Square, Somerville, MA, 2143,Tuesday<br>
+<b>Name:</b> First Root Farm<br>
+<b>Full Address:</b> Davis Square, Somerville, MA<br>
+<b>Location:</b> Davis Square<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Tuesday<br>
+<b>Contact:</b> Laura Sackton
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>First Root Farm,Davis Square, Somerville, MA, 2143,Tuesday</value>
+				</Data>
+				<Data name='Name'>
+					<value>First Root Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>Davis Square</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesday</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Laura Sackton</value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Davis Square, Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA78</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA78<br>
+<b>INFO:</b> Food Project,School St. and Landers St, Somerville, MA, 2143,Tuesdays<br>
+<b>Name:</b> Food Project<br>
+<b>Full Address:</b> School St. and Landers St, Somerville, MA<br>
+<b>Location:</b> School St. and Landers St<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Tuesdays<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Food Project,School St. and Landers St, Somerville, MA, 2143,Tuesdays</value>
+				</Data>
+				<Data name='Name'>
+					<value>Food Project</value>
+				</Data>
+				<Data name='Location'>
+					<value>School St. and Landers St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>School St. and Landers St, Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA79</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA79<br>
+<b>INFO:</b> John Crow Farm,11 Olive Square, Somerville, MA, 2143,Mon 3pm-6pm<br>
+<b>Name:</b> John Crow Farm<br>
+<b>Full Address:</b> 11 Olive Square, Somerville, MA<br>
+<b>Location:</b> 11 Olive Square<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Mon 3pm-6pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>John Crow Farm,11 Olive Square, Somerville, MA, 2143,Mon 3pm-6pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>John Crow Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>11 Olive Square</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mon 3pm-6pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>11 Olive Square, Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA80</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA80<br>
+<b>INFO:</b> Luna Farm,Davis Square, Somerville, MA, 2143,Tuesday<br>
+<b>Name:</b> Luna Farm<br>
+<b>Full Address:</b> Davis Square, Somerville, MA<br>
+<b>Location:</b> Davis Square<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Tuesday<br>
+<b>Contact:</b> Lydia Sisson, (617) 680-8335
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Luna Farm,Davis Square, Somerville, MA, 2143,Tuesday</value>
+				</Data>
+				<Data name='Name'>
+					<value>Luna Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>Davis Square</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesday</value>
+				</Data>
+				<Data name='Contact'>
+					<value>Lydia Sisson, (617) 680-8335</value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.farmfresh.org/food/farm.php?farm=2581</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Davis Square, Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA81</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA81<br>
+<b>INFO:</b> Stony Brook Valley Farm,11 Olive Square, Somerville, MA, 2143,Thursday 2:30 ? 6:30 pm<br>
+<b>Name:</b> Stony Brook Valley Farm<br>
+<b>Full Address:</b> 11 Olive Square, Somerville, MA<br>
+<b>Location:</b> 11 Olive Square<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Thursday 2:30 ? 6:30 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stony Brook Valley Farm,11 Olive Square, Somerville, MA, 2143,Thursday 2:30 ? 6:30 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stony Brook Valley Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>11 Olive Square</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday 2:30 ? 6:30 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>11 Olive Square, Somerville, MA</address>
+		</Placemark>
+		<Placemark>
+			<name>CSA82</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Site number:</b> CSA82<br>
+<b>INFO:</b> Stony Brook Valley Farm,22 Vinal Ave, Somerville, MA, 2143,Wed. 3:30 ? 6:30 pm<br>
+<b>Name:</b> Stony Brook Valley Farm<br>
+<b>Full Address:</b> 22 Vinal Ave, Somerville, MA<br>
+<b>Location:</b> 22 Vinal Ave<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Wed. 3:30 ? 6:30 pm<br>
+<b>Contact:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='INFO'>
+					<value>Stony Brook Valley Farm,22 Vinal Ave, Somerville, MA, 2143,Wed. 3:30 ? 6:30 pm</value>
+				</Data>
+				<Data name='Name'>
+					<value>Stony Brook Valley Farm</value>
+				</Data>
+				<Data name='Location'>
+					<value>22 Vinal Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wed. 3:30 ? 6:30 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>22 Vinal Ave, Somerville, MA</address>
+		</Placemark>
+	</Document>
+</kml>

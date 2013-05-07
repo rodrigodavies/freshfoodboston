@@ -1,0 +1,1583 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Urban Orchards</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/UrbanOrchard.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/UrbanOrchard.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Harvard Club</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Harvard Club<br>
+<b>Address:</b> 407 Newbury St, Back Bay, MA, 02115<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>407 Newbury St, Back Bay, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Nectarine tree</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nectarine tree<br>
+<b>Address:</b> 311 Marlborough St, Boston, MA, 02116<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>311 Marlborough St, Boston, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 41-73 Ellington St, Boston, MA, 02121<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>41-73 Ellington St, Boston, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Mulberry tree</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mulberry tree<br>
+<b>Address:</b> 219 Park Dr, Boston, MA, 02215<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>219 Park Dr, Boston, MA, 02215</address>
+		</Placemark>
+		<Placemark>
+			<name>Mulberry trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mulberry trees<br>
+<b>Address:</b> 1171 Boylston St, Boston, MA, 02215<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1171 Boylston St, Boston, MA, 02215</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 606 Brookline Ave, Brookline, MA, 02445<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>606 Brookline Ave, Brookline, MA, 02445</address>
+		</Placemark>
+		<Placemark>
+			<name>Black cherry trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Black cherry trees<br>
+<b>Address:</b> 6 Parkway Rd, Brookline, MA, 02445<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>6 Parkway Rd, Brookline, MA, 02445</address>
+		</Placemark>
+		<Placemark>
+			<name>Cherry, peach, nectarine trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Cherry, peach, nectarine trees<br>
+<b>Address:</b> 140 Aberdeen Ave, Cambridge, MA, 02138<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>140 Aberdeen Ave, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Cherry trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Cherry trees<br>
+<b>Address:</b> #445 Concord Ave, Cambridge, MA, 02138<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>#445 Concord Ave, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 220 Garden St, Cambridge, MA, 02138<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>220 Garden St, Cambridge, MA, 02138</address>
+		</Placemark>
+		<Placemark>
+			<name>Fruition Project planting</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fruition Project planting<br>
+<b>Address:</b> 42.35341,-71.110809, Cambridge, MA, 02139<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>42.35341,-71.110809, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Fruition Project planting</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fruition Project planting<br>
+<b>Address:</b> 795 Massachusetts Ave, Cambridge, MA, 02139<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>795 Massachusetts Ave, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Fruition Project planting</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fruition Project planting<br>
+<b>Address:</b> Ellery St. between Broadway and Cambridge St, Cambridge, MA, 02139<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Ellery St. between Broadway and Cambridge St, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>North Cambridge Catholic High School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> North Cambridge Catholic High School<br>
+<b>Address:</b> 40 Norris St., Cambridge, MA, 02139<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>40 Norris St., Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Morse School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Morse School<br>
+<b>Address:</b> 40 Granite St., Cambridge, MA, 02139<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>40 Granite St., Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Aberdeen Ave.</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Aberdeen Ave.<br>
+<b>Address:</b> 101 Aberdeen , Cambridge, MA, 02139<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>101 Aberdeen , Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Peabody School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peabody School<br>
+<b>Address:</b> 70 Rindge Ave, Cambridge, MA, 02139<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>70 Rindge Ave, Cambridge, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Red currant bushes</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Red currant bushes<br>
+<b>Address:</b> 40 Norris St., Cambridge, MA, 02140<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>40 Norris St., Cambridge, MA, 02140</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 89 walden st, Cambridge, MA, 02140<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>89 walden st, Cambridge, MA, 02140</address>
+		</Placemark>
+		<Placemark>
+			<name>Cherry trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Cherry trees<br>
+<b>Address:</b> 318 Beacon St, Cambridge, MA, 02143<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>318 Beacon St, Cambridge, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>Holland School Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Holland School Orchard<br>
+<b>Address:</b> 85 Olney Street, Dorchester, MA, 02121<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>85 Olney Street, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Bowdoin St Lot</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bowdoin St Lot<br>
+<b>Address:</b> 3 Nottingham St, Dorchester, MA, 02121<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>3 Nottingham St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Rosseter Ave Lot</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rosseter Ave Lot<br>
+<b>Address:</b> Rosseter Ave and Nottingham, Dorchester, MA, 02121<br>
+<b>Notes:</b> Since there is no clear line showing who owns what, we don?t encourage people to collect fruit from this site.
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Since there is no clear line showing who owns what, we don?t encourage people to collect fruit from this site.</value>
+				</Data>
+			</ExtendedData>
+			<address>Rosseter Ave and Nottingham, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Eldon St Lot</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Eldon St Lot<br>
+<b>Address:</b> Eldon St and Washington, Dorchester, MA, 02121<br>
+<b>Notes:</b> Fenced and locked
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Fenced and locked</value>
+				</Data>
+			</ExtendedData>
+			<address>Eldon St and Washington, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>John P. Holland Elementary School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> John P. Holland Elementary School<br>
+<b>Address:</b> 85 Olney St, Dorchester, MA, 02121<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>85 Olney St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Calvary Church</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mt. Calvary Church<br>
+<b>Address:</b> 9-15 Otisfield St., Dorchester, MA, 02121<br>
+<b>Notes:</b> Locked: ask church permission for access
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Locked: ask church permission for access</value>
+				</Data>
+			</ExtendedData>
+			<address>9-15 Otisfield St., Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 26 Normandy St, Dorchester, MA, 02121<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>26 Normandy St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Charles St Community Garden Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Charles St Community Garden Orchard<br>
+<b>Address:</b> 68 Charles St, Dorchester, MA, 02122<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>68 Charles St, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Neighborhood House Charter School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Neighborhood House Charter School<br>
+<b>Address:</b> 21 Queen St, Dorchester, MA, 02122<br>
+<b>Notes:</b> might not be accessible
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>might not be accessible</value>
+				</Data>
+			</ExtendedData>
+			<address>21 Queen St, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Nightingale Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nightingale Community Garden<br>
+<b>Address:</b> 512 Park Street, Dorchester, MA, 02124<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>512 Park Street, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Marshall Elementary School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Marshall Elementary School<br>
+<b>Address:</b> 35 Westville Street , Dorchester, MA, 02124<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>35 Westville Street , Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Franklin Hill Development</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Franklin Hill Development<br>
+<b>Address:</b> 86 American Legion Highway , Dorchester, MA, 02124<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>86 American Legion Highway , Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Franklin Field Housing Development</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Franklin Field Housing Development<br>
+<b>Address:</b> 5 Ames St, Dorchester, MA, 02124<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>5 Ames St, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Grape vines</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Grape vines<br>
+<b>Address:</b> 492 Vinson St, Dorchester, MA, 02124<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>492 Vinson St, Dorchester, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Edward Everett Square Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Edward Everett Square Orchard<br>
+<b>Address:</b> 735 Columbia Rd, Dorchester, MA, 02125<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>735 Columbia Rd, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Russell School Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Russell School Orchard<br>
+<b>Address:</b> 736 Columbia Road, Dorchester, MA, 02125<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>736 Columbia Road, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Nonquit Green</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nonquit Green<br>
+<b>Address:</b> 5 Nonquit St, Dorchester, MA, 02125<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>5 Nonquit St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Winthrop Elementary School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Winthrop Elementary School<br>
+<b>Address:</b> 35 Brookford St, Dorchester, MA, 02125<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>35 Brookford St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Everett Elementary School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Everett Elementary School<br>
+<b>Address:</b> 71 Pleasant St., Dorchester, MA, 02125<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>71 Pleasant St., Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 200 Marginal St, East Boston, MA, 02128<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>200 Marginal St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Heritage Apartments</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Heritage Apartments<br>
+<b>Address:</b> 209 Sumner St, East Boston, MA, 02128<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>209 Sumner St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Grape Island</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Grape Island<br>
+<b>Address:</b> Grape Island, Grape Island, MA, 02191<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>Grape Island, Grape Island, MA, 02191</address>
+		</Placemark>
+		<Placemark>
+			<name>Hennigan School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Hennigan School<br>
+<b>Address:</b> 200 Heath Street, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> School grounds: only harvest when school out of session; also mostly locked
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session; also mostly locked</value>
+				</Data>
+			</ExtendedData>
+			<address>200 Heath Street, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Curley School Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Curley School Orchard<br>
+<b>Address:</b> 493 Centre Street, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> School grounds: only harvest when school out of session
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session</value>
+				</Data>
+			</ExtendedData>
+			<address>493 Centre Street, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Southwest Corridor Community Farm</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Southwest Corridor Community Farm<br>
+<b>Address:</b> 57 Lamartine Street, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>57 Lamartine Street, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Egleston Community Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Egleston Community Orchard<br>
+<b>Address:</b> 195 Boylston Street, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> http://puebloboston.org/eglestoncommunityorchard.html
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>http://puebloboston.org/eglestoncommunityorchard.html</value>
+				</Data>
+			</ExtendedData>
+			<address>195 Boylston Street, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Agassiz Elementary School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Agassiz Elementary School<br>
+<b>Address:</b> 20 Child St., Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> School grounds: only harvest when school out of session; also mostly locked
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session; also mostly locked</value>
+				</Data>
+			</ExtendedData>
+			<address>20 Child St., Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Nira Rock Urban Wild</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nira Rock Urban Wild<br>
+<b>Address:</b> 18 Nira Avenue, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> http://www.nirarock.org/pages/history.html
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>http://www.nirarock.org/pages/history.html</value>
+				</Data>
+			</ExtendedData>
+			<address>18 Nira Avenue, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>New Day Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> New Day Community Garden<br>
+<b>Address:</b> 65 Day St, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>65 Day St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Blessed Sacrament Church</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Blessed Sacrament Church<br>
+<b>Address:</b> 365 Centre St. , Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> Church property: not accessible
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Church property: not accessible</value>
+				</Data>
+			</ExtendedData>
+			<address>365 Centre St. , Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Oakdale Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Oakdale Community Garden<br>
+<b>Address:</b> 2 Lawndale Terrace, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> Not accessible
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Not accessible</value>
+				</Data>
+			</ExtendedData>
+			<address>2 Lawndale Terrace, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Granada Park &amp; Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Granada Park &amp; Community Garden<br>
+<b>Address:</b> 23 Granada Park�, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>23 Granada Park�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Chilcott Place</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Chilcott Place<br>
+<b>Address:</b> 23 Granada Park�, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>23 Granada Park�, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Various berries</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Various berries<br>
+<b>Address:</b> 11 Green St, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>11 Green St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Loring-Greenough House</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Loring-Greenough House<br>
+<b>Address:</b> 12 South St, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>12 South St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Peach tree</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peach tree<br>
+<b>Address:</b> 305 South St, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>305 South St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Cherry tree</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Cherry tree<br>
+<b>Address:</b> 32 Lawndale Terrace, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>32 Lawndale Terrace, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Blueberry bushes</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Blueberry bushes<br>
+<b>Address:</b> 400 Amory St, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>400 Amory St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Grape vines</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Grape vines<br>
+<b>Address:</b> 113 Wachusett St, Jamaica Plain, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>113 Wachusett St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>City Natives</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> City Natives<br>
+<b>Address:</b> 30 Edgewater Drive, Mattapan, MA, 02126<br>
+<b>Notes:</b> .
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>.</value>
+				</Data>
+			</ExtendedData>
+			<address>30 Edgewater Drive, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Boston Nature Center Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Boston Nature Center Orchard<br>
+<b>Address:</b> 500 Walk Hill Street, Mattapan, MA, 02131<br>
+<b>Notes:</b> The fruit is only reachable over the fence of the community garden; call BNAN for permission
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>The fruit is only reachable over the fence of the community garden; call BNAN for permission</value>
+				</Data>
+			</ExtendedData>
+			<address>500 Walk Hill Street, Mattapan, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>McLaughlin Playground Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> McLaughlin Playground Orchard<br>
+<b>Address:</b> 209 Parker Hill Ave, Mission Hill, MA, 02120<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>209 Parker Hill Ave, Mission Hill, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Mission Hill School Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mission Hill School Orchard<br>
+<b>Address:</b> 67 Allegheny Street, Mission Hill, MA, 02120<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>67 Allegheny Street, Mission Hill, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Peach and plum trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peach and plum trees<br>
+<b>Address:</b> 5 Sewall St, Mission Hill, MA, 02120<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>5 Sewall St, Mission Hill, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 10 Bucknam St, Mission Hill, MA, 02130<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>10 Bucknam St, Mission Hill, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 541 Commercial St, North End, MA, 02109<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>541 Commercial St, North End, MA, 02109</address>
+		</Placemark>
+		<Placemark>
+			<name>Pear trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Pear trees<br>
+<b>Address:</b> 805 South St, Roslindale, MA, 02131<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>805 South St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Allan Crite CG Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Allan Crite CG Orchard<br>
+<b>Address:</b> 107 Cedar Street, Roxbury, MA, 02119<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>107 Cedar Street, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Cooper Center Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Cooper Center Orchard<br>
+<b>Address:</b> 32 Linwood Street, Roxbury, MA, 02119<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>32 Linwood Street, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Shirley-Eustis House Orchard</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Shirley-Eustis House Orchard<br>
+<b>Address:</b> 31 Shirley Street, Roxbury, MA, 02119<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>31 Shirley Street, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Roxbury Boys and Girls Club</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Roxbury Boys and Girls Club<br>
+<b>Address:</b> 115 Warren St. , Roxbury, MA, 02119<br>
+<b>Notes:</b> Ask club permission
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Ask club permission</value>
+				</Data>
+			</ExtendedData>
+			<address>115 Warren St. , Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Warren Gardens Housing Cooperative</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Warren Gardens Housing Cooperative<br>
+<b>Address:</b> 250 Warren St, Roxbury, MA, 02119<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>250 Warren St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Cedar St. lot</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Cedar St. lot<br>
+<b>Address:</b> Centre St &amp; Cedar St, Roxbury, MA, 02119<br>
+<b>Notes:</b> 182 cedar?
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>182 cedar?</value>
+				</Data>
+			</ExtendedData>
+			<address>Centre St &amp; Cedar St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Dearborn Middle School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dearborn Middle School<br>
+<b>Address:</b> 35 Greenville Street, Roxbury, MA, 02119<br>
+<b>Notes:</b> School grounds: only harvest when school out of session; also mostly locked
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>School grounds: only harvest when school out of session; also mostly locked</value>
+				</Data>
+			</ExtendedData>
+			<address>35 Greenville Street, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Hawthorne Youth and Community Center</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Hawthorne Youth and Community Center<br>
+<b>Address:</b> 9 Fulda St, Roxbury, MA, 02119<br>
+<b>Notes:</b> On HYCC property, but accessible. Ask at the Center before harvesting.
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>On HYCC property, but accessible. Ask at the Center before harvesting.</value>
+				</Data>
+			</ExtendedData>
+			<address>9 Fulda St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Apple trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Apple trees<br>
+<b>Address:</b> 182 Cedar St, Roxbury, MA, 02119<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>182 Cedar St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Nuestra Communidad</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nuestra Communidad<br>
+<b>Address:</b> 391 Dudley St, Roxbury, MA, 02119<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>391 Dudley St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Berries</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Berries<br>
+<b>Address:</b> 67 Florence St, Somerville, MA, 02139<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>67 Florence St, Somerville, MA, 02139</address>
+		</Placemark>
+		<Placemark>
+			<name>Avon Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Avon Street Garden<br>
+<b>Address:</b> 117 Summer St.�, Somerville, MA, 02143<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>117 Summer St.�, Somerville, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>Pear trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Pear trees<br>
+<b>Address:</b> 213 Summer St, Somerville, MA, 02143<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>213 Summer St, Somerville, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>Plum trees</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Plum trees<br>
+<b>Address:</b> 17 Lowell St, Somerville, MA, 02143<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>17 Lowell St, Somerville, MA, 02143</address>
+		</Placemark>
+		<Placemark>
+			<name>West Branch Library</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> West Branch Library<br>
+<b>Address:</b> 40 College Avenue, Somerville, MA, 02144<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>40 College Avenue, Somerville, MA, 02144</address>
+		</Placemark>
+		<Placemark>
+			<name>Peach and apple trees, blueberry bushes</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peach and apple trees, blueberry bushes<br>
+<b>Address:</b> 42.395389,-71.11646, Somerville, MA, 02144<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>42.395389,-71.11646, Somerville, MA, 02144</address>
+		</Placemark>
+		<Placemark>
+			<name>Tufts University</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Tufts University<br>
+<b>Address:</b> 160 Packard Avenue, Somerville, MA, 02155<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>160 Packard Avenue, Somerville, MA, 02155</address>
+		</Placemark>
+		<Placemark>
+			<name>West Branch Library</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> West Branch Library<br>
+<b>Address:</b> 40 College Ave., Somerville, MA, 02413<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>40 College Ave., Somerville, MA, 02413</address>
+		</Placemark>
+		<Placemark>
+			<name>Bailey Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bailey Park<br>
+<b>Address:</b> 70 Belmont St, Somerville, MA, 02413<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>70 Belmont St, Somerville, MA, 02413</address>
+		</Placemark>
+		<Placemark>
+			<name>Kenny Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Kenny Park<br>
+<b>Address:</b> 20 Grove St, Somerville, MA, 02413<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>20 Grove St, Somerville, MA, 02413</address>
+		</Placemark>
+		<Placemark>
+			<name>Osgood Street Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Osgood Street Garden<br>
+<b>Address:</b> 4 Osgood St, Somerville, MA, 02413<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>4 Osgood St, Somerville, MA, 02413</address>
+		</Placemark>
+		<Placemark>
+			<name>Walnut Street Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Walnut Street Community Garden<br>
+<b>Address:</b> 11 Giles St, Somerville, MA, 02413<br>
+<b>Notes:</b> Locked
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Locked</value>
+				</Data>
+			</ExtendedData>
+			<address>11 Giles St, Somerville, MA, 02413</address>
+		</Placemark>
+		<Placemark>
+			<name>Community Growing Center</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Community Growing Center<br>
+<b>Address:</b> 22 Vinal Ave, Somerville, MA, 02413<br>
+<b>Notes:</b> Locked, but open for events and accessible. Contact info@thegrowingcenter.org.
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>Locked, but open for events and accessible. Contact info@thegrowingcenter.org.</value>
+				</Data>
+			</ExtendedData>
+			<address>22 Vinal Ave, Somerville, MA, 02413</address>
+		</Placemark>
+		<Placemark>
+			<name>Hurley School</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Hurley School<br>
+<b>Address:</b> 70 Worcester Street, South End, MA, 02118<br>
+<b>Notes:</b> http://articles.boston.com/2012-04-14/opinion/31337765_1_columbia-road-roxbury-dorchester
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value>http://articles.boston.com/2012-04-14/opinion/31337765_1_columbia-road-roxbury-dorchester</value>
+				</Data>
+			</ExtendedData>
+			<address>70 Worcester Street, South End, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Peters Park Community Garden</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peters Park Community Garden<br>
+<b>Address:</b> 1140 Washington St, South End, MA, 02118<br>
+<b>Notes:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1140 Washington St, South End, MA, 02118</address>
+		</Placemark>
+	</Document>
+</kml>

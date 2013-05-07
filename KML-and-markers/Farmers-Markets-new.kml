@@ -1,0 +1,2503 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Farmers Markets</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/farmstand.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/farmstand.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Allston Union Square, Jackson Mann Plaza 
+500 Cambridge Street, Allston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Allston Union Square, Jackson Mann Plaza 
+500 Cambridge Street, Allston, MA<br>
+<b>Name:</b> Allston Union Square<br>
+<b>Location:</b> Jackson Mann Plaza <br>
+<b>Full Address:</b> 500 Cambridge Street, Allston, MA<br>
+<b>LATLONG:</b> 42.353118, -71.138548<br>
+<b>Street:</b> 500 Cambridge Street<br>
+<b>Area:</b> Allston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2134<br>
+<b>Time/Day:</b> Every other Saturday 11:00AM - 3:00PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Allston Union Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Jackson Mann Plaza </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>500 Cambridge Street, Allston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>500 Cambridge Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Allston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2134</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Every other Saturday 11:00AM - 3:00PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.cityofboston.gov/food/farmers/locations.asp</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.138548,42.353118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BU, George Sherman Union Plaza
+775 Commonwealth Ave., Allston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> BU, George Sherman Union Plaza
+775 Commonwealth Ave., Allston, MA<br>
+<b>Name:</b> BU<br>
+<b>Location:</b> George Sherman Union Plaza<br>
+<b>Full Address:</b> 775 Commonwealth Ave., Allston, MA<br>
+<b>LATLONG:</b> 42.35035, -71.108509<br>
+<b>Street:</b> 775 Commonwealth Ave.<br>
+<b>Area:</b> Allston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2215<br>
+<b>Time/Day:</b> Thursdays, 12-5 p.m. Aug. 12-Oct.14
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>BU</value>
+				</Data>
+				<Data name='Location'>
+					<value>George Sherman Union Plaza</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>775 Commonwealth Ave., Allston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>775 Commonwealth Ave.</value>
+				</Data>
+				<Data name='Area'>
+					<value>Allston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2215</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays, 12-5 p.m. Aug. 12-Oct.14</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.108509,42.35035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harvard Allston, Intersection of N. Harvard Street &amp; Western Avenue 
+200 North Harvard St, Allston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Harvard Allston, Intersection of N. Harvard Street &amp; Western Avenue 
+200 North Harvard St, Allston, MA<br>
+<b>Name:</b> Harvard Allston<br>
+<b>Location:</b> Intersection of N. Harvard Street &amp; Western Avenue <br>
+<b>Full Address:</b> 200 North Harvard St, Allston, MA<br>
+<b>LATLONG:</b> 42.36298, -71.129938<br>
+<b>Street:</b> 200 North Harvard St<br>
+<b>Area:</b> Allston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2134<br>
+<b>Time/Day:</b> Fridays 3:00PM - 7:00PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Harvard Allston</value>
+				</Data>
+				<Data name='Location'>
+					<value>Intersection of N. Harvard Street &amp; Western Avenue </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>200 North Harvard St, Allston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>200 North Harvard St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Allston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2134</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Fridays 3:00PM - 7:00PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.129938,42.36298,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Boston City Hall, City Hall Plaza
+1 City Hall Plaza , Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Boston City Hall, City Hall Plaza
+1 City Hall Plaza , Boston, MA<br>
+<b>Name:</b> Boston City Hall<br>
+<b>Location:</b> City Hall Plaza<br>
+<b>Full Address:</b> 1 City Hall Plaza , Boston, MA<br>
+<b>LATLONG:</b> 42.35922, -71.05937<br>
+<b>Street:</b> 1 City Hall Plaza <br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2108<br>
+<b>Time/Day:</b> Mondays, Wednesdays 11:00 AM ? 6:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Boston City Hall</value>
+				</Data>
+				<Data name='Location'>
+					<value>City Hall Plaza</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1 City Hall Plaza , Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1 City Hall Plaza </value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2108</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mondays, Wednesdays 11:00 AM ? 6:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.05937,42.35922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Boston Medical Center, Menino Pavilion
+850 Harrison Avenue , Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Boston Medical Center, Menino Pavilion
+850 Harrison Avenue , Boston, MA<br>
+<b>Name:</b> Boston Medical Center<br>
+<b>Location:</b> Menino Pavilion<br>
+<b>Full Address:</b> 850 Harrison Avenue , Boston, MA<br>
+<b>LATLONG:</b> 42.335245, -71.074723<br>
+<b>Street:</b> 850 Harrison Avenue <br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2118<br>
+<b>Time/Day:</b> Fridays 11:30 AM ? 2:30 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Boston Medical Center</value>
+				</Data>
+				<Data name='Location'>
+					<value>Menino Pavilion</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>850 Harrison Avenue , Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>850 Harrison Avenue </value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2118</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Fridays 11:30 AM ? 2:30 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.074723,42.335245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Copley Square, Copley Square
+261 Dartmouth St, Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Copley Square, Copley Square
+261 Dartmouth St, Boston, MA<br>
+<b>Name:</b> Copley Square<br>
+<b>Location:</b> Copley Square<br>
+<b>Full Address:</b> 261 Dartmouth St, Boston, MA<br>
+<b>LATLONG:</b> 42.350351, -71.077488<br>
+<b>Street:</b> 261 Dartmouth St<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2116<br>
+<b>Time/Day:</b> Tuesdays, Fridays 11:00 AM ? 6:00 PM
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Copley Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Copley Square</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>261 Dartmouth St, Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>261 Dartmouth St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2116</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays, Fridays 11:00 AM ? 6:00 PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.077488,42.350351,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dewey Square, Rose Kennedy Greenway, South Station 
+200 Atlantic Avenue, Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Dewey Square, Rose Kennedy Greenway, South Station 
+200 Atlantic Avenue, Boston, MA<br>
+<b>Name:</b> Dewey Square<br>
+<b>Location:</b> Rose Kennedy Greenway, South Station <br>
+<b>Full Address:</b> 200 Atlantic Avenue, Boston, MA<br>
+<b>LATLONG:</b> 42.359733, -71.051823<br>
+<b>Street:</b> 200 Atlantic Avenue<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2109<br>
+<b>Time/Day:</b> Tuesdays, Thursdays 11:30 AM ? 6:30 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Dewey Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Rose Kennedy Greenway, South Station </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>200 Atlantic Avenue, Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>200 Atlantic Avenue</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2109</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays, Thursdays 11:30 AM ? 6:30 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.051823,42.359733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Haymarket, Congress Street at New Sudbury Street
+, Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Haymarket, Congress Street at New Sudbury Street
+, Boston, MA<br>
+<b>Name:</b> Haymarket<br>
+<b>Location:</b> Congress Street at New Sudbury Street<br>
+<b>Full Address:</b> , Boston, MA<br>
+<b>LATLONG:</b> 42.358635, -71.056699<br>
+<b>Street:</b> <br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2108<br>
+<b>Time/Day:</b> Friday and Saturday, 6-6
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Haymarket</value>
+				</Data>
+				<Data name='Location'>
+					<value>Congress Street at New Sudbury Street</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>, Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value></value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2108</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday and Saturday, 6-6</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.056699,42.358635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prudential Center, Prudential Center
+800 Boylston St, Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Prudential Center, Prudential Center
+800 Boylston St, Boston, MA<br>
+<b>Name:</b> Prudential Center<br>
+<b>Location:</b> Prudential Center<br>
+<b>Full Address:</b> 800 Boylston St, Boston, MA<br>
+<b>LATLONG:</b> 42.348674, -71.082522<br>
+<b>Street:</b> 800 Boylston St<br>
+<b>Area:</b> Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2199<br>
+<b>Time/Day:</b> Thursday, 11 a.m.-6 p.m., May 21-Oct. 29
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Prudential Center</value>
+				</Data>
+				<Data name='Location'>
+					<value>Prudential Center</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>800 Boylston St, Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>800 Boylston St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2199</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday, 11 a.m.-6 p.m., May 21-Oct. 29</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.082522,42.348674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Coolidge Corner, Coolidge Corner
+1325 Beacon St, Brookline, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Coolidge Corner, Coolidge Corner
+1325 Beacon St, Brookline, MA<br>
+<b>Name:</b> Coolidge Corner<br>
+<b>Location:</b> Coolidge Corner<br>
+<b>Full Address:</b> 1325 Beacon St, Brookline, MA<br>
+<b>LATLONG:</b> 42.341939, -71.121507<br>
+<b>Street:</b> 1325 Beacon St<br>
+<b>Area:</b> Brookline<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2446<br>
+<b>Time/Day:</b> Thursday, 1:30-8 p.m., June 18-Oct. 29
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Coolidge Corner</value>
+				</Data>
+				<Data name='Location'>
+					<value>Coolidge Corner</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1325 Beacon St, Brookline, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1325 Beacon St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Brookline</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2446</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday, 1:30-8 p.m., June 18-Oct. 29</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.121507,42.341939,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Central Square, Bishop Allen Dr at Columbia
+43 Columbia St, Cambridge, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Central Square, Bishop Allen Dr at Columbia
+43 Columbia St, Cambridge, MA<br>
+<b>Name:</b> Central Square<br>
+<b>Location:</b> Bishop Allen Dr at Columbia<br>
+<b>Full Address:</b> 43 Columbia St, Cambridge, MA<br>
+<b>LATLONG:</b> 42.364533, -71.099282<br>
+<b>Street:</b> 43 Columbia St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Monday, 11:30 a.m.-6 p.m., June 1-Nov. 23
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Central Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Bishop Allen Dr at Columbia</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>43 Columbia St, Cambridge, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>43 Columbia St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Monday, 11:30 a.m.-6 p.m., June 1-Nov. 23</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.099282,42.364533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cambridge Center, Cambridge Center Plaza
+5 Cambridge Center, Cambridge, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Cambridge Center, Cambridge Center Plaza
+5 Cambridge Center, Cambridge, MA<br>
+<b>Name:</b> Cambridge Center<br>
+<b>Location:</b> Cambridge Center Plaza<br>
+<b>Full Address:</b> 5 Cambridge Center, Cambridge, MA<br>
+<b>LATLONG:</b> 42.363795, -71.087031<br>
+<b>Street:</b> 5 Cambridge Center<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2142<br>
+<b>Time/Day:</b> Wednesday 10-6, May 16 - October 24
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Cambridge Center</value>
+				</Data>
+				<Data name='Location'>
+					<value>Cambridge Center Plaza</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>5 Cambridge Center, Cambridge, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>5 Cambridge Center</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2142</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday 10-6, May 16 - October 24</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.087031,42.363795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Charles Square, Charles Hotel Courtyard at Harvard Sq
+1 Bennett Street, Cambridge, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Charles Square, Charles Hotel Courtyard at Harvard Sq
+1 Bennett Street, Cambridge, MA<br>
+<b>Name:</b> Charles Square<br>
+<b>Location:</b> Charles Hotel Courtyard at Harvard Sq<br>
+<b>Full Address:</b> 1 Bennett Street, Cambridge, MA<br>
+<b>LATLONG:</b> 42.372281, -71.121836<br>
+<b>Street:</b> 1 Bennett Street<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2138<br>
+<b>Time/Day:</b> Sunday, 11 a.m.-3 p.m., May 24-Nov. 22
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Charles Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Charles Hotel Courtyard at Harvard Sq</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1 Bennett Street, Cambridge, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1 Bennett Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2138</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Sunday, 11 a.m.-3 p.m., May 24-Nov. 22</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.121836,42.372281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harvard University, Oxford St at Kirkland St
+2-28 Cambridge St, Cambridge, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Harvard University, Oxford St at Kirkland St
+2-28 Cambridge St, Cambridge, MA<br>
+<b>Name:</b> Harvard University<br>
+<b>Location:</b> Oxford St at Kirkland St<br>
+<b>Full Address:</b> 2-28 Cambridge St, Cambridge, MA<br>
+<b>LATLONG:</b> 42.370418, -71.075724<br>
+<b>Street:</b> 2-28 Cambridge St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2138<br>
+<b>Time/Day:</b> Tuesday, 12:30 p.m. to 6 p.m., June 4-Sept. 10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Harvard University</value>
+				</Data>
+				<Data name='Location'>
+					<value>Oxford St at Kirkland St</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>2-28 Cambridge St, Cambridge, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>2-28 Cambridge St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2138</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesday, 12:30 p.m. to 6 p.m., June 4-Sept. 10</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.075724,42.370418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kendall Square, Kendall Square
+500 Kendall St, Cambridge, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Kendall Square, Kendall Square
+500 Kendall St, Cambridge, MA<br>
+<b>Name:</b> Kendall Square<br>
+<b>Location:</b> Kendall Square<br>
+<b>Full Address:</b> 500 Kendall St, Cambridge, MA<br>
+<b>LATLONG:</b> 42.363686, -71.081971<br>
+<b>Street:</b> 500 Kendall St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2142<br>
+<b>Time/Day:</b> Thursday 11 a.m. to 2 p.m., June 4-Sept. 10
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Kendall Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Kendall Square</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>500 Kendall St, Cambridge, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>500 Kendall St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2142</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday 11 a.m. to 2 p.m., June 4-Sept. 10</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.081971,42.363686,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cambridgeport, Magazine St at Memorial Dr, 
+207 Magazine St, Cambridge, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Cambridgeport, Magazine St at Memorial Dr, 
+207 Magazine St, Cambridge, MA<br>
+<b>Name:</b> Cambridgeport<br>
+<b>Location:</b> Magazine St at Memorial Dr,<br>
+<b>Full Address:</b> 207 Magazine St, Cambridge, MA<br>
+<b>LATLONG:</b> 42.356579, -71.113879<br>
+<b>Street:</b> 207 Magazine St<br>
+<b>Area:</b> Cambridge<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2139<br>
+<b>Time/Day:</b> Saturday 10-2 pm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Cambridgeport</value>
+				</Data>
+				<Data name='Location'>
+					<value>Magazine St at Memorial Dr,</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>207 Magazine St, Cambridge, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>207 Magazine St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Cambridge</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2139</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturday 10-2 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.113879,42.356579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Charlestown, Thompson Square
+1 Thompson Square, Charlestown, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Charlestown, Thompson Square
+1 Thompson Square, Charlestown, MA<br>
+<b>Name:</b> Charlestown<br>
+<b>Location:</b> Thompson Square<br>
+<b>Full Address:</b> 1 Thompson Square, Charlestown, MA<br>
+<b>LATLONG:</b> 42.375355, -71.064239<br>
+<b>Street:</b> 1 Thompson Square<br>
+<b>Area:</b> Charlestown<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2129<br>
+<b>Time/Day:</b> Wednesday, 2-7 p.m., July 15-Oct. 9
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Charlestown</value>
+				</Data>
+				<Data name='Location'>
+					<value>Thompson Square</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1 Thompson Square, Charlestown, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1 Thompson Square</value>
+				</Data>
+				<Data name='Area'>
+					<value>Charlestown</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2129</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday, 2-7 p.m., July 15-Oct. 9</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.064239,42.375355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chelsea, Chelsea City Hall Parking Lot
+500 Broadway, Chelsea, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Chelsea, Chelsea City Hall Parking Lot
+500 Broadway, Chelsea, MA<br>
+<b>Name:</b> Chelsea<br>
+<b>Location:</b> Chelsea City Hall Parking Lot<br>
+<b>Full Address:</b> 500 Broadway, Chelsea, MA<br>
+<b>LATLONG:</b> 42.393295, -71.033257<br>
+<b>Street:</b> 500 Broadway<br>
+<b>Area:</b> Chelsea<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2150<br>
+<b>Time/Day:</b> Saturdays 10-1, July 16 - October 20
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Chelsea</value>
+				</Data>
+				<Data name='Location'>
+					<value>Chelsea City Hall Parking Lot</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>500 Broadway, Chelsea, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>500 Broadway</value>
+				</Data>
+				<Data name='Area'>
+					<value>Chelsea</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2150</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturdays 10-1, July 16 - October 20</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.033257,42.393295,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ashmont, Corner of Dorchester Ave &amp; Ashmont Street 
+1900 Dorchester Ave, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Ashmont, Corner of Dorchester Ave &amp; Ashmont Street 
+1900 Dorchester Ave, Dorchester, MA<br>
+<b>Name:</b> Ashmont<br>
+<b>Location:</b> Corner of Dorchester Ave &amp; Ashmont Street <br>
+<b>Full Address:</b> 1900 Dorchester Ave, Dorchester, MA<br>
+<b>LATLONG:</b> 42.285524, -71.064341<br>
+<b>Street:</b> 1900 Dorchester Ave<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Fridays 3-7
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Ashmont</value>
+				</Data>
+				<Data name='Location'>
+					<value>Corner of Dorchester Ave &amp; Ashmont Street </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1900 Dorchester Ave, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1900 Dorchester Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Fridays 3-7</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.064341,42.285524,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bowdoin Geneva, 229 Bowdoin Street
+230 Bowdoin Street, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Bowdoin Geneva, 229 Bowdoin Street
+230 Bowdoin Street, Dorchester, MA<br>
+<b>Name:</b> Bowdoin Geneva<br>
+<b>Location:</b> 229 Bowdoin Street<br>
+<b>Full Address:</b> 230 Bowdoin Street, Dorchester, MA<br>
+<b>LATLONG:</b> 42.30576, -71.067608<br>
+<b>Street:</b> 230 Bowdoin Street<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2122<br>
+<b>Time/Day:</b> Thursdays 3:00 PM ? 6:30 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Bowdoin Geneva</value>
+				</Data>
+				<Data name='Location'>
+					<value>229 Bowdoin Street</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>230 Bowdoin Street, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>230 Bowdoin Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2122</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 3:00 PM ? 6:30 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.067608,42.30576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Codman Square, Codman Sq Health Center
+6 Norfolk St, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Codman Square, Codman Sq Health Center
+6 Norfolk St, Dorchester, MA<br>
+<b>Name:</b> Codman Square<br>
+<b>Location:</b> Codman Sq Health Center<br>
+<b>Full Address:</b> 6 Norfolk St, Dorchester, MA<br>
+<b>LATLONG:</b> 42.290079, -71.072213<br>
+<b>Street:</b> 6 Norfolk St<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Thursdays 1:00 PM ? 6:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Codman Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Codman Sq Health Center</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>6 Norfolk St, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>6 Norfolk St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 1:00 PM ? 6:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.072213,42.290079,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dorchester House, Dorchester House
+1353 Dorchester Avenue , Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Dorchester House, Dorchester House
+1353 Dorchester Avenue , Dorchester, MA<br>
+<b>Name:</b> Dorchester House<br>
+<b>Location:</b> Dorchester House<br>
+<b>Full Address:</b> 1353 Dorchester Avenue , Dorchester, MA<br>
+<b>LATLONG:</b> 42.304565, -71.059123<br>
+<b>Street:</b> 1353 Dorchester Avenue <br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2122<br>
+<b>Time/Day:</b> Tuesdays 11:30 AM ? 1:30 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Dorchester House</value>
+				</Data>
+				<Data name='Location'>
+					<value>Dorchester House</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1353 Dorchester Avenue , Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1353 Dorchester Avenue </value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2122</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays 11:30 AM ? 1:30 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.059123,42.304565,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grove Hall, Grove Hall
+461 Blue Hill Ave, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Grove Hall, Grove Hall
+461 Blue Hill Ave, Dorchester, MA<br>
+<b>Name:</b> Grove Hall<br>
+<b>Location:</b> Grove Hall<br>
+<b>Full Address:</b> 461 Blue Hill Ave, Dorchester, MA<br>
+<b>LATLONG:</b> 42.309067, -71.082879<br>
+<b>Street:</b> 461 Blue Hill Ave<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2186<br>
+<b>Time/Day:</b> Tuesday 3-7 July 10 -Sept 28
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Grove Hall</value>
+				</Data>
+				<Data name='Location'>
+					<value>Grove Hall</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>461 Blue Hill Ave, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>461 Blue Hill Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2186</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesday 3-7 July 10 -Sept 28</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.082879,42.309067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dudley Town, Corner of Dudley Street &amp; Blue Hill Avenue 
+390 Dudley St, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Dudley Town, Corner of Dudley Street &amp; Blue Hill Avenue 
+390 Dudley St, Dorchester, MA<br>
+<b>Name:</b> Dudley Town<br>
+<b>Location:</b> Corner of Dudley Street &amp; Blue Hill Avenue <br>
+<b>Full Address:</b> 390 Dudley St, Dorchester, MA<br>
+<b>LATLONG:</b> 42.32136, -71.072189<br>
+<b>Street:</b> 390 Dudley St<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2119<br>
+<b>Time/Day:</b> Tuesdays, Thursdays 3:00 PM ? 7:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Dudley Town</value>
+				</Data>
+				<Data name='Location'>
+					<value>Corner of Dudley Street &amp; Blue Hill Avenue </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>390 Dudley St, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>390 Dudley St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2119</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays, Thursdays 3:00 PM ? 7:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.072189,42.32136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Field's Corner, Dorchester Avenue at Park Street 
+1520 Dorchester Avenue, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Field's Corner, Dorchester Avenue at Park Street 
+1520 Dorchester Avenue, Dorchester, MA<br>
+<b>Name:</b> Field's Corner<br>
+<b>Location:</b> Dorchester Avenue at Park Street <br>
+<b>Full Address:</b> 1520 Dorchester Avenue, Dorchester, MA<br>
+<b>LATLONG:</b> 42.298728, -71.06061<br>
+<b>Street:</b> 1520 Dorchester Avenue<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2122<br>
+<b>Time/Day:</b> Saturdays 9:00 AM ? 12:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Field's Corner</value>
+				</Data>
+				<Data name='Location'>
+					<value>Dorchester Avenue at Park Street </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1520 Dorchester Avenue, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1520 Dorchester Avenue</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2122</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturdays 9:00 AM ? 12:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.06061,42.298728,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Franklin Park, Franklin Park Rd
+, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Franklin Park, Franklin Park Rd
+, Dorchester, MA<br>
+<b>Name:</b> Franklin Park<br>
+<b>Location:</b> Franklin Park Rd<br>
+<b>Full Address:</b> , Dorchester, MA<br>
+<b>LATLONG:</b> 42.307878, -71.063401<br>
+<b>Street:</b> <br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2120<br>
+<b>Time/Day:</b> Sunday, 1-4 p.m., Aug. 2-Oct. 25
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Franklin Park</value>
+				</Data>
+				<Data name='Location'>
+					<value>Franklin Park Rd</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value></value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2120</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Sunday, 1-4 p.m., Aug. 2-Oct. 25</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.063401,42.307878,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Frederick Douglass Square, Frederick Douglass Square
+998 Tremont Street , Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Frederick Douglass Square, Frederick Douglass Square
+998 Tremont Street , Dorchester, MA<br>
+<b>Name:</b> Frederick Douglass Square<br>
+<b>Location:</b> Frederick Douglass Square<br>
+<b>Full Address:</b> 998 Tremont Street , Dorchester, MA<br>
+<b>LATLONG:</b> 42.307878, -71.063401<br>
+<b>Street:</b> 998 Tremont Street <br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2120<br>
+<b>Time/Day:</b> Saturdays 11:00 AM ? 5:00 PM
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Frederick Douglass Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Frederick Douglass Square</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>998 Tremont Street , Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>998 Tremont Street </value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2120</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturdays 11:00 AM ? 5:00 PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.063401,42.307878,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Peabody, Odwin Learning Center
+1963 Dorchester Av, Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Peabody, Odwin Learning Center
+1963 Dorchester Av, Dorchester, MA<br>
+<b>Name:</b> Peabody<br>
+<b>Location:</b> Odwin Learning Center<br>
+<b>Full Address:</b> 1963 Dorchester Av, Dorchester, MA<br>
+<b>LATLONG:</b> 42.283678, -71.064896<br>
+<b>Street:</b> 1963 Dorchester Av<br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Friday, 3:00 pm - 7:00 pm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Peabody</value>
+				</Data>
+				<Data name='Location'>
+					<value>Odwin Learning Center</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1963 Dorchester Av, Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1963 Dorchester Av</value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday, 3:00 pm - 7:00 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value>http://www.local-farmers-markets.com/market/2081/dorchester/dorchesterpeabody-square-farmers-market</value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.064896,42.283678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ReVision Urban Farm Stand, Blue Hill Avenue
+1062 Blue Hill Avenue , Dorchester, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> ReVision Urban Farm Stand, Blue Hill Avenue
+1062 Blue Hill Avenue , Dorchester, MA<br>
+<b>Name:</b> ReVision Urban Farm Stand<br>
+<b>Location:</b> Blue Hill Avenue<br>
+<b>Full Address:</b> 1062 Blue Hill Avenue , Dorchester, MA<br>
+<b>LATLONG:</b> 42.288049, -71.090091<br>
+<b>Street:</b> 1062 Blue Hill Avenue <br>
+<b>Area:</b> Dorchester<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2124<br>
+<b>Time/Day:</b> Thursdays &amp; Fridays 2:30PM - 6:30PM, Saturdays 10:00AM - 2:00PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>ReVision Urban Farm Stand</value>
+				</Data>
+				<Data name='Location'>
+					<value>Blue Hill Avenue</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1062 Blue Hill Avenue , Dorchester, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1062 Blue Hill Avenue </value>
+				</Data>
+				<Data name='Area'>
+					<value>Dorchester</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2124</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays &amp; Fridays 2:30PM - 6:30PM, Saturdays 10:00AM - 2:00PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.090091,42.288049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>East Boston, Central Square at Meridian, Bennington and Border Street 
+230 Meridian St, East Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> East Boston, Central Square at Meridian, Bennington and Border Street 
+230 Meridian St, East Boston, MA<br>
+<b>Name:</b> East Boston<br>
+<b>Location:</b> Central Square at Meridian, Bennington and Border Street <br>
+<b>Full Address:</b> 230 Meridian St, East Boston, MA<br>
+<b>LATLONG:</b> 42.375912, -71.039126<br>
+<b>Street:</b> 230 Meridian St<br>
+<b>Area:</b> East Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2128<br>
+<b>Time/Day:</b> Thursdays 3:00 PM ? 6:30 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>East Boston</value>
+				</Data>
+				<Data name='Location'>
+					<value>Central Square at Meridian, Bennington and Border Street </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>230 Meridian St, East Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>230 Meridian St</value>
+				</Data>
+				<Data name='Area'>
+					<value>East Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2128</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 3:00 PM ? 6:30 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.039126,42.375912,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Everett, Everett Square
+430 Broadway, Everett, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Everett, Everett Square
+430 Broadway, Everett, MA<br>
+<b>Name:</b> Everett<br>
+<b>Location:</b> Everett Square<br>
+<b>Full Address:</b> 430 Broadway, Everett, MA<br>
+<b>LATLONG:</b> 42.407017, -71.05555<br>
+<b>Street:</b> 430 Broadway<br>
+<b>Area:</b> Everett<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2134<br>
+<b>Time/Day:</b> Friday, Noon-5 p.m., July 17-Oct. 9
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Everett</value>
+				</Data>
+				<Data name='Location'>
+					<value>Everett Square</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>430 Broadway, Everett, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>430 Broadway</value>
+				</Data>
+				<Data name='Area'>
+					<value>Everett</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2134</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Friday, Noon-5 p.m., July 17-Oct. 9</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.05555,42.407017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hyde Park, River St at Central Ave
+1196 River Street , Hyde Park, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Hyde Park, River St at Central Ave
+1196 River Street , Hyde Park, MA<br>
+<b>Name:</b> Hyde Park<br>
+<b>Location:</b> River St at Central Ave<br>
+<b>Full Address:</b> 1196 River Street , Hyde Park, MA<br>
+<b>LATLONG:</b> 42.256012, -71.121639<br>
+<b>Street:</b> 1196 River Street <br>
+<b>Area:</b> Hyde Park<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2136<br>
+<b>Time/Day:</b> Saturdays 2:00 PM ? 5:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Hyde Park</value>
+				</Data>
+				<Data name='Location'>
+					<value>River St at Central Ave</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1196 River Street , Hyde Park, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1196 River Street </value>
+				</Data>
+				<Data name='Area'>
+					<value>Hyde Park</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2136</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturdays 2:00 PM ? 5:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.121639,42.256012,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jamaica Plain, Bank of America Plaza
+677 Centre St. , Jamaica Plain, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Jamaica Plain, Bank of America Plaza
+677 Centre St. , Jamaica Plain, MA<br>
+<b>Name:</b> Jamaica Plain<br>
+<b>Location:</b> Bank of America Plaza<br>
+<b>Full Address:</b> 677 Centre St. , Jamaica Plain, MA<br>
+<b>LATLONG:</b> 42.312134, -71.114206<br>
+<b>Street:</b> 677 Centre St. <br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Tuesdays 12:00 PM ? 5:00pm, Saturdays 12:00 PM ? 3:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='Location'>
+					<value>Bank of America Plaza</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>677 Centre St. , Jamaica Plain, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>677 Centre St. </value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Tuesdays 12:00 PM ? 5:00pm, Saturdays 12:00 PM ? 3:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.114206,42.312134,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Loring-Greenough House, Loring-Greenough House
+12 South Street, Jamaica Plain, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Loring-Greenough House, Loring-Greenough House
+12 South Street, Jamaica Plain, MA<br>
+<b>Name:</b> Loring-Greenough House<br>
+<b>Location:</b> Loring-Greenough House<br>
+<b>Full Address:</b> 12 South Street, Jamaica Plain, MA<br>
+<b>LATLONG:</b> 42.309389, -71.115519<br>
+<b>Street:</b> 12 South Street<br>
+<b>Area:</b> Jamaica Plain<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2130<br>
+<b>Time/Day:</b> Thursdays 2:00 PM ? 6:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Loring-Greenough House</value>
+				</Data>
+				<Data name='Location'>
+					<value>Loring-Greenough House</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>12 South Street, Jamaica Plain, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>12 South Street</value>
+				</Data>
+				<Data name='Area'>
+					<value>Jamaica Plain</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2130</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 2:00 PM ? 6:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.115519,42.309389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mattapan, River St
+525 River Street , Mattapan, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Mattapan, River St
+525 River Street , Mattapan, MA<br>
+<b>Name:</b> Mattapan<br>
+<b>Location:</b> River St<br>
+<b>Full Address:</b> 525 River Street , Mattapan, MA<br>
+<b>LATLONG:</b> 42.267221, -71.09471<br>
+<b>Street:</b> 525 River Street <br>
+<b>Area:</b> Mattapan<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2126<br>
+<b>Time/Day:</b> Saturdays 10:00 AM ? 1:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Mattapan</value>
+				</Data>
+				<Data name='Location'>
+					<value>River St</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>525 River Street , Mattapan, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>525 River Street </value>
+				</Data>
+				<Data name='Area'>
+					<value>Mattapan</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2126</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturdays 10:00 AM ? 1:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.09471,42.267221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mission Hill - Brigham Circle, Intersection of Huntington Avenue &amp; Francis Street 
+720 Huntington Ave, Mission Hill, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Mission Hill - Brigham Circle, Intersection of Huntington Avenue &amp; Francis Street 
+720 Huntington Ave, Mission Hill, MA<br>
+<b>Name:</b> Mission Hill - Brigham Circle<br>
+<b>Location:</b> Intersection of Huntington Avenue &amp; Francis Street <br>
+<b>Full Address:</b> 720 Huntington Ave, Mission Hill, MA<br>
+<b>LATLONG:</b> 42.333698, -71.095871<br>
+<b>Street:</b> 720 Huntington Ave<br>
+<b>Area:</b> Mission Hill<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2115<br>
+<b>Time/Day:</b> Thursdays 11:00 AM ? 6:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Mission Hill - Brigham Circle</value>
+				</Data>
+				<Data name='Location'>
+					<value>Intersection of Huntington Avenue &amp; Francis Street </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>720 Huntington Ave, Mission Hill, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>720 Huntington Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Mission Hill</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2115</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursdays 11:00 AM ? 6:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.095871,42.333698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Revere Beach, Revere Beach at William G Reinstein Bandstand
+300 Ocean Ave, Revere, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Revere Beach, Revere Beach at William G Reinstein Bandstand
+300 Ocean Ave, Revere, MA<br>
+<b>Name:</b> Revere Beach<br>
+<b>Location:</b> Revere Beach at William G Reinstein Bandstand<br>
+<b>Full Address:</b> 300 Ocean Ave, Revere, MA<br>
+<b>LATLONG:</b> 42.407599, -70.991966<br>
+<b>Street:</b> 300 Ocean Ave<br>
+<b>Area:</b> Revere<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2151<br>
+<b>Time/Day:</b> Thursday, Noon-6 p.m., July 16-Oct. 31
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Revere Beach</value>
+				</Data>
+				<Data name='Location'>
+					<value>Revere Beach at William G Reinstein Bandstand</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>300 Ocean Ave, Revere, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>300 Ocean Ave</value>
+				</Data>
+				<Data name='Area'>
+					<value>Revere</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2151</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Thursday, Noon-6 p.m., July 16-Oct. 31</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-70.991966,42.407599,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Roslindale, Adams Park, Washington Street at Cummins Highway 
+1-9 Cummins Highway, Roslindale, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Roslindale, Adams Park, Washington Street at Cummins Highway 
+1-9 Cummins Highway, Roslindale, MA<br>
+<b>Name:</b> Roslindale<br>
+<b>Location:</b> Adams Park, Washington Street at Cummins Highway <br>
+<b>Full Address:</b> 1-9 Cummins Highway, Roslindale, MA<br>
+<b>LATLONG:</b> 42.286372, -71.128042<br>
+<b>Street:</b> 1-9 Cummins Highway<br>
+<b>Area:</b> Roslindale<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2131<br>
+<b>Time/Day:</b> Saturdays 9:00 AM ? 1:30 PM
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Roslindale</value>
+				</Data>
+				<Data name='Location'>
+					<value>Adams Park, Washington Street at Cummins Highway </value>
+				</Data>
+				<Data name='Full Address'>
+					<value>1-9 Cummins Highway, Roslindale, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>1-9 Cummins Highway</value>
+				</Data>
+				<Data name='Area'>
+					<value>Roslindale</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2131</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturdays 9:00 AM ? 1:30 PM</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.128042,42.286372,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Davis Square, Davis Sq, Day at Herbert St
+50 Day St, Somerville, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Davis Square, Davis Sq, Day at Herbert St
+50 Day St, Somerville, MA<br>
+<b>Name:</b> Davis Square<br>
+<b>Location:</b> Davis Sq, Day at Herbert St<br>
+<b>Full Address:</b> 50 Day St, Somerville, MA<br>
+<b>LATLONG:</b> 42.395706, -71.123344<br>
+<b>Street:</b> 50 Day St<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2144<br>
+<b>Time/Day:</b> Wednesday 12-6, May 23-Nov 21
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Davis Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Davis Sq, Day at Herbert St</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>50 Day St, Somerville, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>50 Day St</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2144</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Wednesday 12-6, May 23-Nov 21</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.123344,42.395706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Union Square, Union Square
+26 Union Square, Somerville, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Union Square, Union Square
+26 Union Square, Somerville, MA<br>
+<b>Name:</b> Union Square<br>
+<b>Location:</b> Union Square<br>
+<b>Full Address:</b> 26 Union Square, Somerville, MA<br>
+<b>LATLONG:</b> 42.379934, -71.096529<br>
+<b>Street:</b> 26 Union Square<br>
+<b>Area:</b> Somerville<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2143<br>
+<b>Time/Day:</b> Saturday 9-1, June 9 - November 1
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Union Square</value>
+				</Data>
+				<Data name='Location'>
+					<value>Union Square</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>26 Union Square, Somerville, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>26 Union Square</value>
+				</Data>
+				<Data name='Area'>
+					<value>Somerville</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2143</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Saturday 9-1, June 9 - November 1</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.096529,42.379934,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Childrens' Museum, Childrens' Museum
+308 Congress St, South Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> Childrens' Museum, Childrens' Museum
+308 Congress St, South Boston, MA<br>
+<b>Name:</b> Childrens' Museum<br>
+<b>Location:</b> Childrens' Museum<br>
+<b>Full Address:</b> 308 Congress St, South Boston, MA<br>
+<b>LATLONG:</b> 42.351391, -71.050055<br>
+<b>Street:</b> 308 Congress St<br>
+<b>Area:</b> South Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2210<br>
+<b>Time/Day:</b> Sunday, 1:00 pm - 4:00 pm
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Childrens' Museum</value>
+				</Data>
+				<Data name='Location'>
+					<value>Childrens' Museum</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>308 Congress St, South Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>308 Congress St</value>
+				</Data>
+				<Data name='Area'>
+					<value>South Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2210</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Sunday, 1:00 pm - 4:00 pm</value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.050055,42.351391,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South Boston, South Boston
+W 446 W. Broadway Street , South Boston, MA</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>INFO:</b> South Boston, South Boston
+W 446 W. Broadway Street , South Boston, MA<br>
+<b>Name:</b> South Boston<br>
+<b>Location:</b> South Boston<br>
+<b>Full Address:</b> W 446 W. Broadway Street , South Boston, MA<br>
+<b>LATLONG:</b> 42.337955, -71.049484<br>
+<b>Street:</b> W 446 W. Broadway Street <br>
+<b>Area:</b> South Boston<br>
+<b>State:</b> MA<br>
+<b>Zip:</b> 2127<br>
+<b>Time/Day:</b> Mondays, 12:00 PM ? 6:00 PM 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>South Boston</value>
+				</Data>
+				<Data name='Location'>
+					<value>South Boston</value>
+				</Data>
+				<Data name='Full Address'>
+					<value>W 446 W. Broadway Street , South Boston, MA</value>
+				</Data>
+				<Data name='Street'>
+					<value>W 446 W. Broadway Street </value>
+				</Data>
+				<Data name='Area'>
+					<value>South Boston</value>
+				</Data>
+				<Data name='State'>
+					<value>MA</value>
+				</Data>
+				<Data name='Zip'>
+					<value>2127</value>
+				</Data>
+				<Data name='Time/Day'>
+					<value>Mondays, 12:00 PM ? 6:00 PM </value>
+				</Data>
+				<Data name='Contact'>
+					<value></value>
+				</Data>
+				<Data name='Source'>
+					<value></value>
+				</Data>
+				<Data name='Notes'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-71.049484,42.337955,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>

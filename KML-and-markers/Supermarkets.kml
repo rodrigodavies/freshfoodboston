@@ -1,0 +1,4631 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Supermarkets</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/supermarket.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.rodrigodavies.com/freshfoodboston_maps/supermarket.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Allston Food &amp; Spirits</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Allston Food &amp; Spirits<br>
+<b>Address:</b> 225 Cambridge St, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.35806<br>
+<b>LONGITUDE:</b> -71.12678
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35806</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.12678</value>
+				</Data>
+			</ExtendedData>
+			<address>225 Cambridge St, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Bazaar On Cambridge St</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bazaar On Cambridge St<br>
+<b>Address:</b> 424 Cambridge St, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.35446<br>
+<b>LONGITUDE:</b> -71.1344
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35446</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.1344</value>
+				</Data>
+			</ExtendedData>
+			<address>424 Cambridge St, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>John's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> John's Market<br>
+<b>Address:</b> 75 Linden St, Allston, MA, 02134<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>75 Linden St, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Lee's II Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lee's II Market<br>
+<b>Address:</b> 1383 Commonwealth Ave, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.34879<br>
+<b>LONGITUDE:</b> -71.13736
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34879</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13736</value>
+				</Data>
+			</ExtendedData>
+			<address>1383 Commonwealth Ave, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Linden's Superette</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Linden's Superette<br>
+<b>Address:</b> 101 Brighton Ave, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.35298<br>
+<b>LONGITUDE:</b> -71.13028
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35298</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13028</value>
+				</Data>
+			</ExtendedData>
+			<address>101 Brighton Ave, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Moscow International Food</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Moscow International Food<br>
+<b>Address:</b> 1215 Commonwealth Ave, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.35079<br>
+<b>LONGITUDE:</b> -71.13077
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35079</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13077</value>
+				</Data>
+			</ExtendedData>
+			<address>1215 Commonwealth Ave, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Start Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Start Supermarket<br>
+<b>Address:</b> 485 Cambridge St, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.35383<br>
+<b>LONGITUDE:</b> -71.13722
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35383</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13722</value>
+				</Data>
+			</ExtendedData>
+			<address>485 Cambridge St, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Allston Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Allston Market<br>
+<b>Address:</b> 169 Harvard Ave, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.35131<br>
+<b>LONGITUDE:</b> -71.13179
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35131</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13179</value>
+				</Data>
+			</ExtendedData>
+			<address>169 Harvard Ave, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Mayfair Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mayfair Foods<br>
+<b>Address:</b> 506 Cambridge St, Allston, MA, 02134<br>
+<b>LATITUDE:</b> 42.35311<br>
+<b>LONGITUDE:</b> -71.13792
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35311</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13792</value>
+				</Data>
+			</ExtendedData>
+			<address>506 Cambridge St, Allston, MA, 02134</address>
+		</Placemark>
+		<Placemark>
+			<name>Market Street Group</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Market Street Group<br>
+<b>Address:</b> 1 Boston Pl, Boston, MA, 02108<br>
+<b>LATITUDE:</b> 42.35852<br>
+<b>LONGITUDE:</b> -71.05837
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35852</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05837</value>
+				</Data>
+			</ExtendedData>
+			<address>1 Boston Pl, Boston, MA, 02108</address>
+		</Placemark>
+		<Placemark>
+			<name>Adam Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Adam Market<br>
+<b>Address:</b> 116 Blackstone St, Boston, MA, 02109<br>
+<b>LATITUDE:</b> 42.36179<br>
+<b>LONGITUDE:</b> -71.05671
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36179</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05671</value>
+				</Data>
+			</ExtendedData>
+			<address>116 Blackstone St, Boston, MA, 02109</address>
+		</Placemark>
+		<Placemark>
+			<name>Haymarket International Food</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Haymarket International Food<br>
+<b>Address:</b> 88 Blackstone St, Boston, MA, 02109<br>
+<b>LATITUDE:</b> 42.36142<br>
+<b>LONGITUDE:</b> -71.05631
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36142</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05631</value>
+				</Data>
+			</ExtendedData>
+			<address>88 Blackstone St, Boston, MA, 02109</address>
+		</Placemark>
+		<Placemark>
+			<name>Happy Family Food Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Happy Family Food Market<br>
+<b>Address:</b> 11 Hudson St # A, Boston, MA, 02111<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>11 Hudson St # A, Boston, MA, 02111</address>
+		</Placemark>
+		<Placemark>
+			<name>Sagarino's</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sagarino's<br>
+<b>Address:</b> 106 South St, Boston, MA, 02111<br>
+<b>LATITUDE:</b> 42.35105<br>
+<b>LONGITUDE:</b> -71.05712
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35105</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05712</value>
+				</Data>
+			</ExtendedData>
+			<address>106 South St, Boston, MA, 02111</address>
+		</Placemark>
+		<Placemark>
+			<name>Nonas Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nonas Market<br>
+<b>Address:</b> 292 North St # 1, Boston, MA, 02113<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>292 North St # 1, Boston, MA, 02113</address>
+		</Placemark>
+		<Placemark>
+			<name>Sulmona Meat Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sulmona Meat Market<br>
+<b>Address:</b> 32 Parmenter St, Boston, MA, 02113<br>
+<b>LATITUDE:</b> 42.36399<br>
+<b>LONGITUDE:</b> -71.05545
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36399</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05545</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Parmenter St, Boston, MA, 02113</address>
+		</Placemark>
+		<Placemark>
+			<name>Beacon Capitol Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Beacon Capitol Market<br>
+<b>Address:</b> 32 Myrtle St, Boston, MA, 02114<br>
+<b>LATITUDE:</b> 42.35923<br>
+<b>LONGITUDE:</b> -71.06566
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35923</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06566</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Myrtle St, Boston, MA, 02114</address>
+		</Placemark>
+		<Placemark>
+			<name>Beacon Hill Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Beacon Hill Market<br>
+<b>Address:</b> 55 Anderson St, Boston, MA, 02114<br>
+<b>LATITUDE:</b> 42.35921<br>
+<b>LONGITUDE:</b> -71.06785
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35921</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06785</value>
+				</Data>
+			</ExtendedData>
+			<address>55 Anderson St, Boston, MA, 02114</address>
+		</Placemark>
+		<Placemark>
+			<name>Savenor's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Savenor's Market<br>
+<b>Address:</b> 160 Charles St, Boston, MA, 02114<br>
+<b>LATITUDE:</b> 42.36036<br>
+<b>LONGITUDE:</b> -71.07104
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36036</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07104</value>
+				</Data>
+			</ExtendedData>
+			<address>160 Charles St, Boston, MA, 02114</address>
+		</Placemark>
+		<Placemark>
+			<name>Huntington Markets</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Huntington Markets<br>
+<b>Address:</b> 818 Huntington Ave, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.33296<br>
+<b>LONGITUDE:</b> -71.10873
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33296</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10873</value>
+				</Data>
+			</ExtendedData>
+			<address>818 Huntington Ave, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Deluca's Back Bay Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Deluca's Back Bay Market<br>
+<b>Address:</b> 239 Newbury St, Boston, MA, 02116<br>
+<b>LATITUDE:</b> 42.3498<br>
+<b>LONGITUDE:</b> -71.08247
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3498</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08247</value>
+				</Data>
+			</ExtendedData>
+			<address>239 Newbury St, Boston, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>African Tropical Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> African Tropical Market<br>
+<b>Address:</b> 1789 Washington St, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.33624<br>
+<b>LONGITUDE:</b> -71.07775
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33624</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07775</value>
+				</Data>
+			</ExtendedData>
+			<address>1789 Washington St, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Five Seventy Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Five Seventy Market<br>
+<b>Address:</b> 570 Tremont St, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.34337<br>
+<b>LONGITUDE:</b> -71.07233
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34337</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07233</value>
+				</Data>
+			</ExtendedData>
+			<address>570 Tremont St, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Foodie's Urban Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Foodie's Urban Market<br>
+<b>Address:</b> 1421 Washington St, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.34112<br>
+<b>LONGITUDE:</b> -71.07063
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34112</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07063</value>
+				</Data>
+			</ExtendedData>
+			<address>1421 Washington St, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Family Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Family Market<br>
+<b>Address:</b> 334 E 8th St, Boston, MA, 02127<br>
+<b>LATITUDE:</b> 42.33135<br>
+<b>LONGITUDE:</b> -71.0476
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33135</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0476</value>
+				</Data>
+			</ExtendedData>
+			<address>334 E 8th St, Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>N C Market Corp</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> N C Market Corp<br>
+<b>Address:</b> 305 W Broadway, Boston, MA, 02127<br>
+<b>LATITUDE:</b> 42.33852<br>
+<b>LONGITUDE:</b> -71.05078
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33852</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05078</value>
+				</Data>
+			</ExtendedData>
+			<address>305 W Broadway, Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>West Seventh Mini Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> West Seventh Mini Market<br>
+<b>Address:</b> 51 W 7th St, Boston, MA, 02127<br>
+<b>LATITUDE:</b> 42.33708<br>
+<b>LONGITUDE:</b> -71.0554
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33708</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0554</value>
+				</Data>
+			</ExtendedData>
+			<address>51 W 7th St, Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>Calderon Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Calderon Market<br>
+<b>Address:</b> 152 Sumner St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.36961<br>
+<b>LONGITUDE:</b> -71.04103
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36961</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.04103</value>
+				</Data>
+			</ExtendedData>
+			<address>152 Sumner St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Condor Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Condor Market Inc<br>
+<b>Address:</b> 655 Saratoga St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>655 Saratoga St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Estrellita Food Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Estrellita Food Market<br>
+<b>Address:</b> 290 Meridian St # 1, Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>290 Meridian St # 1, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>International Food Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> International Food Market<br>
+<b>Address:</b> 984 Saratoga St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.38694<br>
+<b>LONGITUDE:</b> -71.00707
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.38694</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.00707</value>
+				</Data>
+			</ExtendedData>
+			<address>984 Saratoga St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>L &amp; D Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> L &amp; D Market Inc<br>
+<b>Address:</b> 121 Meridian St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37314<br>
+<b>LONGITUDE:</b> -71.03883
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37314</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03883</value>
+				</Data>
+			</ExtendedData>
+			<address>121 Meridian St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Luchos Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Luchos Market<br>
+<b>Address:</b> 42 Maverick St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37135<br>
+<b>LONGITUDE:</b> -71.04139
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37135</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.04139</value>
+				</Data>
+			</ExtendedData>
+			<address>42 Maverick St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Rosis Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rosis Market<br>
+<b>Address:</b> 226 Sumner St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.36876<br>
+<b>LONGITUDE:</b> -71.03903
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36876</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03903</value>
+				</Data>
+			</ExtendedData>
+			<address>226 Sumner St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>G &amp; V Symphony Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> G &amp; V Symphony Market<br>
+<b>Address:</b> 1130 Boylston St, Boston, MA, 02215<br>
+<b>LATITUDE:</b> 42.34671<br>
+<b>LONGITUDE:</b> -71.08901
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34671</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08901</value>
+				</Data>
+			</ExtendedData>
+			<address>1130 Boylston St, Boston, MA, 02215</address>
+		</Placemark>
+		<Placemark>
+			<name>A &amp; R Food</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> A &amp; R Food<br>
+<b>Address:</b> 5 Post Office Sq, Boston, MA, 02109<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>5 Post Office Sq, Boston, MA, 02109</address>
+		</Placemark>
+		<Placemark>
+			<name>Crt Food &amp; Beverage</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Crt Food &amp; Beverage<br>
+<b>Address:</b> 907 Boylston St, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.34846<br>
+<b>LONGITUDE:</b> -71.08432
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34846</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08432</value>
+				</Data>
+			</ExtendedData>
+			<address>907 Boylston St, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>American Food Management</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> American Food Management<br>
+<b>Address:</b> 161 Berkeley St, Boston, MA, 02116<br>
+<b>LATITUDE:</b> 42.34941<br>
+<b>LONGITUDE:</b> -71.07186
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34941</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07186</value>
+				</Data>
+			</ExtendedData>
+			<address>161 Berkeley St, Boston, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>ABC Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> ABC Foods<br>
+<b>Address:</b> 20 Newmarket Sq, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.32973<br>
+<b>LONGITUDE:</b> -71.0648
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32973</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0648</value>
+				</Data>
+			</ExtendedData>
+			<address>20 Newmarket Sq, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Maristella's Fine Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Maristella's Fine Foods<br>
+<b>Address:</b> 14 Food Mart Rd, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.33477<br>
+<b>LONGITUDE:</b> -71.06288
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33477</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06288</value>
+				</Data>
+			</ExtendedData>
+			<address>14 Food Mart Rd, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Deluca's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Deluca's Market<br>
+<b>Address:</b> 11 Charles St # 1, Boston, MA, 02114<br>
+<b>LATITUDE:</b> 42.35657<br>
+<b>LONGITUDE:</b> -71.06935
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35657</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06935</value>
+				</Data>
+			</ExtendedData>
+			<address>11 Charles St # 1, Boston, MA, 02114</address>
+		</Placemark>
+		<Placemark>
+			<name>Trader Joe's</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Trader Joe's<br>
+<b>Address:</b> 899 Boylston St, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.3485<br>
+<b>LONGITUDE:</b> -71.08412
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3485</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08412</value>
+				</Data>
+			</ExtendedData>
+			<address>899 Boylston St, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Boston Food Co-Op Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Boston Food Co-Op Inc<br>
+<b>Address:</b> 57 South St, Boston, MA, 02130<br>
+<b>LATITUDE:</b> 42.30784<br>
+<b>LONGITUDE:</b> -71.11576
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30784</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.11576</value>
+				</Data>
+			</ExtendedData>
+			<address>57 South St, Boston, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Patriot News</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Patriot News<br>
+<b>Address:</b> 1 Beacon St, Boston, MA, 02108<br>
+<b>LATITUDE:</b> 42.35845<br>
+<b>LONGITUDE:</b> -71.06084
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35845</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06084</value>
+				</Data>
+			</ExtendedData>
+			<address>1 Beacon St, Boston, MA, 02108</address>
+		</Placemark>
+		<Placemark>
+			<name>Garden Halal Meat</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Garden Halal Meat<br>
+<b>Address:</b> 96 Blackstone St, Boston, MA, 02109<br>
+<b>LATITUDE:</b> 42.3615<br>
+<b>LONGITUDE:</b> -71.05641
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3615</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05641</value>
+				</Data>
+			</ExtendedData>
+			<address>96 Blackstone St, Boston, MA, 02109</address>
+		</Placemark>
+		<Placemark>
+			<name>Salumeria Italiana</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Salumeria Italiana<br>
+<b>Address:</b> 151 Richmond St, Boston, MA, 02109<br>
+<b>LATITUDE:</b> 42.36352<br>
+<b>LONGITUDE:</b> -71.05437
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36352</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05437</value>
+				</Data>
+			</ExtendedData>
+			<address>151 Richmond St, Boston, MA, 02109</address>
+		</Placemark>
+		<Placemark>
+			<name>C Mart 2 Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> C Mart 2 Supermarket<br>
+<b>Address:</b> 109 Lincoln St, Boston, MA, 02111<br>
+<b>LATITUDE:</b> 42.35154<br>
+<b>LONGITUDE:</b> -71.05857
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35154</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05857</value>
+				</Data>
+			</ExtendedData>
+			<address>109 Lincoln St, Boston, MA, 02111</address>
+		</Placemark>
+		<Placemark>
+			<name>C Mart Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> C Mart Supermarket<br>
+<b>Address:</b> 692 Washington St, Boston, MA, 02111<br>
+<b>LATITUDE:</b> 42.35122<br>
+<b>LONGITUDE:</b> -71.06266
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35122</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06266</value>
+				</Data>
+			</ExtendedData>
+			<address>692 Washington St, Boston, MA, 02111</address>
+		</Placemark>
+		<Placemark>
+			<name>Goon Shee Assoc Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Goon Shee Assoc Inc<br>
+<b>Address:</b> 10 Oxford Pl, Boston, MA, 02111<br>
+<b>LATITUDE:</b> 42.35171<br>
+<b>LONGITUDE:</b> -71.06078
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35171</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06078</value>
+				</Data>
+			</ExtendedData>
+			<address>10 Oxford Pl, Boston, MA, 02111</address>
+		</Placemark>
+		<Placemark>
+			<name>Truong Thanh Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Truong Thanh Market<br>
+<b>Address:</b> 65 Beach St, Boston, MA, 02111<br>
+<b>LATITUDE:</b> 42.35112<br>
+<b>LONGITUDE:</b> -71.06011
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35112</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06011</value>
+				</Data>
+			</ExtendedData>
+			<address>65 Beach St, Boston, MA, 02111</address>
+		</Placemark>
+		<Placemark>
+			<name>Bob's Grocery Store</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bob's Grocery Store<br>
+<b>Address:</b> 160 Endicott St, Boston, MA, 02113<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>160 Endicott St, Boston, MA, 02113</address>
+		</Placemark>
+		<Placemark>
+			<name>J Pace &amp; Sons Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> J Pace &amp; Sons Inc<br>
+<b>Address:</b> 42 Cross St, Boston, MA, 02113<br>
+<b>LATITUDE:</b> 42.36336<br>
+<b>LONGITUDE:</b> -71.05662
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36336</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05662</value>
+				</Data>
+			</ExtendedData>
+			<address>42 Cross St, Boston, MA, 02113</address>
+		</Placemark>
+		<Placemark>
+			<name>Beyenes Food Basket # 5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Beyenes Food Basket # 5<br>
+<b>Address:</b> 1 Congress St, Boston, MA, 02114<br>
+<b>LATITUDE:</b> 42.36182<br>
+<b>LONGITUDE:</b> -71.05839
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36182</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05839</value>
+				</Data>
+			</ExtendedData>
+			<address>1 Congress St, Boston, MA, 02114</address>
+		</Placemark>
+		<Placemark>
+			<name>J Pace &amp; Son Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> J Pace &amp; Son Inc<br>
+<b>Address:</b> 75 Blossom Ct, Boston, MA, 02114<br>
+<b>LATITUDE:</b> 42.36434<br>
+<b>LONGITUDE:</b> -71.06667
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36434</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06667</value>
+				</Data>
+			</ExtendedData>
+			<address>75 Blossom Ct, Boston, MA, 02114</address>
+		</Placemark>
+		<Placemark>
+			<name>Whole Foods Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Whole Foods Market<br>
+<b>Address:</b> 181 Cambridge St, Boston, MA, 02114<br>
+<b>LATITUDE:</b> 42.36211<br>
+<b>LONGITUDE:</b> -71.06598
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36211</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06598</value>
+				</Data>
+			</ExtendedData>
+			<address>181 Cambridge St, Boston, MA, 02114</address>
+		</Placemark>
+		<Placemark>
+			<name>Cherry Mart</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Cherry Mart<br>
+<b>Address:</b> 349 Newbury St, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.34855<br>
+<b>LONGITUDE:</b> -71.08726
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34855</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08726</value>
+				</Data>
+			</ExtendedData>
+			<address>349 Newbury St, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Marlboro Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Marlboro Market<br>
+<b>Address:</b> 45 Massachusetts Ave, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.34987<br>
+<b>LONGITUDE:</b> -71.0893
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34987</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0893</value>
+				</Data>
+			</ExtendedData>
+			<address>45 Massachusetts Ave, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Whole Foods Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Whole Foods Market<br>
+<b>Address:</b> 15 Westland Ave, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.34368<br>
+<b>LONGITUDE:</b> -71.08655
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34368</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08655</value>
+				</Data>
+			</ExtendedData>
+			<address>15 Westland Ave, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Wollaston's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Wollaston's Market<br>
+<b>Address:</b> 369 Huntington Ave, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.34032<br>
+<b>LONGITUDE:</b> -71.09029
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34032</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09029</value>
+				</Data>
+			</ExtendedData>
+			<address>369 Huntington Ave, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Wollaston's West Village</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Wollaston's West Village<br>
+<b>Address:</b> 460 Parker St, Boston, MA, 02115<br>
+<b>LATITUDE:</b> 42.33807<br>
+<b>LONGITUDE:</b> -71.09246
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33807</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09246</value>
+				</Data>
+			</ExtendedData>
+			<address>460 Parker St, Boston, MA, 02115</address>
+		</Placemark>
+		<Placemark>
+			<name>Christy's Markets Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Christy's Markets Inc<br>
+<b>Address:</b> 107 Stuart St, Boston, MA, 02116<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>107 Stuart St, Boston, MA, 02116</address>
+		</Placemark>
+		<Placemark>
+			<name>C Mart of Herald St</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> C Mart of Herald St<br>
+<b>Address:</b> 50 Herald St, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.34644<br>
+<b>LONGITUDE:</b> -71.06499
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34644</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06499</value>
+				</Data>
+			</ExtendedData>
+			<address>50 Herald St, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Casa Cuong</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Casa Cuong<br>
+<b>Address:</b> 629 Tremont St # A, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.34249<br>
+<b>LONGITUDE:</b> -71.07484
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34249</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07484</value>
+				</Data>
+			</ExtendedData>
+			<address>629 Tremont St # A, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Don Quijote Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Don Quijote Market<br>
+<b>Address:</b> 1639 Washington St, Boston, MA, 02118<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1639 Washington St, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Medina's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Medina's Market<br>
+<b>Address:</b> 65 W Dedham St, Boston, MA, 02118<br>
+<b>LATITUDE:</b> 42.34184<br>
+<b>LONGITUDE:</b> -71.07239
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34184</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07239</value>
+				</Data>
+			</ExtendedData>
+			<address>65 W Dedham St, Boston, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Fuentes Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fuentes Market<br>
+<b>Address:</b> PO Box 200699, Boston, MA, 02120<br>
+<b>LATITUDE:</b> 42.33231<br>
+<b>LONGITUDE:</b> -71.09654
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33231</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09654</value>
+				</Data>
+			</ExtendedData>
+			<address>PO Box 200699, Boston, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Rupal Corp</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rupal Corp<br>
+<b>Address:</b> 112 W 7th St, Boston, MA, 02127<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>112 W 7th St, Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>Bani Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bani Market<br>
+<b>Address:</b> 353 Meridian St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>353 Meridian St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Beni's Restaurant</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Beni's Restaurant<br>
+<b>Address:</b> 145 Meridian St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37373<br>
+<b>LONGITUDE:</b> -71.03888
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37373</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03888</value>
+				</Data>
+			</ExtendedData>
+			<address>145 Meridian St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>La Esperanza Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> La Esperanza Market<br>
+<b>Address:</b> 238 Meridian St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>238 Meridian St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>La Esquina Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> La Esquina Supermarket<br>
+<b>Address:</b> 184 Bremen St, Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37309<br>
+<b>LONGITUDE:</b> -71.03431
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37309</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03431</value>
+				</Data>
+			</ExtendedData>
+			<address>184 Bremen St, Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Commonwealth Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Commonwealth Market Inc<br>
+<b>Address:</b> 1090 Commonwealth Ave, Boston, MA, 02215<br>
+<b>LATITUDE:</b> 42.35178<br>
+<b>LONGITUDE:</b> -71.12406
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35178</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.12406</value>
+				</Data>
+			</ExtendedData>
+			<address>1090 Commonwealth Ave, Boston, MA, 02215</address>
+		</Placemark>
+		<Placemark>
+			<name>Super Eighty Eight</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Super Eighty Eight<br>
+<b>Address:</b> 1095 Commonwealth Ave, Boston, MA, 02215<br>
+<b>LATITUDE:</b> 42.3524<br>
+<b>LONGITUDE:</b> -71.1253
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3524</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.1253</value>
+				</Data>
+			</ExtendedData>
+			<address>1095 Commonwealth Ave, Boston, MA, 02215</address>
+		</Placemark>
+		<Placemark>
+			<name>International &amp; Natural Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> International &amp; Natural Foods<br>
+<b>Address:</b> 157 Sutherland Rd, Brighton, MA, 02135<br>
+<b>LATITUDE:</b> 42.34109<br>
+<b>LONGITUDE:</b> -71.14684
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34109</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.14684</value>
+				</Data>
+			</ExtendedData>
+			<address>157 Sutherland Rd, Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Allston-Brighton Food Pantry</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Allston-Brighton Food Pantry<br>
+<b>Address:</b> 404 Washington St, Brighton, MA, 02135<br>
+<b>LATITUDE:</b> 42.34887<br>
+<b>LONGITUDE:</b> -71.15515
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34887</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.15515</value>
+				</Data>
+			</ExtendedData>
+			<address>404 Washington St, Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Faneuil Street Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Faneuil Street Market<br>
+<b>Address:</b> 243 Faneuil St, Brighton, MA, 02135<br>
+<b>LATITUDE:</b> 42.35286<br>
+<b>LONGITUDE:</b> -71.16018
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35286</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.16018</value>
+				</Data>
+			</ExtendedData>
+			<address>243 Faneuil St, Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Father &amp; Son Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Father &amp; Son Market<br>
+<b>Address:</b> 1437 Commonwealth Ave, Brighton, MA, 02135<br>
+<b>LATITUDE:</b> 42.34895<br>
+<b>LONGITUDE:</b> -71.14022
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.34895</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.14022</value>
+				</Data>
+			</ExtendedData>
+			<address>1437 Commonwealth Ave, Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Sonia Corp</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sonia Corp<br>
+<b>Address:</b> 140 North Beacon St, Brighton, MA, 02135<br>
+<b>LATITUDE:</b> 42.35499<br>
+<b>LONGITUDE:</b> -71.14551
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.35499</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.14551</value>
+				</Data>
+			</ExtendedData>
+			<address>140 North Beacon St, Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Whole Foods Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Whole Foods Market<br>
+<b>Address:</b> 15 Washington St, Brighton, MA, 02135<br>
+<b>LATITUDE:</b> 42.3428<br>
+<b>LONGITUDE:</b> -71.14038
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3428</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.14038</value>
+				</Data>
+			</ExtendedData>
+			<address>15 Washington St, Brighton, MA, 02135</address>
+		</Placemark>
+		<Placemark>
+			<name>Boston Organics</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Boston Organics<br>
+<b>Address:</b> 50 Terminal St # 100, Charlestown, MA, 02129<br>
+<b>LATITUDE:</b> 42.38236<br>
+<b>LONGITUDE:</b> -71.06081
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.38236</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06081</value>
+				</Data>
+			</ExtendedData>
+			<address>50 Terminal St # 100, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>Food Master Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Food Master Supermarket<br>
+<b>Address:</b> 51 Austin St, Charlestown, MA, 02129<br>
+<b>LATITUDE:</b> 42.37478<br>
+<b>LONGITUDE:</b> -71.06711
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37478</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06711</value>
+				</Data>
+			</ExtendedData>
+			<address>51 Austin St, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>Foodmaster Super Markets Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Foodmaster Super Markets Inc<br>
+<b>Address:</b> 50 Austin St, Charlestown, MA, 02129<br>
+<b>LATITUDE:</b> 42.37451<br>
+<b>LONGITUDE:</b> -71.06606
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37451</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06606</value>
+				</Data>
+			</ExtendedData>
+			<address>50 Austin St, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>Sanchez Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sanchez Market<br>
+<b>Address:</b> 156 Bunker Hill St, Charlestown, MA, 02129<br>
+<b>LATITUDE:</b> 42.37827<br>
+<b>LONGITUDE:</b> -71.0609
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37827</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0609</value>
+				</Data>
+			</ExtendedData>
+			<address>156 Bunker Hill St, Charlestown, MA, 02129</address>
+		</Placemark>
+		<Placemark>
+			<name>Hancock Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Hancock Market<br>
+<b>Address:</b> 95 Hancock St, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31244<br>
+<b>LONGITUDE:</b> -71.0645
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31244</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0645</value>
+				</Data>
+			</ExtendedData>
+			<address>95 Hancock St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Botanica Twenty One Div</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Botanica Twenty One Div<br>
+<b>Address:</b> 3 Erie St, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.30328<br>
+<b>LONGITUDE:</b> -71.0788
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30328</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0788</value>
+				</Data>
+			</ExtendedData>
+			<address>3 Erie St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Claudia Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Claudia Market Inc<br>
+<b>Address:</b> 160 Humboldt Ave, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.31463<br>
+<b>LONGITUDE:</b> -71.08807
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31463</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08807</value>
+				</Data>
+			</ExtendedData>
+			<address>160 Humboldt Ave, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Family Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Family Supermarket<br>
+<b>Address:</b> 205 Humboldt Ave, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.3129<br>
+<b>LONGITUDE:</b> -71.08993
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3129</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08993</value>
+				</Data>
+			</ExtendedData>
+			<address>205 Humboldt Ave, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Rosa's Family Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rosa's Family Market<br>
+<b>Address:</b> 696 Blue Hill Ave, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.30057<br>
+<b>LONGITUDE:</b> -71.08579
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30057</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08579</value>
+				</Data>
+			</ExtendedData>
+			<address>696 Blue Hill Ave, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Rosely Groceries</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rosely Groceries<br>
+<b>Address:</b> 120 Washington St, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.30516<br>
+<b>LONGITUDE:</b> -71.07994
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30516</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07994</value>
+				</Data>
+			</ExtendedData>
+			<address>120 Washington St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Wrightcaribbean Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Wrightcaribbean Market<br>
+<b>Address:</b> 202 Washington St, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.30287<br>
+<b>LONGITUDE:</b> -71.07792
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30287</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07792</value>
+				</Data>
+			</ExtendedData>
+			<address>202 Washington St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Claudios Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Claudios Market<br>
+<b>Address:</b> 425 Bowdoin St, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.31047<br>
+<b>LONGITUDE:</b> -71.06192
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31047</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06192</value>
+				</Data>
+			</ExtendedData>
+			<address>425 Bowdoin St, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Fields Corner Store</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fields Corner Store<br>
+<b>Address:</b> 1489 Dorchester Ave, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.29988<br>
+<b>LONGITUDE:</b> -71.06044
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29988</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06044</value>
+				</Data>
+			</ExtendedData>
+			<address>1489 Dorchester Ave, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Peguero's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peguero's Market<br>
+<b>Address:</b> 218 Bowdoin St, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.30548<br>
+<b>LONGITUDE:</b> -71.06826
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30548</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06826</value>
+				</Data>
+			</ExtendedData>
+			<address>218 Bowdoin St, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Rossi Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Rossi Market<br>
+<b>Address:</b> 430 Geneva Ave, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.30059<br>
+<b>LONGITUDE:</b> -71.06637
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30059</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06637</value>
+				</Data>
+			</ExtendedData>
+			<address>430 Geneva Ave, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Sobreno Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sobreno Market<br>
+<b>Address:</b> 416 Geneva Ave, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.30097<br>
+<b>LONGITUDE:</b> -71.06703
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30097</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06703</value>
+				</Data>
+			</ExtendedData>
+			<address>416 Geneva Ave, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Troung Thinh 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Troung Thinh 2<br>
+<b>Address:</b> 1305 Dorchester Ave, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.30615<br>
+<b>LONGITUDE:</b> -71.05905
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30615</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05905</value>
+				</Data>
+			</ExtendedData>
+			<address>1305 Dorchester Ave, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Brown's Food Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Brown's Food Market<br>
+<b>Address:</b> 559 Dudley St, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.32116<br>
+<b>LONGITUDE:</b> -71.07239
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32116</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07239</value>
+				</Data>
+			</ExtendedData>
+			<address>559 Dudley St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>D &amp; J Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> D &amp; J Market<br>
+<b>Address:</b> 120 Boston St, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.32546<br>
+<b>LONGITUDE:</b> -71.05883
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32546</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05883</value>
+				</Data>
+			</ExtendedData>
+			<address>120 Boston St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Dolly Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dolly Market<br>
+<b>Address:</b> 16 Dacia St, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31454<br>
+<b>LONGITUDE:</b> -71.07767
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31454</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07767</value>
+				</Data>
+			</ExtendedData>
+			<address>16 Dacia St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Dorchester Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Dorchester Market<br>
+<b>Address:</b> 951 Dorchester Ave, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.3184<br>
+<b>LONGITUDE:</b> -71.05693
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3184</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05693</value>
+				</Data>
+			</ExtendedData>
+			<address>951 Dorchester Ave, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Harbor Point Food Mart</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Harbor Point Food Mart<br>
+<b>Address:</b> 17 Harbor Point Blvd, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31883<br>
+<b>LONGITUDE:</b> -71.04248
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31883</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.04248</value>
+				</Data>
+			</ExtendedData>
+			<address>17 Harbor Point Blvd, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Navarrette Grocery</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Navarrette Grocery<br>
+<b>Address:</b> 451 Columbia Rd, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>451 Columbia Rd, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>New Vien Dong Far East Sprmrkt</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> New Vien Dong Far East Sprmrkt<br>
+<b>Address:</b> 1159 Dorchester Ave, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31113<br>
+<b>LONGITUDE:</b> -71.05813
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31113</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05813</value>
+				</Data>
+			</ExtendedData>
+			<address>1159 Dorchester Ave, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Pleasant View Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Pleasant View Market<br>
+<b>Address:</b> 1 Savin Hill Ave, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31263<br>
+<b>LONGITUDE:</b> -71.05869
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31263</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05869</value>
+				</Data>
+			</ExtendedData>
+			<address>1 Savin Hill Ave, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>International Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> International Foods<br>
+<b>Address:</b> 1295 Massachusetts Ave # A, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1295 Massachusetts Ave # A, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>4 Corners Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 4 Corners Market<br>
+<b>Address:</b> 345 Washington St, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.29942<br>
+<b>LONGITUDE:</b> -71.07399
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29942</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07399</value>
+				</Data>
+			</ExtendedData>
+			<address>345 Washington St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Brothers Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Brothers Supermarket<br>
+<b>Address:</b> 46 Washington St, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.30715<br>
+<b>LONGITUDE:</b> -71.08214
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30715</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08214</value>
+				</Data>
+			</ExtendedData>
+			<address>46 Washington St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>C &amp; J Superette</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> C &amp; J Superette<br>
+<b>Address:</b> 90 Glenway St, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.30016<br>
+<b>LONGITUDE:</b> -71.08213
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30016</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08213</value>
+				</Data>
+			</ExtendedData>
+			<address>90 Glenway St, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>Millennium Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Millennium Market<br>
+<b>Address:</b> 496 Blue Hill Ave, Dorchester, MA, 02121<br>
+<b>LATITUDE:</b> 42.30716<br>
+<b>LONGITUDE:</b> -71.08373
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30716</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08373</value>
+				</Data>
+			</ExtendedData>
+			<address>496 Blue Hill Ave, Dorchester, MA, 02121</address>
+		</Placemark>
+		<Placemark>
+			<name>American Food Basket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> American Food Basket<br>
+<b>Address:</b> 500 Geneva Ave, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.29878<br>
+<b>LONGITUDE:</b> -71.06296
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29878</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06296</value>
+				</Data>
+			</ExtendedData>
+			<address>500 Geneva Ave, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Geneva Grocery</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Geneva Grocery<br>
+<b>Address:</b> 385 Geneva Ave, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> 42.30127<br>
+<b>LONGITUDE:</b> -71.06822
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30127</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06822</value>
+				</Data>
+			</ExtendedData>
+			<address>385 Geneva Ave, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>St Peter Market Co</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> St Peter Market Co<br>
+<b>Address:</b> 419 Adams St, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>419 Adams St, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Super Stop &amp; Shop</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Super Stop &amp; Shop<br>
+<b>Address:</b> 545 Freeport St, Dorchester, MA, 02122<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>545 Freeport St, Dorchester, MA, 02122</address>
+		</Placemark>
+		<Placemark>
+			<name>Alves Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Alves Market<br>
+<b>Address:</b> 77 Stoughton St, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31581<br>
+<b>LONGITUDE:</b> -71.06265
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31581</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06265</value>
+				</Data>
+			</ExtendedData>
+			<address>77 Stoughton St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Brothers Supermarket II</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Brothers Supermarket II<br>
+<b>Address:</b> 776 Dudley St, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>776 Dudley St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>El Frutero</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> El Frutero<br>
+<b>Address:</b> 740 Dudley St, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.318<br>
+<b>LONGITUDE:</b> -71.06686
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.318</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06686</value>
+				</Data>
+			</ExtendedData>
+			<address>740 Dudley St, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Phu Cuong Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Phu Cuong Market<br>
+<b>Address:</b> 1051 Dorchester Ave, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31478<br>
+<b>LONGITUDE:</b> -71.05699
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31478</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05699</value>
+				</Data>
+			</ExtendedData>
+			<address>1051 Dorchester Ave, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Ric-Rob Variety</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Ric-Rob Variety<br>
+<b>Address:</b> 110 Savin Hill Ave, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.31179<br>
+<b>LONGITUDE:</b> -71.05372
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31179</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05372</value>
+				</Data>
+			</ExtendedData>
+			<address>110 Savin Hill Ave, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Super Stop &amp; Shop</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Super Stop &amp; Shop<br>
+<b>Address:</b> 8 Allstate Rd # B, Dorchester, MA, 02125<br>
+<b>LATITUDE:</b> 42.32729<br>
+<b>LONGITUDE:</b> -71.06129
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32729</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06129</value>
+				</Data>
+			</ExtendedData>
+			<address>8 Allstate Rd # B, Dorchester, MA, 02125</address>
+		</Placemark>
+		<Placemark>
+			<name>Butcher Shop Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Butcher Shop Market Inc<br>
+<b>Address:</b> 782 Adams St, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.28308<br>
+<b>LONGITUDE:</b> -71.0556
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28308</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0556</value>
+				</Data>
+			</ExtendedData>
+			<address>782 Adams St, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Caballeros Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Caballeros Market Inc<br>
+<b>Address:</b> 796 Washington St, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.28372<br>
+<b>LONGITUDE:</b> -71.07133
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28372</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07133</value>
+				</Data>
+			</ExtendedData>
+			<address>796 Washington St, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Happy Super-Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Happy Super-Market<br>
+<b>Address:</b> 868 Blue Hill Ave, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.29513<br>
+<b>LONGITUDE:</b> -71.08753
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29513</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08753</value>
+				</Data>
+			</ExtendedData>
+			<address>868 Blue Hill Ave, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>La Bamba Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> La Bamba Supermarket<br>
+<b>Address:</b> 1 Lorne St, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.29338<br>
+<b>LONGITUDE:</b> -71.08967
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29338</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08967</value>
+				</Data>
+			</ExtendedData>
+			<address>1 Lorne St, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Las Americas Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Las Americas Market<br>
+<b>Address:</b> 970 Blue Hill Ave, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.29084<br>
+<b>LONGITUDE:</b> -71.08891
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29084</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08891</value>
+				</Data>
+			</ExtendedData>
+			<address>970 Blue Hill Ave, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Maria Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Maria Market<br>
+<b>Address:</b> 1760 Dorchester Ave, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.28988<br>
+<b>LONGITUDE:</b> -71.06297
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28988</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06297</value>
+				</Data>
+			</ExtendedData>
+			<address>1760 Dorchester Ave, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Peace Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Peace Market<br>
+<b>Address:</b> 505 Washington St, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>505 Washington St, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Tropic Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Tropic Market<br>
+<b>Address:</b> 1007 Blue Hill Ave, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.29002<br>
+<b>LONGITUDE:</b> -71.08984
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29002</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08984</value>
+				</Data>
+			</ExtendedData>
+			<address>1007 Blue Hill Ave, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Casali's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Casali's Market<br>
+<b>Address:</b> 775 Adams St, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.2835<br>
+<b>LONGITUDE:</b> -71.05585
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.2835</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05585</value>
+				</Data>
+			</ExtendedData>
+			<address>775 Adams St, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Common Sense Store</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Common Sense Store<br>
+<b>Address:</b> 2243 Dorchester Ave, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.27378<br>
+<b>LONGITUDE:</b> -71.06785
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.27378</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06785</value>
+				</Data>
+			</ExtendedData>
+			<address>2243 Dorchester Ave, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Fuller Variety</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Fuller Variety<br>
+<b>Address:</b> 851 Washington St, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.28209<br>
+<b>LONGITUDE:</b> -71.07154
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28209</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07154</value>
+				</Data>
+			</ExtendedData>
+			<address>851 Washington St, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>People's Tropical Food</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> People's Tropical Food<br>
+<b>Address:</b> 576 Washington St, Dorchester Ctr, MA, 02124<br>
+<b>LATITUDE:</b> 42.29153<br>
+<b>LONGITUDE:</b> -71.07146
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.29153</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07146</value>
+				</Data>
+			</ExtendedData>
+			<address>576 Washington St, Dorchester Ctr, MA, 02124</address>
+		</Placemark>
+		<Placemark>
+			<name>Acougue Sabor Brazil</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Acougue Sabor Brazil<br>
+<b>Address:</b> 233 London St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37589<br>
+<b>LONGITUDE:</b> -71.03578
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37589</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03578</value>
+				</Data>
+			</ExtendedData>
+			<address>233 London St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Bella's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bella's Market<br>
+<b>Address:</b> 73 Maverick Sq, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.3698<br>
+<b>LONGITUDE:</b> -71.03859
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3698</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03859</value>
+				</Data>
+			</ExtendedData>
+			<address>73 Maverick Sq, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Calderon Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Calderon Market<br>
+<b>Address:</b> 140 Princeton St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37821<br>
+<b>LONGITUDE:</b> -71.03448
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37821</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03448</value>
+				</Data>
+			</ExtendedData>
+			<address>140 Princeton St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Carlo's Market &amp; Cold Cut Ctr</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Carlo&#39;s Market &amp; Cold Cut Ctr<br>
+<b>Address:</b> 567 Bennington St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.38249<br>
+<b>LONGITUDE:</b> -71.01815
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.38249</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.01815</value>
+				</Data>
+			</ExtendedData>
+			<address>567 Bennington St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Diana's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Diana's Market<br>
+<b>Address:</b> 170 Cottage St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37017<br>
+<b>LONGITUDE:</b> -71.03284
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37017</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03284</value>
+				</Data>
+			</ExtendedData>
+			<address>170 Cottage St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>East Coast Variety</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> East Coast Variety<br>
+<b>Address:</b> 67 Bennington St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37564<br>
+<b>LONGITUDE:</b> -71.03653
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37564</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03653</value>
+				</Data>
+			</ExtendedData>
+			<address>67 Bennington St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Ispanoamericana Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Ispanoamericana Market<br>
+<b>Address:</b> 153 Meridian St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37381<br>
+<b>LONGITUDE:</b> -71.03889
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37381</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03889</value>
+				</Data>
+			</ExtendedData>
+			<address>153 Meridian St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>La Bendicion</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> La Bendicion<br>
+<b>Address:</b> 32 Bennington St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37544<br>
+<b>LONGITUDE:</b> -71.0379
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37544</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0379</value>
+				</Data>
+			</ExtendedData>
+			<address>32 Bennington St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>La Caja Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> La Caja Market<br>
+<b>Address:</b> 353 Meridian St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>353 Meridian St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Las Palmas Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Las Palmas Market<br>
+<b>Address:</b> 13 Chelsea St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>13 Chelsea St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Nutibara Envios</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Nutibara Envios<br>
+<b>Address:</b> 148 Maverick St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.36994<br>
+<b>LONGITUDE:</b> -71.03808
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36994</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03808</value>
+				</Data>
+			</ExtendedData>
+			<address>148 Maverick St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Orient Heights Food Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Orient Heights Food Market<br>
+<b>Address:</b> 1016 Bennington St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1016 Bennington St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Sava's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Sava's Market<br>
+<b>Address:</b> 150 Bennington St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37697<br>
+<b>LONGITUDE:</b> -71.03362
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37697</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03362</value>
+				</Data>
+			</ExtendedData>
+			<address>150 Bennington St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Antonio Ospina Grocery</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Antonio Ospina Grocery<br>
+<b>Address:</b> 9 Meridian St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37049<br>
+<b>LONGITUDE:</b> -71.03878
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37049</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03878</value>
+				</Data>
+			</ExtendedData>
+			<address>9 Meridian St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Confama</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Confama<br>
+<b>Address:</b> 99 Chelsea St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>99 Chelsea St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Elsol Food Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Elsol Food Market<br>
+<b>Address:</b> 353 Chelsea St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37828<br>
+<b>LONGITUDE:</b> -71.02873
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37828</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.02873</value>
+				</Data>
+			</ExtendedData>
+			<address>353 Chelsea St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Elvalle De La Sultana-Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Elvalle De La Sultana-Market<br>
+<b>Address:</b> 121 Bennington St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>121 Bennington St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Gloria Food Stores</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Gloria Food Stores<br>
+<b>Address:</b> 86 Cottage St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.36789<br>
+<b>LONGITUDE:</b> -71.0353
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.36789</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0353</value>
+				</Data>
+			</ExtendedData>
+			<address>86 Cottage St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Jaqueln Grocery Store</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Jaqueln Grocery Store<br>
+<b>Address:</b> 129 London St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.3734<br>
+<b>LONGITUDE:</b> -71.03866
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3734</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03866</value>
+				</Data>
+			</ExtendedData>
+			<address>129 London St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Meridian Food Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Meridian Food Market<br>
+<b>Address:</b> 121 Meridian St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37314<br>
+<b>LONGITUDE:</b> -71.03883
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37314</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03883</value>
+				</Data>
+			</ExtendedData>
+			<address>121 Meridian St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Milanos Delicatessen</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Milanos Delicatessen<br>
+<b>Address:</b> 978 Saratoga St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.38702<br>
+<b>LONGITUDE:</b> -71.00735
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.38702</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.00735</value>
+				</Data>
+			</ExtendedData>
+			<address>978 Saratoga St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Thompson Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Thompson Market<br>
+<b>Address:</b> 44 Brooks St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37606<br>
+<b>LONGITUDE:</b> -71.03268
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37606</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03268</value>
+				</Data>
+			</ExtendedData>
+			<address>44 Brooks St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Tienda Y Taqueria Guadalajara</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Tienda Y Taqueria Guadalajara<br>
+<b>Address:</b> 257 Princeton St, East Boston, MA, 02128<br>
+<b>LATITUDE:</b> 42.37957<br>
+<b>LONGITUDE:</b> -71.03001
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.37957</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03001</value>
+				</Data>
+			</ExtendedData>
+			<address>257 Princeton St, East Boston, MA, 02128</address>
+		</Placemark>
+		<Placemark>
+			<name>Blessing of God African Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Blessing of God African Market<br>
+<b>Address:</b> PO Box 365597, Hyde Park, MA, 02136<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>PO Box 365597, Hyde Park, MA, 02136</address>
+		</Placemark>
+		<Placemark>
+			<name>Marascio's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Marascio's Market<br>
+<b>Address:</b> 1758 River St, Hyde Park, MA, 02136<br>
+<b>LATITUDE:</b> 42.24391<br>
+<b>LONGITUDE:</b> -71.13806
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.24391</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13806</value>
+				</Data>
+			</ExtendedData>
+			<address>1758 River St, Hyde Park, MA, 02136</address>
+		</Placemark>
+		<Placemark>
+			<name>America's Food Basket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> America's Food Basket<br>
+<b>Address:</b> 942 Hyde Park Ave, Hyde Park, MA, 02136<br>
+<b>LATITUDE:</b> 42.26761<br>
+<b>LONGITUDE:</b> -71.1198
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.26761</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.1198</value>
+				</Data>
+			</ExtendedData>
+			<address>942 Hyde Park Ave, Hyde Park, MA, 02136</address>
+		</Placemark>
+		<Placemark>
+			<name>Diana Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Diana Market<br>
+<b>Address:</b> 1070 Hyde Park Ave, Hyde Park, MA, 02136<br>
+<b>LATITUDE:</b> 42.26255<br>
+<b>LONGITUDE:</b> -71.12142
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.26255</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.12142</value>
+				</Data>
+			</ExtendedData>
+			<address>1070 Hyde Park Ave, Hyde Park, MA, 02136</address>
+		</Placemark>
+		<Placemark>
+			<name>Lala's Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lala's Supermarket<br>
+<b>Address:</b> 1244 River St, Hyde Park, MA, 02136<br>
+<b>LATITUDE:</b> 42.25576<br>
+<b>LONGITUDE:</b> -71.1233
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.25576</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.1233</value>
+				</Data>
+			</ExtendedData>
+			<address>1244 River St, Hyde Park, MA, 02136</address>
+		</Placemark>
+		<Placemark>
+			<name>River Park Food Mart</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> River Park Food Mart<br>
+<b>Address:</b> 1503 River St, Hyde Park, MA, 02136<br>
+<b>LATITUDE:</b> 42.25045<br>
+<b>LONGITUDE:</b> -71.13106
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.25045</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13106</value>
+				</Data>
+			</ExtendedData>
+			<address>1503 River St, Hyde Park, MA, 02136</address>
+		</Placemark>
+		<Placemark>
+			<name>Stop &amp; Shop Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Stop &amp; Shop Supermarket<br>
+<b>Address:</b> 1025 Truman Hwy, Hyde Park, MA, 02136<br>
+<b>LATITUDE:</b> 42.24247<br>
+<b>LONGITUDE:</b> -71.12733
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.24247</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.12733</value>
+				</Data>
+			</ExtendedData>
+			<address>1025 Truman Hwy, Hyde Park, MA, 02136</address>
+		</Placemark>
+		<Placemark>
+			<name>Camilo Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Camilo Market Inc<br>
+<b>Address:</b> 280 Centre St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32265<br>
+<b>LONGITUDE:</b> -71.1016
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32265</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.1016</value>
+				</Data>
+			</ExtendedData>
+			<address>280 Centre St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Edianis Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Edianis Market<br>
+<b>Address:</b> 331 Centre St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32287<br>
+<b>LONGITUDE:</b> -71.105
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32287</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.105</value>
+				</Data>
+			</ExtendedData>
+			<address>331 Centre St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>El Progresso Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> El Progresso Market<br>
+<b>Address:</b> 143 Boylston St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.31638<br>
+<b>LONGITUDE:</b> -71.10311
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31638</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10311</value>
+				</Data>
+			</ExtendedData>
+			<address>143 Boylston St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Evelyn's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Evelyn's Market<br>
+<b>Address:</b> 298 Centre St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>298 Centre St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Freddy's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Freddy's Market<br>
+<b>Address:</b> 302 Centre St # A, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32273<br>
+<b>LONGITUDE:</b> -71.10325
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32273</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10325</value>
+				</Data>
+			</ExtendedData>
+			<address>302 Centre St # A, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Las Villas Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Las Villas Market<br>
+<b>Address:</b> 78 Mozart St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32014<br>
+<b>LONGITUDE:</b> -71.10392
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32014</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10392</value>
+				</Data>
+			</ExtendedData>
+			<address>78 Mozart St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Meatland Jamaica Plain</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Meatland Jamaica Plain<br>
+<b>Address:</b> 306 Centre St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.3227<br>
+<b>LONGITUDE:</b> -71.10354
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.3227</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10354</value>
+				</Data>
+			</ExtendedData>
+			<address>306 Centre St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Paulmino Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Paulmino Inc<br>
+<b>Address:</b> 451 Centre St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32034<br>
+<b>LONGITUDE:</b> -71.11147
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32034</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.11147</value>
+				</Data>
+			</ExtendedData>
+			<address>451 Centre St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Santo Domingo Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Santo Domingo Market<br>
+<b>Address:</b> 371 Centre St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32246<br>
+<b>LONGITUDE:</b> -71.10869
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32246</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10869</value>
+				</Data>
+			</ExtendedData>
+			<address>371 Centre St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Yessenia's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Yessenia's Market<br>
+<b>Address:</b> 3348 Washington St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.30741<br>
+<b>LONGITUDE:</b> -71.10621
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30741</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10621</value>
+				</Data>
+			</ExtendedData>
+			<address>3348 Washington St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Knapp Foods Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Knapp Foods Inc<br>
+<b>Address:</b> 415 Centre St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>415 Centre St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Aislyn Meat Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Aislyn Meat Market<br>
+<b>Address:</b> 71 Day St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32458<br>
+<b>LONGITUDE:</b> -71.10832
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32458</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10832</value>
+				</Data>
+			</ExtendedData>
+			<address>71 Day St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Green Street Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Green Street Supermarket<br>
+<b>Address:</b> 186 Green St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.31002<br>
+<b>LONGITUDE:</b> -71.10565
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31002</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10565</value>
+				</Data>
+			</ExtendedData>
+			<address>186 Green St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Harvest Cooperative Markets</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Harvest Cooperative Markets<br>
+<b>Address:</b> 57 South St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.30784<br>
+<b>LONGITUDE:</b> -71.11576
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.30784</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.11576</value>
+				</Data>
+			</ExtendedData>
+			<address>57 South St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Jamaica Plain Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Jamaica Plain Market<br>
+<b>Address:</b> 36 Gay Head St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.32501<br>
+<b>LONGITUDE:</b> -71.10507
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32501</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10507</value>
+				</Data>
+			</ExtendedData>
+			<address>36 Gay Head St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>Latin Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Latin Market<br>
+<b>Address:</b> 3201 Washington St, Jamaica Plain, MA, 02130<br>
+<b>LATITUDE:</b> 42.31261<br>
+<b>LONGITUDE:</b> -71.10167
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31261</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10167</value>
+				</Data>
+			</ExtendedData>
+			<address>3201 Washington St, Jamaica Plain, MA, 02130</address>
+		</Placemark>
+		<Placemark>
+			<name>MARS Farmers Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> MARS Farmers Market<br>
+<b>Address:</b> 926 Cummins Hwy, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> 42.26795<br>
+<b>LONGITUDE:</b> -71.09447
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.26795</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09447</value>
+				</Data>
+			</ExtendedData>
+			<address>926 Cummins Hwy, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Finast Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Finast Market<br>
+<b>Address:</b> 1300 Blue Hill Ave, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> 42.27926<br>
+<b>LONGITUDE:</b> -71.0928
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.27926</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0928</value>
+				</Data>
+			</ExtendedData>
+			<address>1300 Blue Hill Ave, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>A J's Apollos Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> A J's Apollos Market<br>
+<b>Address:</b> 918 Morton St, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> 42.2807<br>
+<b>LONGITUDE:</b> -71.08305
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.2807</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08305</value>
+				</Data>
+			</ExtendedData>
+			<address>918 Morton St, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Blue Hill Star</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Blue Hill Star<br>
+<b>Address:</b> 1366 Blue Hill Ave, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1366 Blue Hill Ave, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>IGA-MATTAPAN</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> IGA-MATTAPAN<br>
+<b>Address:</b> 926 Cummins Hwy, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>926 Cummins Hwy, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Mamas Timarchee</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Mamas Timarchee<br>
+<b>Address:</b> 556 River St, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> 42.26661<br>
+<b>LONGITUDE:</b> -71.09602
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.26661</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09602</value>
+				</Data>
+			</ExtendedData>
+			<address>556 River St, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Laurel Prentice</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Laurel Prentice<br>
+<b>Address:</b> 22 Hopewell Rd, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> 42.26112<br>
+<b>LONGITUDE:</b> -71.10323
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.26112</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10323</value>
+				</Data>
+			</ExtendedData>
+			<address>22 Hopewell Rd, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Shaw's Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Shaw's Supermarket<br>
+<b>Address:</b> 4 River St, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> 42.27193<br>
+<b>LONGITUDE:</b> -71.0697
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.27193</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.0697</value>
+				</Data>
+			</ExtendedData>
+			<address>4 River St, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>World's Best Food &amp; Vegetarian</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> World&#39;s Best Food &amp; Vegetarian<br>
+<b>Address:</b> 645 River St, Mattapan, MA, 02126<br>
+<b>LATITUDE:</b> 42.26501<br>
+<b>LONGITUDE:</b> -71.09963
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.26501</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09963</value>
+				</Data>
+			</ExtendedData>
+			<address>645 River St, Mattapan, MA, 02126</address>
+		</Placemark>
+		<Placemark>
+			<name>Tutto Italian Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Tutto Italian Foods<br>
+<b>Address:</b> 296 Malden St, Revere, MA, 02151<br>
+<b>LATITUDE:</b> 42.4209<br>
+<b>LONGITUDE:</b> -71.01668
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.4209</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.01668</value>
+				</Data>
+			</ExtendedData>
+			<address>296 Malden St, Revere, MA, 02151</address>
+		</Placemark>
+		<Placemark>
+			<name>Christo's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Christo's Market<br>
+<b>Address:</b> 873 South St, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28895<br>
+<b>LONGITUDE:</b> -71.13389
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28895</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13389</value>
+				</Data>
+			</ExtendedData>
+			<address>873 South St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Diaz Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Diaz Market<br>
+<b>Address:</b> 446 Hyde Park Ave, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>446 Hyde Park Ave, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Henry's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Henry's Market<br>
+<b>Address:</b> 892 South St, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28851<br>
+<b>LONGITUDE:</b> -71.13464
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28851</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13464</value>
+				</Data>
+			</ExtendedData>
+			<address>892 South St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Quality Meat Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Quality Meat Market<br>
+<b>Address:</b> 13 Corinth St, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28635<br>
+<b>LONGITUDE:</b> -71.13033
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28635</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13033</value>
+				</Data>
+			</ExtendedData>
+			<address>13 Corinth St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Roslindale Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Roslindale Market<br>
+<b>Address:</b> 4140 Washington St, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28843<br>
+<b>LONGITUDE:</b> -71.12574
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28843</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.12574</value>
+				</Data>
+			</ExtendedData>
+			<address>4140 Washington St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Save-A-Lot</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Save-A-Lot<br>
+<b>Address:</b> 650 American Legion Hwy, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28408<br>
+<b>LONGITUDE:</b> -71.1108
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28408</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.1108</value>
+				</Data>
+			</ExtendedData>
+			<address>650 American Legion Hwy, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Silva's Brazilian Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Silva's Brazilian Market<br>
+<b>Address:</b> 150 Belgrade Ave, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28611<br>
+<b>LONGITUDE:</b> -71.13684
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28611</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13684</value>
+				</Data>
+			</ExtendedData>
+			<address>150 Belgrade Ave, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Stop &amp; Shop Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Stop &amp; Shop Supermarket<br>
+<b>Address:</b> 950 American Legion Hwy # 1, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.27553<br>
+<b>LONGITUDE:</b> -71.11434
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.27553</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.11434</value>
+				</Data>
+			</ExtendedData>
+			<address>950 American Legion Hwy # 1, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Todesca's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Todesca's Market<br>
+<b>Address:</b> 4441 Washington St # A, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28084<br>
+<b>LONGITUDE:</b> -71.13438
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28084</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.13438</value>
+				</Data>
+			</ExtendedData>
+			<address>4441 Washington St # A, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Tony's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Tony's Market<br>
+<b>Address:</b> 4253 Washington St, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> 42.28564<br>
+<b>LONGITUDE:</b> -71.12926
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.28564</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.12926</value>
+				</Data>
+			</ExtendedData>
+			<address>4253 Washington St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>Village Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Village Market<br>
+<b>Address:</b> 30 Corinth St, Roslindale, MA, 02131<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>30 Corinth St, Roslindale, MA, 02131</address>
+		</Placemark>
+		<Placemark>
+			<name>7 Diaz Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 7 Diaz Market<br>
+<b>Address:</b> 3114 Washington St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.31474<br>
+<b>LONGITUDE:</b> -71.09905
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31474</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09905</value>
+				</Data>
+			</ExtendedData>
+			<address>3114 Washington St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Academy Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Academy Market Inc<br>
+<b>Address:</b> 1588 Columbus Ave, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1588 Columbus Ave, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Brown Market &amp; Grocery</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Brown Market &amp; Grocery<br>
+<b>Address:</b> 194 Dudley St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32866<br>
+<b>LONGITUDE:</b> -71.08177
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32866</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08177</value>
+				</Data>
+			</ExtendedData>
+			<address>194 Dudley St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Crystal's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Crystal's Market<br>
+<b>Address:</b> 173 Dudley St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32839<br>
+<b>LONGITUDE:</b> -71.08226
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32839</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08226</value>
+				</Data>
+			</ExtendedData>
+			<address>173 Dudley St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>KABA African Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> KABA African Market<br>
+<b>Address:</b> 29 Roxbury St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32969<br>
+<b>LONGITUDE:</b> -71.08522
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32969</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08522</value>
+				</Data>
+			</ExtendedData>
+			<address>29 Roxbury St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Lirano's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Lirano's Market<br>
+<b>Address:</b> 64 Blue Hill Ave, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32288<br>
+<b>LONGITUDE:</b> -71.07642
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32288</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07642</value>
+				</Data>
+			</ExtendedData>
+			<address>64 Blue Hill Ave, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Melendez Market Corp</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Melendez Market Corp<br>
+<b>Address:</b> 3114 Washington St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.31474<br>
+<b>LONGITUDE:</b> -71.09905
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31474</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.09905</value>
+				</Data>
+			</ExtendedData>
+			<address>3114 Washington St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Senado Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Senado Market<br>
+<b>Address:</b> 2825 Washington St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>2825 Washington St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Walnut Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Walnut Market<br>
+<b>Address:</b> 66 Walnut Park, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>66 Walnut Park, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Warren Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Warren Market<br>
+<b>Address:</b> 256 Warren St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32202<br>
+<b>LONGITUDE:</b> -71.08175
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32202</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.08175</value>
+				</Data>
+			</ExtendedData>
+			<address>256 Warren St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Home Market Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Home Market Foods<br>
+<b>Address:</b> 18 Food Mart Rd, Roxbury, MA, 02118<br>
+<b>LATITUDE:</b> 42.33477<br>
+<b>LONGITUDE:</b> -71.06288
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33477</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.06288</value>
+				</Data>
+			</ExtendedData>
+			<address>18 Food Mart Rd, Roxbury, MA, 02118</address>
+		</Placemark>
+		<Placemark>
+			<name>Andrade Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Andrade Market<br>
+<b>Address:</b> 93 Burrell St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>93 Burrell St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Davey's Super Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Davey's Super Market<br>
+<b>Address:</b> 438 Dudley St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32417<br>
+<b>LONGITUDE:</b> -71.07399
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32417</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07399</value>
+				</Data>
+			</ExtendedData>
+			<address>438 Dudley St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Gina Grocery Store</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Gina Grocery Store<br>
+<b>Address:</b> 251 Dudley St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32832<br>
+<b>LONGITUDE:</b> -71.07914
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32832</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07914</value>
+				</Data>
+			</ExtendedData>
+			<address>251 Dudley St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>J A Inc Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> J A Inc Market<br>
+<b>Address:</b> 534 Dudley St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32203<br>
+<b>LONGITUDE:</b> -71.07225
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32203</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07225</value>
+				</Data>
+			</ExtendedData>
+			<address>534 Dudley St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>La Peravianas</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> La Peravianas<br>
+<b>Address:</b> 3099 Washington St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.31531<br>
+<b>LONGITUDE:</b> -71.099
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.31531</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.099</value>
+				</Data>
+			</ExtendedData>
+			<address>3099 Washington St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Luzelena Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Luzelena Market<br>
+<b>Address:</b> 305 Dudley St, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> 42.32769<br>
+<b>LONGITUDE:</b> -71.07767
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.32769</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.07767</value>
+				</Data>
+			</ExtendedData>
+			<address>305 Dudley St, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Save-A-Lot</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Save-A-Lot<br>
+<b>Address:</b> 330 Martin Luther King Bl # 41, Roxbury, MA, 02119<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>330 Martin Luther King Bl # 41, Roxbury, MA, 02119</address>
+		</Placemark>
+		<Placemark>
+			<name>Stop &amp; Shop Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Stop &amp; Shop Supermarket<br>
+<b>Address:</b> 1620 Tremont St, Roxbury Crossing, MA, 02120<br>
+<b>LATITUDE:</b> 42.33335<br>
+<b>LONGITUDE:</b> -71.10447
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33335</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.10447</value>
+				</Data>
+			</ExtendedData>
+			<address>1620 Tremont St, Roxbury Crossing, MA, 02120</address>
+		</Placemark>
+		<Placemark>
+			<name>Bell's Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Bell's Market<br>
+<b>Address:</b> 246 Dorchester St, South Boston, MA, 02127<br>
+<b>LATITUDE:</b> 42.33247<br>
+<b>LONGITUDE:</b> -71.05128
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33247</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.05128</value>
+				</Data>
+			</ExtendedData>
+			<address>246 Dorchester St, South Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>K &amp; 8th Street Market</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> K &amp; 8th Street Market<br>
+<b>Address:</b> 362 K St, South Boston, MA, 02127<br>
+<b>LATITUDE:</b> 42.33135<br>
+<b>LONGITUDE:</b> -71.03707
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33135</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03707</value>
+				</Data>
+			</ExtendedData>
+			<address>362 K St, South Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>George Greer Foods</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> George Greer Foods<br>
+<b>Address:</b> 371 Dorchester Ave # 140, South Boston, MA, 02127<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>371 Dorchester Ave # 140, South Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>Llanera Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Llanera Supermarket<br>
+<b>Address:</b> 260 E 8th St, South Boston, MA, 02127<br>
+<b>LATITUDE:</b> 42.33224<br>
+<b>LONGITUDE:</b> -71.04992
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33224</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.04992</value>
+				</Data>
+			</ExtendedData>
+			<address>260 E 8th St, South Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>Miller's Market Inc</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Miller's Market Inc<br>
+<b>Address:</b> 336 K St, South Boston, MA, 02127<br>
+<b>LATITUDE:</b> 42.33217<br>
+<b>LONGITUDE:</b> -71.03709
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.33217</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.03709</value>
+				</Data>
+			</ExtendedData>
+			<address>336 K St, South Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>Stop &amp; Shop Supermarket</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Stop &amp; Shop Supermarket<br>
+<b>Address:</b> 713 E Broadway, South Boston, MA, 02127<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>713 E Broadway, South Boston, MA, 02127</address>
+		</Placemark>
+		<Placemark>
+			<name>Greek International Food Mkt</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Greek International Food Mkt<br>
+<b>Address:</b> 5204 Washington St, West Roxbury, MA, 02132<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>5204 Washington St, West Roxbury, MA, 02132</address>
+		</Placemark>
+		<Placemark>
+			<name>Spasso Foods LLC</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Spasso Foods LLC<br>
+<b>Address:</b> 1430 Vfw Pkwy, West Roxbury, MA, 02132<br>
+<b>LATITUDE:</b> <br>
+<b>LONGITUDE:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value></value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<address>1430 Vfw Pkwy, West Roxbury, MA, 02132</address>
+		</Placemark>
+		<Placemark>
+			<name>Roche Bros</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> Roche Bros<br>
+<b>Address:</b> 1800 Centre St, West Roxbury, MA, 02132<br>
+<b>LATITUDE:</b> 42.2872<br>
+<b>LONGITUDE:</b> -71.15254
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='LATITUDE'>
+					<value>42.2872</value>
+				</Data>
+				<Data name='LONGITUDE'>
+					<value>-71.15254</value>
+				</Data>
+			</ExtendedData>
+			<address>1800 Centre St, West Roxbury, MA, 02132</address>
+		</Placemark>
+	</Document>
+</kml>
