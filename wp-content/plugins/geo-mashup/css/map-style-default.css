@@ -1,1 +1,33 @@
-html,body{height:100%;}.meta{font-size:60%;}.meta .blogdate{font-style:italic;}.locationinfo{font-size:80%;overflow:auto;width:300px;height:150px;}.user-location-info{font-size:80%;overflow:auto;width:150px;height:80px;}.comment-location-info{font-size:80%;overflow:auto;width:200px;height:140px;}.info-window-max{font-size:80%;overflow:auto;}.locationinfo h2 a,.info-window-max h2 a{text-decoration:none;margin:0;padding:0;}.storycontent{font-family:Verdana Sans-Serif;}
+html,body{height:100%;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:active {
+	color: #222;
+}
+
+a:hover {
+	color: #2a85e8;
+}
+
+a:visited {
+	opacity: 0.8;
+	color: #333;
+}
+
+.date {
+	color: #222;
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.meta{font-size:60%;}
+.meta .blogdate{font-style:italic;}
+.locationinfo{font-size:80%;overflow:auto;width:300px;height:150px;}
+.user-location-info{font-size:80%;overflow:auto;width:150px;height:80px;}
+.comment-location-info{font-size:80%;overflow:auto;width:200px;height:140px;}
+.info-window-max{font-size:80%;overflow:auto;}
+.locationinfo h2 a,
+.info-window-max h2 a{text-decoration:none;margin:0;padding:0;}
+.storycontent{font-family:Verdana Sans-Serif;}
